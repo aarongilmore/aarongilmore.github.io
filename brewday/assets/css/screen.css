@@ -365,10 +365,10 @@ input[type="checkbox"]:focus {
   /* width and height can be anything, as long as they're equal */
 }
 
-.grain-circle.pale h2 {text-align: center; margin-top: 7em; opacity: 1;}
-.grain-circle.light h2 {text-align: center; margin-top: 2em; width: 4em; margin-left: -1.4em; opacity: 1;}
-.grain-circle.medium h2 {text-align: center; margin-top: 2em; width: 4em; margin-left: -1.4em; opacity: 1;}
-.grain-circle.munich h2 {text-align: center; margin-top: 2em; width: 4em; margin-left: -1.4em; opacity: 1;}
+.grain-circle.pale h2 {color: #a3a3a3; text-align: center; margin-top: 7em; opacity: 1;}
+.grain-circle.light h2 {color: #a3a3a3; text-align: center; margin-top: 2em; width: 4em; margin-left: -1.4em; opacity: 1;}
+.grain-circle.medium h2 {color: #a3a3a3; text-align: center; margin-top: 2em; width: 4em; margin-left: -1.4em; opacity: 1;}
+.grain-circle.munich h2 {color: #a3a3a3; text-align: center; margin-top: 2em; width: 4em; margin-left: -1.4em; opacity: 1;}
 
 
 .grain-circle.pale   {background-color: #fdcb5a; width: 120px; height: 120px;}
@@ -376,7 +376,7 @@ input[type="checkbox"]:focus {
 .grain-circle.medium {background-color: #ac4701; width: 20px; height: 20px; margin-top: 4.7em;}
 .grain-circle.munich {background-color: #e38901; width: 20px; height: 20px; margin-top: 4.7em;}
 
-.grain-circle:hover,.hop-circle:hover {
+/*.grain-circle:hover,.hop-circle:hover {
     -webkit-transform:scale(1.5);
     -moz-transform:scale(1.5);
     -o-transform:scale(1.5);
@@ -384,11 +384,11 @@ input[type="checkbox"]:focus {
 }
 
 .grain-circle.light:hover, .grain-circle.medium:hover,.grain-circle.munich:hover {
-    -webkit-transform:scale(4);
-    -moz-transform:scale(4);
-    -o-transform:scale(4);
-    transform:scale(4);
-}
+    -webkit-transform:scale(2);
+    -moz-transform:scale(2);
+    -o-transform:scale(2);
+    transform:scale(2);
+}*/
 
 .hop-circle.hops   {background-color: #a1af6b;}
 
@@ -405,9 +405,11 @@ input[type="checkbox"]:focus {
   /* width and height can be anything, as long as they're equal */
 }
 
+.hop-circle.hops h2 {color: #a3a3a3; text-align: center; margin-top: 4em; width: 5.5em; margin-left: -1.4em; opacity: 1;}
+
 .process       {height: 25em;}
 
-#copy          {width: 33.75em; float: left;}
+#copy          {width: 30.75em; float: left; line-height: 1.357em;}
 #copy-right    {width: 33.75em; float: right;}
 #graphic       {width: 33.75em; float: right;}
 #graphic-left  {width: 33.75em; float: left;}
