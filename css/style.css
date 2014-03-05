@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  font-family: Faunus;
+  font-family: 'Merriweather', serif;
   font-size: 1em;
   margin-bottom: 8em;
 }
@@ -23,7 +23,7 @@ img {width: 100%; display: block; margin: 0 auto; margin-bottom: 1em;}
 h1 {
   font-size: 2em;
   font-weight: bold;
-  font-family: Faunus;
+  font-family: 'Merriweather', serif;
 }
 
 h2 {
@@ -39,7 +39,7 @@ p {
   font-size: 1.25em;
   line-height: 1.7;
   color: #333;
-  font-family: Faunus;
+  font-family: 'Merriweather', serif;
 }
 
 p.price {font-size: 1.5em; font-weight: bold;}
