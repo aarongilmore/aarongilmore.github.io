@@ -15,7 +15,7 @@ body {
 }
 
 .bio {
-  max-width: 450px;
+  max-width: 500px;
   padding-left: 20px;
 }
 
@@ -60,6 +60,12 @@ p {
 h1 + p {
   margin-top: 1.5em;
   margin-bottom: 1.5em;
+}
+
+span.date {
+  font-size: 10px;
+  color: #888;
+  margin-left: 20px;
 }
 
 ul.beer-list li {
