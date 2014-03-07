@@ -16,7 +16,6 @@ body {
 
 .bio {
   max-width: 450px;
-  border-left: solid 4px #4fb5c5;
   padding-left: 20px;
 }
 
@@ -28,7 +27,7 @@ h1 {
 }
 
 h2 {
-  font-size: 1.5em;
+  font-size: 1.2em;
   margin: 0.8em 0 0.8em 0;
 }
 
@@ -63,7 +62,16 @@ h1 + p {
   margin-bottom: 1.5em;
 }
 
-ul.specs li {padding: 8px; margin-left: 10px;}
+ul.beer-list li {
+  margin: 5px 0px 5px 0px;
+  list-style: circle;
+}
+
+ul.beer-list {
+  margin-top: 40px;
+}
+
+
 
 ::selection {color:#fff; background:#4fb5c6;}
 ::-moz-selection {color:#fff; background:#4fb5c6;}
