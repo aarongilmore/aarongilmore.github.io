@@ -14,9 +14,10 @@ body {
   margin-bottom: 8em;
 }
 
-.bio {
+.bio, .articles {
   max-width: 500px;
   padding-left: 175px;
+  margin-bottom: 50px;
 }
 
 .bio h1:before {
@@ -31,6 +32,10 @@ border: 1px solid #D8D8D8;
 background-size: cover;
 /*display: none;*/
 margin-top: -37px;
+}
+
+.articles ul {
+  list-style:  none;
 }
 
 img {width: 100%; display: block; margin: 0 auto; margin-bottom: 1em;}

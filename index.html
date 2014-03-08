@@ -1,3 +1,8 @@
+---
+layout: default
+title: Aaron Gilmore
+---
+
 <!DOCTYPE html>
 <head>
   <meta charset="utf-8" />
@@ -26,6 +31,16 @@
   <p>I'm a design intern at <a href="http://www.cargo.io/">Cargo</a>, where I work on <a href="http://www.brewbot.io/">Brewbot</a>. I'm also a student of Interactive Design at the University of Ulster.</p>
   <!--<p>If you want to, you can view and download my <a href="#">résumé</a>.</p>-->
   <p>If you fancy a chat, you can email me at <a href="mailto:aaron@aarongilmore.com">aaron@aarongilmore.com</a> or tweet me <a href="http://twitter.com/aarondgilmore">@aarondgilmore</a>.</p>
+  </div>
+  <div class="articles">
+  	<div id="home">
+  	  <h2>Recent Articles</h2>
+  	  <ul class="posts">
+  	    {% for post in site.posts %}
+  	      <li><span><a href="{{ post.url }}">{{ post.title }}</a> • {{ post.date | date_to_string }}</span></li>
+  	    {% endfor %}
+  	  </ul>
+  	</div>
   </div>
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
