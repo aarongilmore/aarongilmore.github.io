@@ -4,10 +4,6 @@ html {
   padding: 10em 8em 1.6em;
 }
 
-.container {
-  margin: 0 auto;
-}
-
 body {
   font-family: "ff-tisa-web-pro", serif;
   font-size: 1em;
@@ -15,27 +11,35 @@ body {
 }
 
 .bio, .articles {
-  max-width: 500px;
+  width: 600px;
   padding-left: 175px;
   margin-bottom: 50px;
 }
 
 .bio h1:before {
-position: absolute;
-margin-left: -140px;
-content: "";
-width: 100px;
-height: 100px;
-border-radius: 50%;
-background-image: url(../img/aaron.png);
-border: 1px solid #D8D8D8;
-background-size: cover;
-/*display: none;*/
-margin-top: -37px;
+  position: absolute;
+  margin-left: -140px;
+  content: "";
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-image: url(../img/aaron.png);
+  border: 1px solid #D8D8D8;
+  background-size: cover;
+  /*display: none;*/
+  margin-top: -37px;
+}
+
+.site {
+  max-width: 600px;
 }
 
 .articles ul {
   list-style:  none;
+}
+
+.articles ul li {
+  margin: 10px 0px 10px 0px;
 }
 
 img {width: 100%; display: block; margin: 0 auto; margin-bottom: 1em;}
@@ -43,6 +47,7 @@ img {width: 100%; display: block; margin: 0 auto; margin-bottom: 1em;}
 h1 {
   font-size: 1.6em;
   font-family: "ff-tisa-web-pro", serif;
+  font-weight: normal;
 }
 
 h2 {
@@ -72,31 +77,10 @@ a:hover {
   color: #39909e;
 }
 
-p {
-  margin-top: 1em;
-}
-
 h1 + p {
   margin-top: 1.5em;
   margin-bottom: 1.5em;
 }
-
-span.date {
-  font-size: 10px;
-  color: #888;
-  margin-left: 20px;
-}
-
-ul.beer-list li {
-  margin: 5px 0px 5px 0px;
-  list-style: circle;
-}
-
-ul.beer-list {
-  margin-top: 40px;
-}
-
-
 
 ::selection {color:#fff; background:#4fb5c6;}
 ::-moz-selection {color:#fff; background:#4fb5c6;}
