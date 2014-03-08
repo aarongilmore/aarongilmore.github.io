@@ -16,12 +16,12 @@ body {
 
 .bio {
   max-width: 500px;
-  padding-left: 100px;
+  padding-left: 175px;
 }
 
 .bio h1:before {
 position: absolute;
-margin-left: -175px;
+margin-left: -140px;
 content: "";
 width: 100px;
 height: 100px;
