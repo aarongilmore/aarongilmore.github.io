@@ -21,7 +21,7 @@ body {
 
 .bio h1:before {
 position: absolute;
-margin-left: -140px;
+margin-left: -175px;
 content: "";
 width: 100px;
 height: 100px;
