@@ -9,21 +9,35 @@ html {
 }
 
 body {
-  font-family: 'Volkhov', serif;
+  font-family: "ff-tisa-web-pro", serif;
   font-size: 1em;
   margin-bottom: 8em;
 }
 
 .bio {
   max-width: 500px;
-  padding-left: 20px;
+  padding-left: 100px;
+}
+
+.bio h1:before {
+position: absolute;
+margin-left: -135px;
+content: "";
+width: 100px;
+height: 100px;
+border-radius: 50%;
+background-image: url(../img/aaron.png);
+border: 1px solid #D8D8D8;
+background-size: cover;
+/*display: none;*/
+margin-top: -37px;
 }
 
 img {width: 100%; display: block; margin: 0 auto; margin-bottom: 1em;}
 
 h1 {
   font-size: 1.6em;
-  font-family: 'Volkhov', serif;
+  font-family: "ff-tisa-web-pro", serif;
 }
 
 h2 {
@@ -39,7 +53,7 @@ p {
   font-size: 1em;
   line-height: 1.7;
   color: #333;
-  font-family: 'Volkhov', serif;
+  font-family: "ff-tisa-web-pro", serif;
 }
 
 p.price {font-size: 1.5em; font-weight: bold;}
@@ -89,6 +103,14 @@ ul.beer-list {
 
   body {
     margin: 0 auto;
+  }
+
+  .bio {
+    padding-left: 20px;
+  }
+
+  .bio h1:before {
+  display: none;
   }
 }
 
