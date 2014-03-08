@@ -1,0 +1,142 @@
+html {
+  background: white;
+  color: #282828;
+  padding: 10em 8em 1.6em;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+body {
+  font-family: "ff-tisa-web-pro", serif;
+  font-size: 1em;
+  margin-bottom: 8em;
+}
+
+.bio, .articles {
+  max-width: 500px;
+  padding-left: 175px;
+  margin-bottom: 50px;
+}
+
+.bio h1:before {
+position: absolute;
+margin-left: -140px;
+content: "";
+width: 100px;
+height: 100px;
+border-radius: 50%;
+background-image: url(../img/aaron.png);
+border: 1px solid #D8D8D8;
+background-size: cover;
+/*display: none;*/
+margin-top: -37px;
+}
+
+.articles ul {
+  list-style:  none;
+}
+
+img {width: 100%; display: block; margin: 0 auto; margin-bottom: 1em;}
+
+h1 {
+  font-size: 1.6em;
+  font-family: "ff-tisa-web-pro", serif;
+}
+
+h2 {
+  font-size: 1.2em;
+  margin: 0.8em 0 0.8em 0;
+}
+
+h1.title {
+  text-align: center;
+}
+
+p {
+  font-size: 1em;
+  line-height: 1.7;
+  color: #333;
+  font-family: "ff-tisa-web-pro", serif;
+}
+
+p.price {font-size: 1.5em; font-weight: bold;}
+
+a {
+  color: #4fb5c6;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #39909e;
+}
+
+p {
+  margin-top: 1em;
+}
+
+h1 + p {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+span.date {
+  font-size: 10px;
+  color: #888;
+  margin-left: 20px;
+}
+
+ul.beer-list li {
+  margin: 5px 0px 5px 0px;
+  list-style: circle;
+}
+
+ul.beer-list {
+  margin-top: 40px;
+}
+
+
+
+::selection {color:#fff; background:#4fb5c6;}
+::-moz-selection {color:#fff; background:#4fb5c6;}
+
+@media screen and (max-width: 650px) {
+  html {
+    padding: 3em 2.45em 2.45em;
+  }
+
+  body {
+    margin: 0 auto;
+  }
+
+  .bio {
+    padding-left: 20px;
+  }
+
+  .bio h1:before {
+  display: none;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  html {
+    padding: 1.5em 0.95em 1.5em;
+  }
+
+  h1 {
+    font-size: 1.2em;
+  }
+
+  p {
+    font-size: 0.8em;
+  }
+
+  h1 + p {
+    margin-top: 1em;
+  }
+}
+
+.post p, h1 {
+  font-family: "ff-tisa-web-pro", serif;
+}
