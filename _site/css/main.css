@@ -96,6 +96,7 @@ h1 + p {
 
   .bio {
     padding-left: 20px;
+    width: auto;
   }
 
   .bio h1:before {
