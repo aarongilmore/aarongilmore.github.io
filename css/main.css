@@ -1,7 +1,7 @@
 html {
   background: white;
   color: #282828;
-  padding: 10em 8em 1.6em;
+  padding: 8em 8em 1.6em;
 }
 
 body {
@@ -12,11 +12,10 @@ body {
 
 .bio, .articles {
   width: 600px;
-  padding-left: 175px;
   margin-bottom: 50px;
 }
 
-.bio h1:before {
+/*.bio h1:before {
   position: absolute;
   margin-left: -140px;
   content: "";
@@ -27,7 +26,7 @@ body {
   border: 1px solid #D8D8D8;
   background-size: cover;
   margin-top: -37px;
-}
+}*/
 
 .site {
   max-width: 600px;
@@ -121,7 +120,7 @@ section.right{float: right;}
     margin-top: 100px;
   }
 
-  .bio h1:before {
+/*  .bio h1:before {
     position: absolute;
     margin-left: -15px;
     content: "";
@@ -133,7 +132,7 @@ section.right{float: right;}
     background-size: cover;
     margin-top: -85px;
   }
-
+*/
   .articles {
     padding-left: 20px;
   }
