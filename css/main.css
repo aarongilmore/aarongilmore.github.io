@@ -53,6 +53,7 @@ h1 {
 h2 {
   font-size: 1.2em;
   margin: 0.8em 0 0.8em 0;
+  font-weight: normal;
 }
 
 h1.title {
@@ -81,6 +82,26 @@ h1 + p {
   margin-top: 1.5em;
   margin-bottom: 1.5em;
 }
+
+#footer {
+  padding-top: 80px;
+}
+
+#footer li {
+  list-style: none;
+  font-family:'Andale$MonoW01-Regular';
+  margin: 12px 0px;
+  font-size: .875em;
+}
+
+#footer ul {
+  padding: 0;
+  margin: 0;
+}
+
+
+section.left{float: left;}
+section.right{float: right;}
 
 ::selection {color:#fff; background:#4fb5c6;}
 ::-moz-selection {color:#fff; background:#4fb5c6;}
@@ -111,6 +132,15 @@ h1 + p {
     border: 1px solid #D8D8D8;
     background-size: cover;
     margin-top: -85px;
+  }
+
+  .articles {
+    padding-left: 20px;
+  }
+
+  .articles ul {
+    list-style:  none;
+    padding-left: 0px;
   }
 }
 
