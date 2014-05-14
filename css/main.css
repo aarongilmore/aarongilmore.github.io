@@ -35,6 +35,7 @@ body {
 
 .articles ul {
   list-style:  none;
+  padding-left: 0px;
 }
 
 .articles ul li {
