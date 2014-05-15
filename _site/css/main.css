@@ -118,6 +118,7 @@ section.right{float: right;}
 */
   .articles {
     padding-left: 20px;
+    width: auto;
   }
 
   .articles ul {
