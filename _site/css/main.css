@@ -5,7 +5,7 @@ html {
 }
 
 body {
-  font-family: "ff-tisa-web-pro", serif;
+  font-family: "jaf-facitweb", sans-serif;
   font-size: 1em;
   margin-bottom: 8em;
 }
@@ -45,7 +45,7 @@ img {width: 100%; display: block; margin: 0 auto; margin-bottom: 1em;}
 
 h1 {
   font-size: 1.6em;
-  font-family: "ff-tisa-web-pro", serif;
+  font-family: "jaf-facitweb", sans-serif;
   font-weight: normal;
 }
 
@@ -63,7 +63,7 @@ p {
   font-size: 1em;
   line-height: 1.7;
   color: #333;
-  font-family: "ff-tisa-web-pro", serif;
+  font-family: "jaf-facitweb", sans-serif;
 }
 
 p.price {font-size: 1.5em; font-weight: bold;}
@@ -81,23 +81,6 @@ h1 + p {
   margin-top: 1.5em;
   margin-bottom: 1.5em;
 }
-
-#footer {
-  padding-top: 80px;
-}
-
-#footer li {
-  list-style: none;
-  font-family:'Andale$MonoW01-Regular';
-  margin: 12px 0px;
-  font-size: .875em;
-}
-
-#footer ul {
-  padding: 0;
-  margin: 0;
-}
-
 
 section.left{float: left;}
 section.right{float: right;}
