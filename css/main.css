@@ -121,6 +121,7 @@ footer {
 */
   .articles {
     padding-left: 20px;
+    width: auto;
   }
 
   .articles ul {
