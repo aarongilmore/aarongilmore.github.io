@@ -131,6 +131,8 @@ hr{
     margin: 0 auto;
   }
 
+  .site {width: auto;}
+
   .bio {
     padding-left: 20px;
     width: auto;
@@ -182,6 +184,8 @@ hr{
   html {
     padding: 1.5em 0.95em 1.5em;
   }
+
+  .site {width: auto;}
 
   h1 {
     font-size: 1.2em;
