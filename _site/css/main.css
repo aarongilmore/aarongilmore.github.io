@@ -82,8 +82,11 @@ h1 + p {
   margin-bottom: 1.5em;
 }
 
-section.left{float: left;}
-section.right{float: right;}
+footer {
+  padding-top: 80px;
+  height: 210px;
+  background-color: #899;
+}
 
 ::selection {color:#fff; background:#4fb5c6;}
 ::-moz-selection {color:#fff; background:#4fb5c6;}
