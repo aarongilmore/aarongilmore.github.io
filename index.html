@@ -10,12 +10,13 @@ title: Aaron Gilmore
   <!--<p>If you want to, you can view and download my <a href="#">résumé</a>.</p>-->
   <p>If you fancy a chat, you can email me at <a href="mailto:aaron@aarongilmore.com">aaron@aarongilmore.com</a> or tweet me <a href="http://twitter.com/aarondgilmore">@aarondgilmore</a>.</p>
   </div>
+  <hr>
   <div class="articles">
     <div id="home">
       <h2>Recent Articles</h2>
       <ul>
         {% for post in site.posts %}
-          <li><span><a href="{{ post.url }}">{{ post.title }}</a> • {{ post.date | date_to_string }}</span></li>
+          <li><span><a href="{{ post.url }}">{{ post.title }}</a> &middot; {{ post.date | date_to_string }}</span></li>
         {% endfor %}
       </ul>
     </div>
