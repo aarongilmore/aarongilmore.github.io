@@ -1,12 +1,8 @@
 ---
 layout: post
 title:  "How I Brew Coffee"
-<<<<<<< HEAD
-categories: jekyll update
-=======
 date:   2014-04-17 21:19:29
 categories: articles
->>>>>>> master
 ---
 
 I started drinking coffee at a very young age. Of course at the time, my mug would have been filled with sugar and milk to try and cut the then harsh taste.
