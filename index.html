@@ -1,27 +1,50 @@
 ---
 layout: default
-title: Aaron Gilmore
+title: Aaron Gilmore &middot; Designer
 ---
-<div class="grid">
-  <div class="bio">
-  <h1>Hi. I&rsquo;m Aaron.</h1>
 
-  <p>I'm a Product Design Intern at <a href="http://www.brewbot.io/">Brewbot</a> and a student of Interactive Design at the University of Ulster.</p>
-  <!--<p>If you want to, you can view and download my <a href="#">résumé</a>.</p>-->
-  <p>If you fancy a chat, you can email me at <a href="mailto:aaron@aarongilmore.com">aaron@aarongilmore.com</a> or tweet me <a href="http://twitter.com/aarondgilmore">@aarondgilmore</a>.</p>
+  <img src="img/signature.png" class="signature">
+  <div class="bio">
+      <p>I'm a Product Design Intern at <a href="http://www.brewbot.io/">Brewbot</a> and a student of Interactive Design at the University of Ulster. If you fancy a chat, you can email me at <a href="mailto:aaron@aarongilmore.com">aaron@aarongilmore.com</a> or tweet me <a href="http://twitter.com/aarondgilmore">@aarondgilmore</a>.</p>
+        <img src="img/aaron-serious-face.png" title="LOL Serious Face" alt="LOL Serious Face">
   </div>
-  <hr>
+
   <div class="articles">
     <div id="home">
-      <h2>Recent Articles</h2>
+      <h2>Articles</h2>
+      <hr></br>
       <ul>
         {% for post in site.posts %}
           <li><span><a href="{{ post.url }}">{{ post.title }}</a> &middot; {{ post.date | date_to_string }}</span></li>
+          {{ post.excerpt }}
         {% endfor %}
       </ul>
     </div>
   </div>
-</div>
+
+  <div class="work">
+
+    <h2>Projects</h2>
+    <hr></br>
+
+    <div class="grid">
+     <div class="grid__col grid__col--1-of-2">
+      <h3>Brewbot</h3>
+      <p><a href="http://www.brewbot.io">Brewbot</a> uses sensor technology to track and automate the brewing process. Simply follow the instructions in the app, add the ingredients when prompted and, hey presto, you can call yourself a brewer.</p>
+      <a href="http://www.brewbot.io">View Project</a>
+     </div>
+
+     <div class="grid__col grid__col--1-of-2">
+      <h3>Glasshouse</h3>
+      <p><a href="http://glasshouse.io">Glasshouse</a> is my current side project. It's a collection of sensors in a glasshouse that push temperature, soil moisture, and humidity data to your mobile device.</p>
+      <a href="http://glasshouse.io">View Project</a>
+     </div>
+    </div>
+
+  </div>
+
+
+
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
