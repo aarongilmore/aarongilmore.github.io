@@ -1,8 +1,6 @@
 ---
 layout: post
-title:  "How I Brew Coffee"
-date:   2014-04-17 21:19:29
-categories: articles
+title:  Brewing Coffee
 ---
 
 I started drinking coffee at a very young age but It wasn't until last year that my interest in coffee really started to grow. The level of complexity in such a simple drink became fascinating to me and I wanted to learn a lot more about it.
@@ -53,4 +51,4 @@ Remove from the scales and stir, then apply the filter cap and push down slowly 
 
 When the time reaches 1 min, flip the press over, place on a mug and do a 30 second press.
 
-The whole process takes about 5 minutes. I like to enjoy the beverage while watching Buffy the Vampire Slayer before work.
+The whole process takes about 5 minutes. I like to enjoy my coffee while watching It's Always Sunny in Philadelphia before work.
