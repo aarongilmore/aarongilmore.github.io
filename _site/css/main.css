@@ -26,8 +26,6 @@ h4 { font-size: 1em; font-weight: normal;       /* 1*16 = 16 */         }
 h5 { font-size: 0.83em; font-weight: normal;    /* 0.83*16 = 13.28 */   }
 h6 { font-size: 0.75em; font-weight: normal;    /* 0.75*16 = 12 */      }
 
-h3 {margin-top: 0;}
-
 p {
   color: #333;
   font-family: "ff-tisa-web-pro",serif;
