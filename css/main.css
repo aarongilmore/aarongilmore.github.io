@@ -169,6 +169,12 @@ hr{
     /* margin: -2px auto 2.8rem; */
   }
 
+  img.brewbot-logo {
+    float: none;
+    margin: 80px 0px 25px 0px;
+    width: 30%;
+  }
+
   footer p {
     width: auto;
   }
@@ -183,6 +189,12 @@ hr{
     float: none; 
     margin-left: 30%;
     width: 40%;
+  }
+
+  img.brewbot-logo {
+    float: none;
+    margin: 80px 0px 25px 0px;
+    width: 30%;
   }
 
   h1 {
