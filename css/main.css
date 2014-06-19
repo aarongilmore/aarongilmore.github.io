@@ -119,16 +119,8 @@ footer li {
 
 footer p {font-size: 0.9em;}
 
-footer.availability {
-  position: absolute;
-  height: 10px;
-  width: 10px;
-  border-radius: 50%;
-  background: #a9a8ea;
-  top: 50%;
-  left: 50%;
-  margin-top: -5px;
-  margin-left: -5px;
+footer .copyright {
+  text-align: center;
 }
 
 ::selection {color:#fff; background:#4fb5c6;}
