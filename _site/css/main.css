@@ -33,6 +33,10 @@ p {
   line-height: 1.7;
 }
 
+p.break {
+  text-align: center;
+}
+
 a {
   color: #4fb5c6;
   text-decoration: none;
@@ -42,10 +46,37 @@ a:hover {
   color: #39909e;
 }
 
+h4.time {
+  color: #999;
+  font-style: italic;
+  font-size: 0.9em;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+h4.role {
+  color: #999;
+  font-style: italic;
+  font-size: 1em;
+  margin-top: 17px;
+  margin-bottom: 5px;
+}
+
+a.link {
+  font-size: 0.9em;
+}
+
 img.signature {
   float: none;
-  margin-left: 0px;
-  width: 25%;
+  margin-left: -10px;
+  width: 20%;
+}
+
+img.brewbot-logo {
+  /*margin-left: 34%;*/
+  float: left;
+  margin-bottom: 15px;
+  width: 15%;
 }
 
 .articles ul {
@@ -86,7 +117,19 @@ footer li {
   margin: 0;
 }
 
-footer p {font-size: 0.8em;}
+footer p {font-size: 0.9em;}
+
+footer.availability {
+  position: absolute;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background: #a9a8ea;
+  top: 50%;
+  left: 50%;
+  margin-top: -5px;
+  margin-left: -5px;
+}
 
 ::selection {color:#fff; background:#4fb5c6;}
 ::-moz-selection {color:#fff; background:#4fb5c6;}
@@ -94,7 +137,7 @@ footer p {font-size: 0.8em;}
 hr{
   border: none;
   border-bottom: 2px solid #eee;
-  width: 2.5rem;
+  width: 1rem;
   float: left;
   margin: 10px 10px 10px 0px;
   /*margin-left: 20px;*/
