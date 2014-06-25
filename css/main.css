@@ -119,8 +119,14 @@ footer li {
 
 footer p {font-size: 0.9em;}
 
-footer .copyright {
-  text-align: center;
+footer .blip {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background: #9fe04a;
+  top: 50%;
+  left: 50%;
+
 }
 
 ::selection {color:#fff; background:#4fb5c6;}
