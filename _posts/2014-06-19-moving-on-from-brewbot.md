@@ -15,7 +15,7 @@ Good luck to all my friends at Brewbot for the future, they're going to kill it 
 
 ![](/uploads/team-brewbot.jpg)
 
-_Aaron, Matthew, Chris, Kieran, Jonny, and Ali. Photo by [Filly Campbell](https://www.facebook.com/fillycampbellphotography)._
+_Me, Matthew, Chris, Kieran, Jonny, and Ali. Photo by [Filly Campbell](https://www.facebook.com/fillycampbellphotography)._
 
 
 
