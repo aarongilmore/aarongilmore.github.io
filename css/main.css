@@ -6,7 +6,6 @@ html {
 }
 
 body {
-  margin-bottom: 8em;
 }
 
 #wrap { 
@@ -88,6 +87,11 @@ img.brewbot-logo {
   margin: 10px 0px 10px 0px;
 }
 
+li.booked {
+  text-decoration: line-through;
+  list-style: circle;
+}
+
 img {width: 100%; display: block; margin: 0 auto; margin-bottom: 2em; margin-top: 2em;}
 
 .work {margin-bottom: 4em;}
@@ -117,17 +121,9 @@ footer li {
   margin: 0;
 }
 
+footer li a {font-size: 0.9em;}
+
 footer p {font-size: 0.9em;}
-
-footer .blip {
-  height: 10px;
-  width: 10px;
-  border-radius: 50%;
-  background: #9fe04a;
-  top: 50%;
-  left: 50%;
-
-}
 
 ::selection {color:#fff; background:#4fb5c6;}
 ::-moz-selection {color:#fff; background:#4fb5c6;}
