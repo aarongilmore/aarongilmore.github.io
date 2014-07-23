@@ -124,7 +124,7 @@ i.fa.fa-paper-plane-o{margin-left: -57px; margin-right: 14px;}
 			position: absolute;
 			margin-top: -120px;
 			/* text-align: center; */
-			margin-left: 45px;
+			margin-left: 100px;
 			/* clear: both; */
 			/* margin-bottom: -45px; */
 			content: "";
@@ -141,7 +141,7 @@ i.fa.fa-paper-plane-o{margin-left: -57px; margin-right: 14px;}
 			text-align: center;
 		}
 
-		h3 {margin-top: 180px;}
+		h3 {margin-top: 180px; font-size: 25px;}
 
 		ul.footer {width: auto;}
 
