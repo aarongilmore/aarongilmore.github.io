@@ -120,6 +120,10 @@ i.fa.fa-paper-plane-o{margin-left: -57px; margin-right: 14px;}
 
 		.container {width: 80%;}
 
+		h3, h2.sub {
+			text-align: center;
+		}
+
 		h3 {margin-top: 45px;}
 
 		ul.footer {width: auto;}
