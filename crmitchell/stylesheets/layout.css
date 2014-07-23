@@ -118,6 +118,8 @@ i.fa.fa-paper-plane-o{margin-left: -57px; margin-right: 14px;}
 	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 	@media only screen and (max-width: 479px) {
 
+		.container {width: 80%;}
+
 		h3 {margin-top: 45px;}
 
 		ul.footer {width: auto;}
