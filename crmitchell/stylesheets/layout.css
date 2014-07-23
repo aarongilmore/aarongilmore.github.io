@@ -32,7 +32,7 @@
 }
 
 footer {
-	background-color: #2f2f2f;
+	background-color: #262626;
 	float:left;
 	padding:90px 0px 0px 0px;
 	margin-top: 50px;
@@ -41,9 +41,9 @@ footer {
 	border-top: 1px solid #dfdfdf;
 }
 
-footer p, footer li {color: #fff;}
+footer p, footer li {color: #939393;}
 
-footer a {color: #fff;}
+footer a {color: #939393;}
 footer a:hover {color: #82ce6f; border-bottom: solid 2px #82ce6f;}
 
 footer h5.profile:before {
