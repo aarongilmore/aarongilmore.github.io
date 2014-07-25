@@ -109,8 +109,8 @@ i.fa.fa-paper-plane-o{margin-left: -57px; margin-right: 14px;}
 	@media only screen and (min-width: 768px) and (max-width: 959px) {
 		.container {width: 85%;}
 
-		footer ul {
-			width: 50%;
+		ul.footer {
+			width: auto;
 			margin: 0 auto;
 		}
 
