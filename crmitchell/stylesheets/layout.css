@@ -108,6 +108,13 @@ i.fa.fa-paper-plane-o{margin-left: -57px; margin-right: 14px;}
 	/* Tablet Portrait size to standard 960 (devices and browsers) */
 	@media only screen and (min-width: 768px) and (max-width: 959px) {
 		.container {width: 85%;}
+
+		footer ul li.footer-left, footer ul li.footer-right {
+			float: none;
+			width: 75%;
+			margin: 0 auto;
+		}
+		
 	}
 
 	/* All Mobile Sizes (devices and browser) */
