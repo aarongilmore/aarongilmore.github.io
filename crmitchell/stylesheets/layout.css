@@ -109,12 +109,11 @@ i.fa.fa-paper-plane-o{margin-left: -57px; margin-right: 14px;}
 	@media only screen and (min-width: 768px) and (max-width: 959px) {
 		.container {width: 85%;}
 
-		footer ul li.footer-left, footer ul li.footer-right {
-			float: none;
+		footer ul {
 			width: 75%;
 			margin: 0 auto;
 		}
-		
+
 	}
 
 	/* All Mobile Sizes (devices and browser) */
