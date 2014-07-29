@@ -166,6 +166,8 @@ i.fa.fa-paper-plane-o{margin-left: -57px; margin-right: 14px;}
 		line-height: 20px;
 		margin-bottom: 30px;
 		padding-bottom: 2px;
+		margin-left: 0;
+		text-align: center;
 	}
 
 		h3.profile {margin-top: 180px; font-size: 22px;}
