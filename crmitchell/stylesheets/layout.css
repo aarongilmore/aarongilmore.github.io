@@ -46,6 +46,16 @@ footer p, footer li {color: #939393;}
 footer a {color: #939393;}
 footer a:hover {color: #82ce6f; border-bottom: solid 2px #82ce6f;}
 
+h2.sub, h2.sub a{
+		color: #777;
+		font-size: 20px;
+		line-height: 20px;
+		margin-bottom: 30px;
+		padding-bottom: 2px;
+		margin-left: 44px;
+		margin-bottom: 55px;
+	}
+
 h3.profile:before {
   position: absolute;
   margin-left: -145px;
@@ -150,9 +160,15 @@ i.fa.fa-paper-plane-o{margin-left: -57px; margin-right: 14px;}
 			margin: 0;
 		}
 
-		h2.sub {
-			text-align: center;
-		}
+		h2.sub, h2.sub a{
+		color: #777;
+		font-size: 20px;
+		line-height: 20px;
+		margin-bottom: 30px;
+		padding-bottom: 2px;
+		margin-bottom: 55px;
+		margin-left: 55px;
+	}
 
 		h3.profile {margin-top: 180px; font-size: 22px;}
 
