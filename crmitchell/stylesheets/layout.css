@@ -52,13 +52,13 @@ h2.sub, h2.sub a{
 		line-height: 20px;
 		margin-bottom: 30px;
 		padding-bottom: 2px;
-		margin-left: 44px;
+		margin-left: 74px;
 		margin-bottom: 55px;
 	}
 
 h3.profile:before {
   position: absolute;
-  margin-left: -145px;
+  margin-left: -150px;
   content: "";
   width: 120px;
   height: 120px;
@@ -70,7 +70,7 @@ h3.profile:before {
 }
 
 h3.profile {
-	margin-left: 85px;
+	margin-left: 145px;
 }
 
 ul.footer {
