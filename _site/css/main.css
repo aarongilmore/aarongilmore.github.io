@@ -127,6 +127,8 @@ footer p {font-size: 0.9em;}
 ::selection {color:#fff; background:#4fb5c6;}
 ::-moz-selection {color:#fff; background:#4fb5c6;}
 
+span {color: #4fb5c6; }
+
 hr{
   border: none;
   border-bottom: 2px solid #eee;
