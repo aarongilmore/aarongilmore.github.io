@@ -207,6 +207,43 @@ footer a.copyright {
 
 
 @media screen and (max-width: 640px) {
+	.wrap {
+		width: auto;
+		margin: 0px 20px;
+	}
+
+	#form-box {
+	  width: auto;
+	  margin: 0 auto;
+	}
+
+	#email-input {
+	  font-size: 0.9em;
+	  height: 40px;
+	  border-radius: 5px;
+	  border: 1px solid #c5c5c5;
+	  padding-left: 10px;
+	  vertical-align: bottom;
+	  margin-bottom: 10px;
+	}
+
+	footer {
+	  width: auto;
+	  margin: 0 auto;
+	  padding: 1em 0;
+	  color: #c3c3c3;
+	  font-size: 18px;
+	  font-weight: 300; 
+	}
+
+	footer ul {
+		float: none;
+	}
+
+	footer li {
+		margin-right: 7px;
+	}
+	
 	h3 {
 		font-size: 26px;
 	}
