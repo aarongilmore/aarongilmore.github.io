@@ -167,8 +167,9 @@ footer a.copyright {
 
 @media only screen and (min-device-width: 560px) and (max-device-width: 1136px) and (-webkit-min-device-pixel-ratio: 2) {
 	#iphone {
-		width: 210%;
-		margin: 5px 0px -10% -55%;
+		display: none;
+		/*width: 210%;
+		margin: 5px 0px -10% -55%;*/
 	}
 
 	.wrap {
@@ -214,8 +215,9 @@ footer a.copyright {
 
 @media screen and (max-width: 400px) {
 	#iphone {
-		width: 210%;
-		margin: 5px 0px -10% -55%;
+		display: none;
+		/*width: 210%;
+		margin: 5px 0px -10% -55%;*/
 	}
 
 	.wrap {
