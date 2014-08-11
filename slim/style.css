@@ -214,5 +214,5 @@ footer a.copyright {
 }
 
 @media screen and (max-width: 400px) {
-
+	#iphone {display: none;}
 }
