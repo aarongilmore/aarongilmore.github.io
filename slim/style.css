@@ -66,8 +66,9 @@ header {
 /********** Wrap **********/
 
 .wrap {
-	width: 960px;
-	margin: 0px auto;
+	max-width: 600px;
+	margin: 0 auto;
+	display: block;
 }
 
 .content-wrap {
@@ -167,11 +168,18 @@ footer a.copyright {
 
 @media screen and (max-width: 1000px) {
 	.wrap {
-		width: auto;
-		margin: 0px 20px;
+		max-width: 400px;
+		margin: 0 auto;
+		display: block;
 	}
 }
 @media screen and (max-width: 640px) {
+	.wrap {
+		max-width: auto;
+		margin: 0 auto;
+		display: block;
+	}
+
 	h3 {
 		font-size: 26px;
 	}
@@ -182,11 +190,11 @@ footer a.copyright {
 		display: none;
 	}
 	input[type=email] {
-		width: 100%;
+		width: 80%;
 		box-sizing: border-box;
 	}
 	input[type=submit] {
-		width: 100%;
+		width: 80%;
 		margin: 20px 0px 0px 0px;
 		box-sizing: border-box;
 	}
