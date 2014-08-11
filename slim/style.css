@@ -189,6 +189,7 @@ footer a.copyright {
 	}
 
 	footer {
+		display: none;
 	  width: auto;
 	  margin: 0 auto;
 	  padding: 1em 0;
