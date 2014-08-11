@@ -167,12 +167,14 @@ footer a.copyright {
 
 @media screen and (max-width: 650px) {
 	#iphone {
-		width: 100%;
-		margin: 0;
+		display: none;
+		/*width: 200%;
+		margin-left: -50%;
+		clear: both;*/
 	}
 
 	.wrap {
-		width: 100%;
+		width: auto;
 		margin: 0px 20px;
 	}
 
@@ -212,5 +214,5 @@ footer a.copyright {
 }
 
 @media screen and (max-width: 400px) {
-	
+
 }
