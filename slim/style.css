@@ -57,7 +57,6 @@ header {
 
 
 #iphone {
-	display: none;
 	width: 100%;
 	margin: 15px 0px -10% 0px;
 	position: relative;
@@ -174,11 +173,6 @@ footer a.copyright {
 		clear: both;*/
 	}
 
-	.wrap {
-		width: auto;
-		margin: 0px 20px;
-	}
-
 	#form-box {
 	  width: 100%;
 	  margin: 0 auto;
@@ -212,8 +206,4 @@ footer a.copyright {
 		margin-right: 7px;
 	}
 
-}
-
-@media screen and (max-width: 400px) {
-	#iphone {display: none;}
 }
