@@ -165,46 +165,29 @@ footer a.copyright {
 
 /********** Mobile **********/
 
-@media only screen and (min-device-width: 480px) {
-	#iphone {
+@media screen and (max-width: 1000px) {
+	.wrap {
+		width: auto;
+		margin: 0px 20px;
+	}
+}
+@media screen and (max-width: 640px) {
+	h3 {
+		font-size: 26px;
+	}
+	p {
+		font-size: 16px;
+	}
+	br {
 		display: none;
-		/*width: 200%;
-		margin-left: -50%;
-		clear: both;*/
 	}
-
-	#form-box {
-	  width: 100%;
-	  margin: 0 auto;
+	input[type=email] {
+		width: 100%;
+		box-sizing: border-box;
 	}
-
-	#email-input {
-	  font-size: 0.9em;
-	  height: 40px;
-	  border-radius: 5px;
-	  border: 1px solid #c5c5c5;
-	  padding-left: 10px;
-	  vertical-align: bottom;
-	  margin-bottom: 10px;
+	input[type=submit] {
+		width: 100%;
+		margin: 20px 0px 0px 0px;
+		box-sizing: border-box;
 	}
-
-	footer {
-		display: none;
-	  width: auto;
-	  margin: 0 auto;
-	  padding: 1em 0;
-	  color: #c3c3c3;
-	  font-size: 18px;
-	  font-weight: 300; 
-	}
-
-	footer ul {
-		float: right;
-		margin-right: 10px;
-	}
-
-	footer li {
-		margin-right: 7px;
-	}
-
 }
