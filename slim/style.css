@@ -165,7 +165,7 @@ footer a.copyright {
 
 /********** Mobile **********/
 
-@media screen and (max-width: 650px) {
+@media only screen and (min-device-width: 480px) {
 	#iphone {
 		display: none;
 		/*width: 200%;
