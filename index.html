@@ -12,7 +12,6 @@ title: Aaron Gilmore &middot; Designer
 
   <div class="work">
     <h2>Work</h2>
-    <hr>
     <div class="grid">
       <div class="grid__col grid__col--3-of-3">
       <img src="img/brewbot-colour.png" class="brewbot-logo">
@@ -34,10 +33,9 @@ title: Aaron Gilmore &middot; Designer
   <div class="articles">
     <div id="home">
       <h2>Articles</h2>
-      <hr></br>
       <ul>
         {% for post in site.posts %}
-          <li><span><a href="{{ post.url }}">{{ post.title }}</a> &middot; {{ post.date | date_to_string }}</span></li>
+          <li><h3><a href="{{ post.url }}">{{ post.title }}</a><span> &middot; {{ post.date | date_to_string }}</span></h3></li>
           {{ post.excerpt }}
         {% endfor %}
       </ul>
