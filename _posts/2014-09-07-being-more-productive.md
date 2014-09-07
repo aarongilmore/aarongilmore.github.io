@@ -9,7 +9,7 @@ I feel unaccomplished at the end of most days because I’m not working hard eno
 
 I’ve decided to take a leaf out of [Jessica Hische’s book](http://jessicahische.is/thinkingthoughtsonscheduling) and plan my entire week out.
 
-The three main things I’m focusing on at the minute are; teaching myself Objective-C, improving my website, and working on some client projects. Getting a little more exercise in during the week and meeting with friends for lunch would also be nice.
+The three main things I’m focusing on at the minute are: teaching myself Objective-C, improving my website, and working on some client projects. Getting a little more exercise in during the week and meeting with friends for lunch would also be nice.
 
 Oh, and [breakfast tacos](https://twitter.com/aarondgilmore/status/508583721109581824/photo/1) at the weekend is my new thing.
 
