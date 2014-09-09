@@ -3,8 +3,8 @@ markdown: redcarpet
 pygments: true
 
 # Site settings
-description: ""
-twitter: ""
+description: "Aaron Gilmore is a freelance designer and developer. He previously worked at Brewbot as a Product Design Intern."
+twitter: "Freelance designer and developer, previously @brewbot. Lover of the great outdoors, tiny homes, and good coffee."
 baseurl: "" # the subpath of your site, e.g. /blog/
 # url: "http://wip.theinternetisfor.info"
 # url: "http://localhost:4000"
@@ -20,19 +20,3 @@ author:
 
 paginate: 10
 paginate_path: "/journal/page/:num/"
-
-# Links to include in top navigation
-# For external links add external: true
-links:
-  - title: Home
-    url: /
-  - title: Projects
-    url: /projects/
-  - title: Github
-    url: https://github.com/aarongilmore
-    external: true
-  - title: Twitter
-    url: https://twitter.com/aarondgilmore
-    external: true
-  - title: RSS
-    url: /feed.xml
