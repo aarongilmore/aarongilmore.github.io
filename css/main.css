@@ -35,6 +35,7 @@ p.break {
 }
 
 a {
+  color: #333;
   opacity: 0.5;
   text-decoration: none;
 }
