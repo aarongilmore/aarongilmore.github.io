@@ -1,7 +1,7 @@
 html {
   background: white;
   color: #282828;
-  font: 100%/1.5 "freight-text-pro", "georgia", sans-serif;
+  font: 125%/1.5 "freight-text-pro", sans-serif;
   padding: 5em 3em 1.6em;
 }
 
@@ -28,9 +28,6 @@ h6 { font-size: 0.75em; font-weight: normal;    /* 0.75*16 = 12 */      }
 
 p {
   color: #333;
-  font-family: "freight-text-pro", "georgia", sans-serif;
-  font-size: 1.1em;
-  line-height: 1.7;
 }
 
 p.break {
