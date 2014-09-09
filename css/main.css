@@ -35,12 +35,12 @@ p.break {
 }
 
 a {
-  color: #4fb5c6;
+  opacity: 0.5;
   text-decoration: none;
 }
 
 a:hover {
-  color: #39909e;
+  background-color: #39909e;
 }
 
 h4.time {
