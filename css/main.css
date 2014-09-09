@@ -36,11 +36,12 @@ p.break {
 
 a {
   color: #333;
-  opacity: 0.5;
+  opacity: 0.7;
   text-decoration: none;
 }
 
 a:hover {
+  color: #fff;
   background-color: #39909e;
 }
 
