@@ -173,7 +173,7 @@ footer a.copyright {
 	h3 {
 		font-size: 26px;
 	}
-	
+
 	p {
 		font-size: 16px;
 	}
@@ -189,7 +189,7 @@ footer a.copyright {
 		box-sizing: border-box;
 	}
 
-	button.info {
+	button.notify {
 		width: 310px;
 		margin: 20px 0px 0px 0px;
 		box-sizing: border-box;
