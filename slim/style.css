@@ -168,6 +168,9 @@ footer a.copyright {
 /********** Mobile **********/
 
 @media only screen and (min-device-width: 560px) and (max-device-width: 1136px) and (-webkit-min-device-pixel-ratio: 2) {
+
+	.wrap {width: 100%;}
+	
 	h3 {
 		font-size: 26px;
 	}
@@ -194,6 +197,8 @@ footer a.copyright {
 	}
 }
 @media screen and (max-width: 400px) {
+
+	.wrap {width: 100%;}
 
 	h3 {
 		font-size: 26px;
