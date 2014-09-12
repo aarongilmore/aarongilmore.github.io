@@ -71,6 +71,7 @@ header {
 }
 
 .wrap {
+	max-width: 960px;
 	margin: 0 auto;
 	display: block;
 }
@@ -172,18 +173,24 @@ footer a.copyright {
 	h3 {
 		font-size: 26px;
 	}
+	
 	p {
 		font-size: 16px;
 	}
+
 	br {
 		display: none;
 	}
+
+	#form-box {width: 380px;}
+
 	input[type=email] {
 		width: 100%;
 		box-sizing: border-box;
 	}
-	input[type=submit] {
-		width: 100%;
+
+	button.info {
+		width: 310px;
 		margin: 20px 0px 0px 0px;
 		box-sizing: border-box;
 	}
