@@ -26,13 +26,13 @@ h4 { font-size: 1em; font-weight: normal;       /* 1*16 = 16 */         }
 h5 { font-size: 0.83em; font-weight: normal;    /* 0.83*16 = 13.28 */   }
 h6 { font-size: 0.75em; font-weight: normal;    /* 0.75*16 = 12 */      }
 
-h2.brand-title {
+h3.brand-title {
   font-family: "freight-text-pro", serif;
   border-bottom: 1px solid #f9f9f9;
   padding-bottom: 25px;
 }
 
-h2 span {
+h3 span {
   color: #282828; 
   opacity: 0.7;
 }
