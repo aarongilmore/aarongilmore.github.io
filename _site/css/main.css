@@ -2,7 +2,7 @@ html {
   background: white;
   color: #282828;
   font: 120%/1.5 "freight-text-pro", sans-serif;
-  padding: 5em 3em 1.6em;
+  padding: 5em 3em 1em;
 }
 
 body {
@@ -26,16 +26,25 @@ h4 { font-size: 1em; font-weight: normal;       /* 1*16 = 16 */         }
 h5 { font-size: 0.83em; font-weight: normal;    /* 0.83*16 = 13.28 */   }
 h6 { font-size: 0.75em; font-weight: normal;    /* 0.75*16 = 12 */      }
 
-h3.brand-title {
+h2.brand-title {
   font-family: "freight-text-pro", serif;
   border-bottom: 1px solid #f9f9f9;
   padding-bottom: 25px;
 }
 
-h3 span {
+h2 span {
   color: #282828; 
   opacity: 0.7;
 }
+
+/*h3.post-title:after {
+  content: "→";
+  color: #333;
+  opacity: .7;
+  display: inline-block;
+  font-style: normal;
+  margin-left: .25em;
+}*/
 
 p {
   color: #333;
@@ -81,24 +90,9 @@ a.link {
 figure {
   width: 100%;
   margin: 0;
-  padding-bottom: 20px;
 }
 
-figcaption {font-size: 0.8em; color: #282828; opacity: 0.9; float: right;}
-
-img.signature {
-  float: none;
-  margin-left: -10px;
-  width: 20%;
-}
-
-img.brewbot-logo {
-  /*margin-left: 34%;*/
-  float: left;
-  margin-bottom: 15px;
-  width: 15%;
-  margin-top: 0px;
-}
+figcaption {font-size: 0.8em; color: #282828; opacity: 0.9;}
 
 .articles ul {
   list-style:  none;
@@ -115,11 +109,13 @@ li.booked {
 
 img {width: 100%; display: block; margin: 0 auto; margin-bottom: 1em; margin-top: 1em;}
 
-.work {margin-bottom: 4em;}
+.work {margin-bottom: 2em; padding-bottom: 2em; border-bottom: 1px solid #eee;}
+.bio {padding-bottom: 2em; border-bottom: 1px solid #eee;}
 .column-left{ float: left; width: 45%; }
 .column-right{ float: right; width: 45%; }
 
 footer {
+  text-align: center;
   width: auto;
   border-top: 1px solid #eee;
 /*  position: fixed;*/
@@ -131,10 +127,7 @@ footer.container {
   margin: 0 auto;
   display: block;
 }
-
-.column-left{ float: left; width: 33%; }
-.column-right{ float: right; width: 33%; }
-.column-center{ display: inline-block; width: 33%; }
+footer .right {border-left: 1px solid #eee;}
 
 footer ul {padding: 0;}
 footer li {
@@ -144,23 +137,12 @@ footer li {
 
 footer li a {font-size: 0.9em;}
 
-footer p {font-size: 0.9em;}
+footer p {font-size: 0.7em; padding-top: 20px;}
 
 ::selection {color:#282828; background:#FFFF00;}
 ::-moz-selection {color:#282828; background:#FFFF00;}
 
 span {color: #777; font-size: 1em; }
-
-hr{
-  border: none;
-  border-bottom: 2px solid #eee;
-  width: 1rem;
-  float: left;
-  margin: 10px 10px 10px 0px;
-  /*margin-left: 20px;*/
-  /* padding-top: 0rem; */
-  /* margin: -2px auto 2.8rem; */
-}
 
 @media only screen and (min-device-width: 560px) and (max-device-width: 1136px) and (-webkit-min-device-pixel-ratio: 2) {
     /* iPhone 5 only */
@@ -177,15 +159,6 @@ hr{
     padding-left: 0px;
   }
 
-  hr{
-    border: none;
-    border-bottom: 2px solid #d0d2d4;
-    width: 1.5rem !important;
-    margin-left: 0px;
-    /* padding-top: 0rem; */
-    /* margin: -2px auto 2.8rem; */
-  }
-
   img.brewbot-logo {
     float: none;
     margin: 80px 0px 25px 0px;
@@ -195,6 +168,8 @@ hr{
   footer p {
     width: auto;
   }
+
+  footer .right {border-left: none;}
 }
 
 @media screen and (max-width: 400px) {
@@ -226,12 +201,5 @@ hr{
     margin-top: 1em;
   }
 
-  hr{
-    border: none;
-    border-bottom: 2px solid #d0d2d4;
-    width: 1.5rem !important;
-    margin-left: 0px;
-    /* padding-top: 0rem; */
-    /* margin: -2px auto 2.8rem; */
-  }
+  footer .right {border-left: none;}
 }
