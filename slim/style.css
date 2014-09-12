@@ -51,13 +51,13 @@ a:visited {
 /********** Header **********/
 
 header {
-	width: 100%;
+	width: auto;
 	background: #ffffff;
 }
 
 
 #iphone {
-	width: 100%;
+	width: auto;
 	margin: 15px 0px -10% 0px;
 	position: relative;
 }
@@ -66,7 +66,8 @@ header {
 /********** Wrap **********/
 
 #content-wrap {
-	width: 100%;
+	width: auto; 
+	max-width: 800px;
 	margin: 0 auto;
 }
 
@@ -167,9 +168,11 @@ footer a.copyright {
 
 /********** Mobile **********/
 
-@media only screen and (min-device-width: 640px) and (max-device-width: 1136px) and (-webkit-min-device-pixel-ratio: 2) {
+@media screen and (device-aspect-ratio: 40/71) {
 
-	.wrap {width: 100%;}
+	.content-wrap {
+		width: 75%;
+	}
 
 	h3 {
 		font-size: 26px;
@@ -196,9 +199,11 @@ footer a.copyright {
 		box-sizing: border-box;
 	}
 }
-@media screen and (max-width: 400px) {
+@media screen and (device-aspect-ratio: 2/3) {
 
-	.wrap {width: 100%;}
+	.content-wrap {
+		width: 75%;
+	}
 
 	h3 {
 		font-size: 26px;
