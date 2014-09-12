@@ -42,14 +42,22 @@ h3 span {
   opacity: 0.7;
 }
 
-/*h3.post-title:after {
-  content: "→";
-  color: #333;
-  opacity: .7;
-  display: inline-block;
-  font-style: normal;
-  margin-left: .25em;
-}*/
+h4.time {
+  color: #999;
+  font-style: italic;
+  font-size: 0.9em;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+h4.role {
+  color: #999;
+  font-style: italic;
+  font-size: 1em;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  width: 225px;
+}
 
 p {
   color: #333;
@@ -65,6 +73,8 @@ p.meta {
   margin-bottom: 2em;
 }
 
+.work p.lead {margin-top: 0px;}
+
 a {
   color: #333;
   opacity: 0.7;
@@ -75,23 +85,6 @@ a:hover {
   opacity: .9;
   background-color: #FFFF00;
   border-radius: 3px;
-}
-
-h4.time {
-  color: #999;
-  font-style: italic;
-  font-size: 0.9em;
-  margin-bottom: 5px;
-  margin-top: 5px;
-}
-
-h4.role {
-  color: #999;
-  font-style: italic;
-  font-size: 1em;
-  margin-top: 17px;
-  margin-bottom: 5px;
-  width: 225px;
 }
 
 a.link {
@@ -122,6 +115,7 @@ img {width: 100%; display: block; margin: 0 auto; margin-bottom: 1em; margin-top
 
 .work {margin-bottom: 2em; padding-bottom: 2em; border-bottom: 1px solid #eee;}
 .bio {padding-bottom: 2em; border-bottom: 1px solid #eee;}
+.brewbot {margin-bottom: 2em; padding-bottom: 2em; border-bottom: 1px solid #eee;}
 .column-left{ float: left; width: 45%; }
 .column-right{ float: right; width: 45%; }
 

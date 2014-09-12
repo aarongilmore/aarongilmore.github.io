@@ -71,7 +71,6 @@ header {
 }
 
 .wrap {
-	max-width: 960px;
 	margin: 0 auto;
 	display: block;
 }
@@ -167,10 +166,8 @@ footer a.copyright {
 
 /********** Mobile **********/
 
-@media screen and (max-width: 1000px) {
-	
-}
-@media screen and (max-width: 640px) {
+@media only screen and (min-device-width: 560px) and (max-device-width: 1136px) and (-webkit-min-device-pixel-ratio: 2) {}
+@media screen and (max-width: 400px) {
 
 	h3 {
 		font-size: 26px;
