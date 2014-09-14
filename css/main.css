@@ -73,6 +73,11 @@ p.meta {
   margin-bottom: 2em;
 }
 
+p.date {
+  color: #bdbdbd;
+  font-size: .85em;
+}
+
 .work p.lead {margin-top: 0px;}
 
 a {
