@@ -31,7 +31,8 @@ h1.post-title {
   margin-bottom: 0;
 }
 
-h3.brand-title {
+h1.brand-title {
+  font-size: 1.25em;
   font-family: "freight-text-pro", serif;
   border-bottom: 1px solid #f9f9f9;
   padding-bottom: 25px;
