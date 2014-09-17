@@ -224,11 +224,15 @@ footer a.copyright {
 	input[type=email] {
 		width: 100%;
 		box-sizing: border-box;
-		box-shadow: none;
 	}
 	input[type=submit] {
 		width: 100%;
 		margin: 20px 0px 0px 0px;
 		box-sizing: border-box;
+	}
+
+	/* Remove inner shadow from inputs on mobile iOS */
+	textarea, input[type="text"] {
+	-webkit-appearance: none;
 	}
 }
