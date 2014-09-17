@@ -177,6 +177,11 @@ and (max-width : 720px) {
 		margin: 0px 20px;
 	}
 
+	.content-wrap {
+		width: 70%;
+		margin: 0 auto;
+	}
+
 	#form-box {
 	  width: auto;
 	  margin: 0 auto;
