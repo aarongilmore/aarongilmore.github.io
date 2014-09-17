@@ -169,6 +169,7 @@ footer a.copyright {
 and (max-width : 720px) {
 
 	#iphone {
+		display: none;
 		width: 100%;
 	}
 
