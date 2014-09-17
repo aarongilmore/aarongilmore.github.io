@@ -179,7 +179,7 @@ footer a.copyright {
 
 	.content-wrap {
 		width: 320px;
-		margin: 0px;
+		margin: 0 auto;
 	}
 
 	#form-box {
