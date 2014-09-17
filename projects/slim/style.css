@@ -117,7 +117,6 @@ button.notify {
 
 button.notify:hover {
   color: #fff;  
-  width: 80px;
   height: 42px;
   border-radius: 5px;
   background-color: #44bb6e;
@@ -165,14 +164,14 @@ footer a.copyright {
 
 /********** Mobile **********/
 
-@media only screen and (min-device-width: 560px) and (max-device-width: 1136px) and (-webkit-min-device-pixel-ratio: 2) {
+@media screen and (max-width: 400px) {
 	#iphone {
 		width: 100%;
 	}
 
 	.wrap {
 		width: auto;
-		margin: 0px 20px;
+		margin: 0px 0px;
 	}
 
 	#form-box {
@@ -181,6 +180,7 @@ footer a.copyright {
 	}
 
 	#email-input {
+	  width: 90%;
 	  font-size: 0.9em;
 	  height: 40px;
 	  border-radius: 5px;
@@ -188,6 +188,10 @@ footer a.copyright {
 	  padding-left: 10px;
 	  vertical-align: bottom;
 	  margin-bottom: 10px;
+	}
+
+	button.notify {
+		width: 93%;
 	}
 
 	footer {
@@ -207,5 +211,23 @@ footer a.copyright {
 	footer li {
 		margin-right: 7px;
 	}
-
+	
+	h3 {
+		font-size: 26px;
+	}
+	p {
+		font-size: 16px;
+	}
+	br {
+		display: none;
+	}
+	input[type=email] {
+		width: 100%;
+		box-sizing: border-box;
+	}
+	input[type=submit] {
+		width: 100%;
+		margin: 20px 0px 0px 0px;
+		box-sizing: border-box;
+	}
 }
