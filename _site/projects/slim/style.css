@@ -173,13 +173,13 @@ footer a.copyright {
 	}
 
 	.wrap {
-		width: auto;
+		width: 320px;
 		margin: 0px 20px;
 	}
 
 	.content-wrap {
-		width: 70%;
-		margin: 0 auto;
+		width: 320px;
+		margin: 0px;
 	}
 
 	#form-box {
@@ -198,8 +198,8 @@ footer a.copyright {
 	}
 
 	footer {
-	  width: auto;
-	  margin: 0 auto;
+	  width: 320px;
+	  margin: 0;
 	  padding: 1em 0;
 	  color: #c3c3c3;
 	  font-size: 18px;
