@@ -224,6 +224,7 @@ footer a.copyright {
 	input[type=email] {
 		width: 100%;
 		box-sizing: border-box;
+		box-shadow: none;
 	}
 	input[type=submit] {
 		width: 100%;
