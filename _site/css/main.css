@@ -8,10 +8,10 @@ html {
 body {
 }
 
-#wrap { 
-  width: auto; 
+#wrap {
+  width: auto;
   max-width: 800px;
-  margin: 0 auto; 
+  margin: 0 auto;
 }
 
 /*-----------------------------------*\
@@ -39,7 +39,7 @@ h1.brand-title {
 }
 
 h3 span {
-  color: #282828; 
+  color: #282828;
   opacity: 0.7;
 }
 
@@ -189,7 +189,7 @@ span {color: #777; font-size: 1em; }
   }
 
   img.signature {
-    float: none; 
+    float: none;
     margin-left: 30%;
     width: 40%;
   }
