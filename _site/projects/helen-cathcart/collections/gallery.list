@@ -1,0 +1,11 @@
+<div class="container">
+
+	<div id="category" data-size="3">
+
+		{.repeated section items}
+
+		<a href="{clickthroughUrl}"> <img class="box" src="{assetUrl}?format=500w" /> </a>
+
+		{.end}
+	</div>
+</div>
