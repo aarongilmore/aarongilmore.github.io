@@ -1,63 +1,88 @@
+/*-----------------------------------*\
+  General
+\*-----------------------------------*/
 html {
   background: white;
-  color: #282828;
-  font: 120%/1.5 "freight-text-pro", sans-serif;
+  color: #222222;
+  font-size: 1.25rem;
+  font-family: museo-sans,'Helvetica Neue', Arial, Helvetica, Sans-Serif;
+  line-height: 1.5em;
   padding: 2.5em 3em 1em;
-}
-
-body {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
 }
 
 #wrap {
   width: auto;
-  max-width: 50rem;
+  max-width: 65rem;
   margin: 0 auto;
+}
+
+::selection {color:#0094d7; background:#ffffff;}
+::-moz-selection {color:#0094d7; background:#ffffff;}
+
+/*-----------------------------------*\
+  Navigation
+\*-----------------------------------*/
+
+nav {
+    padding-bottom: 2.5em;
+}
+
+nav a {
+    font-family: "museo-sans";
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav ul {
+    margin-top: 0em;
+    text-align: right;
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    line-height: 25px;
+    font-size: 1.05em;
+}
+
+nav li:first-child {
+  margin-right: 1.2rem;
+}
+
+nav li:last-child {
+  margin-left: 1.2rem;
 }
 
 /*-----------------------------------*\
   Typography
 \*-----------------------------------*/
 
-h1, h2, h4, h5, h6 {font-family: "freight-sans-pro";}
-h1 { font-size: 2em; font-weight: normal;       /* 2*16 = 32 */         }
-h2 { font-size: 1.5em; font-weight: normal;     /* 1.5*16 = 24 */       }
-h3 { font-size: 1.25em; font-weight: normal;    /* 1.25*16 = 20 */      }
-h4 { font-size: 1em; font-weight: normal;       /* 1*16 = 16 */         }
-h5 { font-size: 0.83em; font-weight: normal;    /* 0.83*16 = 13.28 */   }
-h6 { font-size: 0.75em; font-weight: normal;    /* 0.75*16 = 12 */      }
+h1 { font-size: 2em; font-weight: bold;       /* 2*16 = 32 */         }
+h2 { font-size: 1.5em; font-weight: bold;     /* 1.5*16 = 24 */       }
+h3 { font-size: 1.25em; font-weight: bold;    /* 1.25*16 = 20 */      }
+h4 { font-size: 1em; font-weight: bold;       /* 1*16 = 16 */         }
+h5 { font-size: 0.83em; font-weight: bold;    /* 0.83*16 = 13.28 */   }
+h6 { font-size: 0.75em; font-weight: bold;    /* 0.75*16 = 12 */      }
 
-h1.post-title {
-  text-align: center;
+h1.lead {
+  font-family: "futura";
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 72px;
+  color: #222;
+  padding-bottom: 1.5em;
+}
+
+h2.post-title {
+  text-align: center; 
+  margin-top: 0;
+}
+
+h4.post-title {
   margin-bottom: 0;
-}
-
-h1.brand-title {
-  font-size: 1.25em;
-  font-family: "freight-text-pro", serif;
-  border-bottom: 1px solid #f9f9f9;
-  padding-bottom: 25px;
-}
-
-h3 span {
-  color: #282828;
-  opacity: 0.7;
-}
-
-h4.time {
-  color: #999;
-  font-style: italic;
-  font-size: 0.9em;
-  margin-bottom: 5px;
-  margin-top: 5px;
-}
-
-h4.role {
-  color: #999;
-  font-style: italic;
-  font-size: 1em;
-  margin-top: 0px;
-  margin-bottom: 5px;
-  width: 225px;
 }
 
 p {
@@ -69,6 +94,8 @@ p.break {
 }
 
 p.meta {
+  color: #bdbdbd;
+  font-size: .75em;
   text-align: center;
   margin-top: 0;
   margin-bottom: 2em;
@@ -76,25 +103,42 @@ p.meta {
 
 p.date {
   color: #bdbdbd;
-  font-size: .85em;
+  font-size: .75em;
+  margin-bottom: 0;
+  margin-top: 0;
 }
 
-.work p.lead {margin-top: 0px;}
+/*-----------------------------------*\
+  Links
+\*-----------------------------------*/
 
 a {
-  color: #333;
-  opacity: 0.7;
+  color: #0094d7;
   text-decoration: none;
 }
 
 a:hover {
-  opacity: .9;
-  background-color: #FFFF00;
-  border-radius: 3px;
+  color: #0094d7;
+  padding-bottom: 1px;
+  text-decoration: none;
+  border-bottom: 1px solid #1374A6;
 }
 
-a.link {
-  font-size: 0.9em;
+a:active {
+  padding-bottom: 1px;
+  border-bottom: 1px solid #1374A6;
+}
+
+/*-----------------------------------*\
+  Images
+\*-----------------------------------*/
+
+img {max-width: 100%;}
+
+img.portrait {
+  max-width: 320px;
+  margin: 0 auto;
+  display: block;
 }
 
 figure {
@@ -103,6 +147,15 @@ figure {
 }
 
 figcaption {font-size: 0.8em; color: #282828; opacity: 0.9;}
+
+/*-----------------------------------*\
+  Lists
+\*-----------------------------------*/
+
+ul {
+  list-style: none;
+  padding: 0;
+}
 
 .articles ul {
   list-style:  none;
@@ -113,24 +166,19 @@ figcaption {font-size: 0.8em; color: #282828; opacity: 0.9;}
   margin: 10px 0px 10px 0px;
 }
 
-li.booked {
-  text-decoration: line-through;
+ul.services {
+  list-style: circle;
 }
 
-img {width: 100%; display: block; margin: 0 auto; margin-bottom: 1em; margin-top: 1em;}
-
-.work {margin-bottom: 2em; padding-bottom: 2em; border-bottom: 1px solid #eee;}
-.bio {padding-bottom: 2em; border-bottom: 1px solid #eee;}
-.brewbot {margin-bottom: 2em; padding-bottom: 2em; border-bottom: 1px solid #eee;}
-.column-left{ float: left; width: 45%; }
-.column-right{ float: right; width: 45%; }
+/*-----------------------------------*\
+  Footer
+\*-----------------------------------*/
 
 footer {
   text-align: center;
-  width: auto;
+  width: 100%;
+  left: 0;
   border-top: 1px solid #eee;
-/*  position: fixed;*/
-/*  bottom: 0;*/
   margin-top: 50px;
 }
 
@@ -147,57 +195,38 @@ footer li {
 }
 
 footer li a {font-size: 0.9em;}
-
 footer p {font-size: 0.7em; padding-top: 20px;}
 
-::selection {color:#282828; background:#FFFF00;}
-::-moz-selection {color:#282828; background:#FFFF00;}
-
-span {color: #777; font-size: 1em; }
-
-@media only screen and (min-device-width: 560px) and (max-device-width: 1136px) and (-webkit-min-device-pixel-ratio: 2) {
-    /* iPhone 5 only */
-  html {
-    padding: 3em 2.45em 2.45em;
-  }
-
-  body {
-    margin: 0 auto;
-  }
-
-  .articles ul {
-    list-style:  none;
-    padding-left: 0px;
-  }
-
-  img.brewbot-logo {
-    float: none;
-    margin: 80px 0px 25px 0px;
-    width: 30%;
-  }
-
-  footer p {
-    width: auto;
-  }
-
-  footer .right {border-left: none;}
-}
+/*-----------------------------------*\
+  Mobile
+\*-----------------------------------*/
 
 @media screen and (max-width: 400px) {
   html {
     padding: 1.5em 0.95em 1.5em;
   }
 
-  img.signature {
-    float: none;
-    margin-left: 30%;
-    width: 40%;
+  nav {
+    padding-bottom: 1em;
   }
 
-  img.brewbot-logo {
-    float: none;
-    margin: 80px 0px 25px 0px;
-    width: 30%;
+  nav ul {
+    text-align: left;
+    padding-top: 1em;
+  }
+
+  h1.lead {
+    font-family: "futura";
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 52px;
+    color: #222;
+    padding-bottom: 1em;
+    margin-top: 0;
+  }
+
+  img.portrait {
+    margin: 0;
   }
 
   h1 {
@@ -211,6 +240,4 @@ span {color: #777; font-size: 1em; }
   h1 + p {
     margin-top: 1em;
   }
-
-  footer .right {border-left: none;}
 }

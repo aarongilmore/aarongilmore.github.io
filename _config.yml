@@ -15,6 +15,5 @@ author:
   name: Aaron Gilmore
   email: aaron@aarongilmore.com
 
-
 paginate: 10
 paginate_path: "/journal/page/:num/"

@@ -3,59 +3,61 @@ layout: default
 title: Aaron Gilmore &middot; Designer and Developer
 ---
 
-  <h1 class="brand-title">Aaron Gilmore, <span>Designer and Developer</span></h1>
-
   <div class="bio">
     <div class="grid">
 
-    <div class="grid__col grid__col--1-of-3">
-      <figure>
-        <img src="img/aaron_profile.jpg" title="Aaron Gilmore" alt="Aaron Gilmore" class="profile">
-      <figure>
-    </div>
+      <div class="grid__col grid__col--1-of-1">
+        <h1 class="lead">Aaron Gilmore is a designer based in Belfast, Northern Ireland. He specialises in <em>interface and interaction design on the web</em>, <em>front-end web development</em>, and <em>interaction design for iOS</em>.</h1>
+      </div>
 
-    <div class="grid__col grid__col--2-of-3">
-      <p>I'm an independent designer and developer based in Ireland, and a student of Interactive Design at the University of Ulster. I previously worked as a Product Design Intern for <a href="http://brewbot.io/">Brewbot</a>.</p>
-      <p>I'm primarily a designer&mdash;but I believe that role comes with the responsibilty of understanding how to build the products I design.</p>
+    <div class="grid__col grid__col--3-of-5">
+      <h3>About</h3>
+      <p>I'm an independent designer and developer based in Belfast, and a final year student of Interactive Design at the University of Ulster.</p>
+      <p>I'm currently working on Slim; a simple weight management app for iOS.</p>
+      <p>I previously worked as a product designer at <a href="http://brewbot.io/">Brewbot</a> and before that, I worked as design intern at Ecliptic Labs—an award-winning iOS and Android app development company.</p>
       <p>I'm <a href="/availability.html">available</a> for freelance work. If you want to discuss a project, you can email me at <a href="mailto:aaron@aarongilmore.com">aaron@aarongilmore.com</a> or tweet me <a href="http://twitter.com/aarondgilmore">@aarondgilmore</a>. If you want to know more about me, please view my <a href="https://www.dropbox.com/s/tfkcbi9g4on7mjl/r%C3%A9sum%C3%A9.pdf?dl=0">résumé</a>.</p>
     </div>
-  </div>
-  </div>
 
-  <div class="work">
-    <h2>Projects</h2>
-    <div class="grid">
-
-     <div class="grid__col grid__col--1-of-3">
-       <h4 class="role">Brewbot &middot; Product Design Intern</h4>
-       <h4 class="time">2013 - 2014</h4>
-       <a href="http://www.brewbot.io" class="link">www.brewbot.io</a>
-     </div>
-
-     <div class="grid__col grid__col--2-of-3">
-      <p class="lead"><a href="http://www.brewbot.io">Brewbot</a> uses sensor technology to track and automate the brewing process. Simply follow the instructions in the app, add the ingredients when prompted and, hey presto, you can call yourself a brewer.</p>
+    <div class="grid__col grid__col--2-of-5">
       <figure>
-      <img src="img/brewbot.jpg" title="Brewbot" alt="Brewbot">
-      <figcaption>Brewbot at <a href="http://2013.xoxofest.com/">XOXO</a>, Portland, OR.. Photograph by <a href="http://photosby.si/">Simon Mills</a>.</figcaption>
-      </figure>
-      <p>In 2014, Brewbot was accepted into the <a href="http://www.techstars.com">Techstars</a> program in Austin, TX. It has been featured on <a href="http://techcrunch.com/2013/09/25/cargos-brewbot-makes-you-a-smartphone-powered-craft-beer-microbrewery-starting-at-1500/">Techcrunch</a>, <a href="http://mashable.com/2013/10/01/brewbot/">Mashable</a>, <a href="http://www.fastcompany.com/3018369/fast-feed/brewbot-lets-you-brew-craft-beers-with-your-iphone">Fast Company</a>, and <a href="http://instagram.com/p/nNYYlCtrLS/?modal=true">Offscreen</a>.</p>
-     </div>
-
+        <img src="img/aaron_profile.jpg" title="Aaron Gilmore" alt="Aaron Gilmore" class="portrait">
+      <figure>
     </div>
-  </div>
 
-  <div class="articles">
-    <div id="home">
-      <h2>Articles</h2>
+    <div class="grid__col grid__col--1-of-4">
+      <h3>Contact</h3>
       <ul>
-        {% for post in site.posts %}
-          <li><h3 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h3></li>
-          {{ post.excerpt }}
-          <p class="date">{{ post.date | date_to_string }}</p>
-        {% endfor %}
+        <li><a href="mailto:aaron@aarongilmore.com">aaron@aarongilmore.com</a></li>
+        <li>+44 (0) 7706554614</li>
       </ul>
     </div>
-  </div>
+
+    <div class="grid__col grid__col--3-of-4">
+      <h3>Elsewhere</h3>
+      <ul>
+        <li><a href="http://github.com/aarongilmore">GitHub →</a></li>
+        <li><a href="http://twitter.com/aarondgilmore">Twitter →</a></li>
+      </ul>
+    </div>
+
+    <div class="grid__col grid__col--3-of-5">
+      <h3>Work</h3>
+      <p>Selected projects from the past two years.</p>
+
+      <h4>Slim (2014-present)</h4>
+        <p>Slim is an iOS app for keeping track of your body weight. I'll share more on this in the coming weeks.</p>
+
+      <h4>Brewbot (2012-2014)</h4>
+        <p><a href="http://brewbot.io">Brewbot</a> is a beer-brewing robot that is controlled and monitored using a smartphone. The project came to be through a love of craft beer and a <a href="https://www.kickstarter.com/projects/cargo/brewbot-the-smart-brewing-appliance?ref=discovery">successful Kickstarter campaign</a>, launced at XOXO in Portland in September 2013.</p>
+        <p>In 2014, Brewbot was accepted onto the Techstars program in Austin, TX. It has since been featured on <a href="http://techcrunch.com/2013/09/25/cargos-brewbot-makes-you-a-smartphone-powered-craft-beer-microbrewery-starting-at-1500/">Techcrunch</a>, <a href="http://mashable.com/2013/10/01/brewbot/">Mashable</a>, <a href="http://www.fastcompany.com/3018369/fast-feed/brewbot-lets-you-brew-craft-beers-with-your-iphone">Fast Company</a>, <a href="https://instagram.com/p/nNYYlCtrLS/?modal=true">Offscreen Magazine</a>, and <a href="http://brewbot.pr.co/clippings/12720-brew-beer-with-your-smartphone">New Scientist</a>.</p>
+
+      <h4>Other</h4>
+        <p><a href="http://be-bolder.com/">Bolder</a> is a website celebrating older people who are doing interesting work in their respective industries. I lead the front-end development on this project.</p>
+        <p>I also worked on the <a href="http://aarongilmore.com/projects/brewbot-tour/">Brewbot Tour</a> website. The Brewbot Tour consisted of a tour around Ireland's top craft breweries in July 2014.</p>
+    </div>
+
+  </div><!-- Grid div ends -->
+  </div><!-- Bio div ends -->
 
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
