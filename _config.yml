@@ -17,13 +17,3 @@ author:
 
 paginate: 10
 paginate_path: "/journal/page/:num/"
-
-# Links to include in top navigation
-# For external links add external: true
-links:
-  - title: Home
-    url: /
-  - title: Hire Me
-    url: /hire/
-  - title: Archive
-    url: /archive/
