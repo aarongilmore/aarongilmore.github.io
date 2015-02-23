@@ -70,8 +70,8 @@ h6 { font-size: 0.75em; font-weight: bold;    /* 0.75*16 = 12 */      }
 h1.lead {
   font-family: "futura";
   font-weight: bold;
-  font-size: 44px;
-  line-height: 72px;
+  font-size: 46px;
+  line-height: 66px;
   color: #222;
   padding-bottom: 1.5em;
 }
