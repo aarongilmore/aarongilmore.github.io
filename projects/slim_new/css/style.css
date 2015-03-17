@@ -1,0 +1,199 @@
+/********** Animate.css **********/
+
+@import url('animate.css');
+
+* {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	outline: 0px;
+	-webkit-font-smoothing: antialiased;
+}
+
+body {
+	font-family: 'Helvetica Neue', sans-serif;
+	font-weight: 300;
+	color: #555;
+}
+
+h1 { font-size: 2em; font-weight: 300;       /* 2*16 = 32 */         }
+h2 { font-size: 1.5em; font-weight: 300;     /* 1.5*16 = 24 */       }
+h3 { font-size: 1.25em; font-weight: bold;    /* 1.25*16 = 20 */      }
+h4 { font-size: 1em; font-weight: bold;       /* 1*16 = 16 */         }
+h5 { font-size: 0.83em; font-weight: bold;    /* 0.83*16 = 13.28 */   }
+h6 { font-size: 0.75em; font-weight: bold;    /* 0.75*16 = 12 */      }
+
+h1.lead {
+	margin-bottom: 0;
+}
+
+h2.lead {
+	margin-bottom: 1em;
+}
+
+p {
+	color: #89949b;
+	font-size: 18px;
+	line-height: 1.3;
+	display: block;
+	padding: 0px 0px 30px 0px;
+}
+
+
+a,
+a:visited {
+	color: #549FF9;
+	font-size: 17px;
+	text-decoration: none;
+}
+
+
+/********** Header **********/
+
+
+#iphone {
+	width: 300px;
+	height: 390px;
+	margin: 15px 0px 0px;
+	position: relative;
+}
+
+
+/********** Content **********/
+
+.content {
+	width: 1040px;
+	margin: 0 auto;
+	display: block;
+	padding-top: 5em;
+}
+
+.text-form {
+	margin-top: 8em;
+}
+
+/********** Features **********/
+
+.u-bg-blue {
+	background-color: #549FF9;
+}
+
+.features-container {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 65px 0;
+	text-align: center;
+}
+
+.features-container h3, p {
+	color: white;
+	margin-top: 0.5em;
+	margin-bottom: 0;
+}
+
+/********** Form **********/
+
+form {text-align: left;}
+
+#form-box {
+  width: 400px;
+}
+
+#mc-embedded-subscribe-form .email-input  {
+  font-size: 0.9em;
+  width: 300px;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid #c5c5c5;
+  padding-left: 10px;
+  vertical-align: bottom;
+}
+
+#mc-embedded-subscribe-form .email-input:focus{
+  outline: none;
+  border: 1px solid #5CD185;
+}
+
+button.notify {
+  color: #fff;  
+  width: 80px;
+  height: 42px;
+  border-radius: 5px;
+  background-color: #5CD185;
+  border: none;
+
+}
+
+button.notify:hover {
+  color: #fff;  
+  height: 42px;
+  border-radius: 5px;
+  background-color: #44bb6e;
+  border: none;
+}
+
+button.notify a {
+color: #fff;
+font-size: .9em;
+font-weight: bold;
+text-align: center;
+padding: 5px;
+}
+
+.footer {
+	width: 1040px;
+	margin: 0 auto;
+	display: block;
+	padding: 3em 0 0em 0;
+}
+
+.footer a {
+	color: #549FF9;
+	text-decoration: none;
+}
+
+.footer p {
+	color: #89949b;
+}
+
+
+/********** Mobile **********/
+
+@media screen and (max-width: 400px) {
+	.content {
+		max-width: 320px;
+		margin: 0 auto;
+		display: block;
+		padding-top: 0em;
+	}
+
+	.features-container {
+		max-width: 320px;
+	}
+
+	.footer {
+		max-width: 320px;
+	}
+
+	#form-box {
+		max-width: 320px;
+		margin-bottom: 5em;
+	}
+
+	.email-input {
+		width: auto;
+	}
+
+	button.notify {
+		float: left;
+		width: 312px;
+		margin: 0 auto;
+		display: block;
+		margin-top: 5px;
+	}
+
+	/* Remove inner shadow from inputs on mobile iOS */
+	textarea, input[type="text"] {
+		-webkit-appearance: none;
+	}
+}

@@ -12,7 +12,6 @@
 
 
 body {
-	border-top: 5px solid #5CD185;
 	font-family: 'Avenir', 'Helvetica Neue', sans-serif;
 	font-weight: 300;
 }
@@ -23,7 +22,6 @@ h3 {
 	font-family: 'Avenir', 'Helvetica Neue', sans-serif;
 	font-size: 30px;
 	font-weight: 400;
-	text-align: center;
 }
 
 
@@ -31,7 +29,6 @@ p {
 	color: #89949b;
 	font-size: 18px;
 	line-height: 2.0;
-	text-align: center;
 	display: block;
 	padding: 0px 0px 30px 0px;
 }
@@ -41,7 +38,7 @@ a,
 a:visited {
 	color: #5CD185;
 	font-size: 17px;
-	text-align: center;
+	text-align: left;
 	text-decoration: none;
 	display: block;
 	padding: 30px 0px;
@@ -57,7 +54,8 @@ header {
 
 
 #iphone {
-	width: 100%;
+	width: 200px;
+	height: 408px;
 	margin: 15px 0px 0px;
 	position: relative;
 }
@@ -76,11 +74,10 @@ header {
 
 /********** Form **********/
 
-form {text-align: center;}
+form {text-align: left;}
 
 #form-box {
   width: 400px;
-  margin: 0 auto;
 }
 
 #email-input {
