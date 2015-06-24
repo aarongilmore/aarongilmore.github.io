@@ -18,8 +18,8 @@ html {
   margin: 0 auto;
 }
 
-::selection {color:#0094d7; background:#ffffff;}
-::-moz-selection {color:#0094d7; background:#ffffff;}
+::selection {color:#85D9E4; background:#ffffff;}
+::-moz-selection {color:#85D9E4; background:#ffffff;}
 
 /*-----------------------------------*\
   Navigation
@@ -81,6 +81,14 @@ h2.post-title {
   margin-top: 0;
 }
 
+h3.logo {
+  margin: 0;
+}
+
+.logo span {
+  color: #92EAF5;
+}
+
 h4.post-title {
   margin-bottom: 0;
 }
@@ -113,20 +121,20 @@ p.date {
 \*-----------------------------------*/
 
 a {
-  color: #0094d7;
+  color: #92EAF5;
   text-decoration: none;
+  border-bottom: 1px solid #92EAF5;
 }
 
 a:hover {
-  color: #0094d7;
-  padding-bottom: 1px;
+  color: #85D9E4;
   text-decoration: none;
-  border-bottom: 1px solid #1374A6;
+  border-bottom: 1px solid #85D9E4;
 }
 
 a:active {
   padding-bottom: 1px;
-  border-bottom: 1px solid #1374A6;
+  border-bottom: 1px solid #85D9E4;
 }
 
 /*-----------------------------------*\
@@ -136,8 +144,9 @@ a:active {
 img {max-width: 100%;}
 
 img.portrait {
-  max-width: 320px;
+  max-width: 380px;
   margin: 0 auto;
+  float: right;
   display: block;
 }
 
