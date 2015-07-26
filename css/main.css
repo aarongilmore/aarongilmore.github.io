@@ -263,4 +263,6 @@ footer p {font-size: 0.7em; padding-top: 20px;}
   h1 + p {
     margin-top: 1em;
   }
+
+  h3.logo {font-size: 1.2em;}
 }
