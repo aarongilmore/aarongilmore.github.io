@@ -6,6 +6,8 @@ pygments: true
 description: "Aaron Gilmore is a freelance designer and developer. He previously worked at Brewbot as a Product Design Intern."
 twitter: "Freelance designer and developer, previously @brewbot. Lover of the great outdoors, tiny homes, and good coffee."
 baseurl: "" # the subpath of your site, e.g. /blog/
+# url: "http://wip.theinternetisfor.info"
+# url: "http://localhost:4000"
 url: "http://aarongilmore.com/" # the base hostname & protocol for your site
 twitter_username: aarondgilmore
 github_username:  aarongilmore

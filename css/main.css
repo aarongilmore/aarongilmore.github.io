@@ -4,12 +4,16 @@
 html {
   background: white;
   color: #222222;
-  font-size: 1.25rem;
-  font-family: museo-sans,'Helvetica Neue', Arial, Helvetica, Sans-Serif;
-  line-height: 1.5em;
+  font-size: 22px;
+  font-weight: 300;
   padding: 2.5em 3em 1em;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
+}
+
+body {
+  font-family: "aktiv-grotesk",sans-serif;
+  line-height: 1.5;
 }
 
 #wrap {
@@ -30,7 +34,7 @@ nav {
 }
 
 nav a {
-    font-family: "museo-sans";
+    font-family: "aktiv-grotesk",sans-serif;
     font-weight: bold;
     text-decoration: none;
 }
@@ -60,6 +64,8 @@ nav li:last-child {
   Typography
 \*-----------------------------------*/
 
+h1,h2,h3,h4,h5,h6 {font-family: "aktiv-grotesk",sans-serif;}
+
 h1 { font-size: 2em; font-weight: bold;       /* 2*16 = 32 */         }
 h2 { font-size: 1.5em; font-weight: bold;     /* 1.5*16 = 24 */       }
 h3 { font-size: 1.25em; font-weight: bold;    /* 1.25*16 = 20 */      }
@@ -68,7 +74,6 @@ h5 { font-size: 0.83em; font-weight: bold;    /* 0.83*16 = 13.28 */   }
 h6 { font-size: 0.75em; font-weight: bold;    /* 0.75*16 = 12 */      }
 
 h1.lead {
-  font-family: "futura";
   font-weight: bold;
   font-size: 46px;
   line-height: 66px;
@@ -77,24 +82,29 @@ h1.lead {
 }
 
 h2.post-title {
-  text-align: center; 
+  text-align: center;
   margin-top: 0;
 }
 
 h3.logo {
+  font-family: "aktiv-grotesk",sans-serif;
   margin: 0;
 }
 
 .logo span {
   color: #92EAF5;
+  padding: 0px 7px;
 }
+
+.logo a {color: #454545; border-bottom: none;}
+.logo a:hover {color: #454545; border-bottom: none;}
 
 h4.post-title {
   margin-bottom: 0;
 }
 
 p {
-  color: #333;
+  color: #454545;
 }
 
 p.break {
@@ -216,7 +226,7 @@ footer p {font-size: 0.7em; padding-top: 20px;}
   }
 
   nav {
-    padding-bottom: 1em;
+    padding-bottom: 0em;
   }
 
   nav ul {
@@ -224,8 +234,11 @@ footer p {font-size: 0.7em; padding-top: 20px;}
     padding-top: 1em;
   }
 
+  nav ul li {
+    font-size: 0.9em;
+  }
+
   h1.lead {
-    font-family: "futura";
     font-weight: bold;
     font-size: 34px;
     line-height: 52px;
