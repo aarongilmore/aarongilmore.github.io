@@ -22,8 +22,8 @@ body {
   margin: 0 auto;
 }
 
-::selection {color:#85D9E4; background:#ffffff;}
-::-moz-selection {color:#85D9E4; background:#ffffff;}
+::selection {color:#1e78d3; background:#ffffff;}
+::-moz-selection {color:#1e78d3; background:#ffffff;}
 
 /*-----------------------------------*\
   Navigation
@@ -92,7 +92,7 @@ h3.logo {
 }
 
 .logo span {
-  color: #92EAF5;
+  color: #1e78d3;
   padding: 0px 7px;
 }
 
@@ -131,20 +131,19 @@ p.date {
 \*-----------------------------------*/
 
 a {
-  color: #92EAF5;
+  color: #1e78d3;
   text-decoration: none;
-  border-bottom: 1px solid #92EAF5;
 }
 
 a:hover {
-  color: #85D9E4;
+  color: #1e78d3;
   text-decoration: none;
-  border-bottom: 1px solid #85D9E4;
+  border-bottom: 1px solid #1e78d3;
 }
 
 a:active {
   padding-bottom: 1px;
-  border-bottom: 1px solid #85D9E4;
+  border-bottom: 1px solid #1e78d3;
 }
 
 /*-----------------------------------*\
