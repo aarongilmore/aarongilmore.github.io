@@ -254,8 +254,12 @@ footer p {font-size: 0.7em; padding-top: 20px;}
     font-size: 1.2em;
   }
 
+  h3 {
+    font-size: 1em;
+  }
+
   p {
-    font-size: 0.9em;
+    font-size: 0.7em;
   }
 
   h1 + p {
