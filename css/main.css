@@ -262,6 +262,8 @@ footer p {font-size: 0.7em; padding-top: 20px;}
     font-size: 0.7em;
   }
 
+  footer p {font-size: 0.5em;}
+
   h1 + p {
     margin-top: 1em;
   }
