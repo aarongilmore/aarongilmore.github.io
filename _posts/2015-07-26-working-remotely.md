@@ -17,6 +17,8 @@ Although I communicate on a daily basis with my co-workers, it can get a little 
 
 Sometimes I don’t leave the house for days on end. It’s great at first, not having to commute, but you miss getting out and about. I try to combat this by getting out of the house 2-3 times a week and heading to a coffee shop to work, but the convenience of staying at home often wins.
 
+<img src="../uploads/working-remotely/pigeon.png" alt="Mark Agee on working from home." class="article-figure"/>
+
 As an introvert, there’s a balancing act of spending time with people and recharging on your own. Working remotely is tipping the scales in a negative way for me. Maybe I should get a dog.
 
 ### To Summerise

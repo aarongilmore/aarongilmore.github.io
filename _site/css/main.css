@@ -22,8 +22,8 @@ body {
   margin: 0 auto;
 }
 
-::selection {color:#1e78d3; background:#ffffff;}
-::-moz-selection {color:#1e78d3; background:#ffffff;}
+::selection {color:#0D2EC4; background:#ffffff;}
+::-moz-selection {color:#0D2EC4; background:#ffffff;}
 
 /*-----------------------------------*\
   Navigation
@@ -36,6 +36,7 @@ nav {
 nav a {
     font-family: "aktiv-grotesk",sans-serif;
     font-weight: bold;
+    font-size: 0.8em;
     text-decoration: none;
 }
 
@@ -50,21 +51,14 @@ nav li {
     display: inline;
     line-height: 25px;
     font-size: 1.05em;
-}
-
-nav li:first-child {
-  margin-right: 1.2rem;
-}
-
-nav li:last-child {
-  margin-left: 1.2rem;
+    margin-right: 1em;
 }
 
 /*-----------------------------------*\
   Typography
 \*-----------------------------------*/
 
-h1,h2,h3,h4,h5,h6 {font-family: "aktiv-grotesk",sans-serif;}
+h1,h2,h3,h4,h5,h6 {font-family: "franklin-gothic-urw",sans-serif;}
 
 h1 { font-size: 2em; font-weight: bold;       /* 2*16 = 32 */         }
 h2 { font-size: 1.5em; font-weight: bold;     /* 1.5*16 = 24 */       }
@@ -86,13 +80,13 @@ h2.post-title {
   margin-top: 0;
 }
 
-h3.logo {
-  font-family: "aktiv-grotesk",sans-serif;
+h3.logo, h3.logo a {
+  font-family: "franklin-gothic-urw",sans-serif;
   margin: 0;
 }
 
 .logo span {
-  color: #1e78d3;
+  color: #0D2EC4;
   padding: 0px 7px;
 }
 
@@ -131,19 +125,19 @@ p.date {
 \*-----------------------------------*/
 
 a {
-  color: #1e78d3;
+  color: #0D2EC4;
   text-decoration: none;
 }
 
 a:hover {
-  color: #1e78d3;
+  color: #0D2EC4;
   text-decoration: none;
-  border-bottom: 1px solid #1e78d3;
+  border-bottom: 1px solid #0D2EC4;
 }
 
 a:active {
   padding-bottom: 1px;
-  border-bottom: 1px solid #1e78d3;
+  border-bottom: 1px solid #0D2EC4;
 }
 
 /*-----------------------------------*\
@@ -152,19 +146,19 @@ a:active {
 
 img {max-width: 100%;}
 
-img.portrait {
-  max-width: 380px;
-  margin: 0 auto;
-  float: right;
-  display: block;
-}
-
 figure {
   width: 100%;
   margin: 0;
 }
 
 figcaption {font-size: 0.8em; color: #282828; opacity: 0.9;}
+
+img.article-figure {
+  width: 475px;
+  padding: 40px 0px;
+  margin: 0 auto;
+  display: block
+}
 
 /*-----------------------------------*\
   Lists
@@ -246,17 +240,19 @@ footer p {font-size: 0.7em; padding-top: 20px;}
     margin-top: 0;
   }
 
-  img.portrait {
-    display: none;
-  }
-
   h1 {
     font-size: 1.2em;
   }
 
-  p {
-    font-size: 0.9em;
+  h3 {
+    font-size: 1em;
   }
+
+  p {
+    font-size: 0.7em;
+  }
+
+  footer p {font-size: 0.5em;}
 
   h1 + p {
     margin-top: 1em;

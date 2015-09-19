@@ -1,6 +1,7 @@
 name: Aaron Gilmore
 markdown: redcarpet
 pygments: true
+encoding: utf-8
 
 # Site settings
 description: "Aaron Gilmore is a freelance designer and developer. He previously worked at Brewbot as a Product Design Intern."
