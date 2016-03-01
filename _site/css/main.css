@@ -153,8 +153,37 @@ footer li a {font-size: 0.9em;}
 footer p {font-size: 0.7em; padding-top: 20px;}
 
 /*-----------------------------------*\
-  Mobile
+  Screens
 \*-----------------------------------*/
+
+
+@media screen and (max-width: 800px) {
+  html {
+    padding: 1.5em 0.95em 1.5em;
+    font-size: 0.9em;
+  }
+
+  .bio h3 {
+    font-size: 1em;
+  }
+  .portrait img, .portrait figure {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  html {
+    padding: 1.5em 0.95em 1.5em;
+    font-size: 0.9em;
+  }
+
+  .bio h3 {
+    font-size: 1em;
+  }
+  .portrait img, .portrait figure {
+    display: none;
+  }
+}
 
 @media screen and (max-width: 400px) {
   html {
