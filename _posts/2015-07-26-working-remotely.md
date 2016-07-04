@@ -1,8 +1,8 @@
 ---
 layout: post
+title:  Working Remotely
 ---
 
-# Working Remotely
 I’m just about to finish my second month working remotely and to be honest, although the majority of it is great, it has some negative aspects too.  
 
 ## The 5 Second Commute
