@@ -17,7 +17,7 @@ There are five key variables to consider when brewing coffee:
 
 I now take a lot of care in making coffee. I drink it black, I like to taste how the coffee changes during the time it takes to drink it. This is how I make my coffee:
 
-## Tools
+###### Tools
 
 - [Aeropress](http://www.amazon.co.uk/Aerobie-AeroPress-80R08-Coffee-Maker/dp/B000GXZ2GS/ref=sr_1_1?ie=UTF8&qid=1397769326&sr=8-1&keywords=aeropress)
 - [Salter Slim Scales](http://www.amazon.co.uk/Salter-Design-Electronic-Platform-Kitchen/dp/B000ZNM51O/ref=sr_1_2?ie=UTF8&qid=1397769343&sr=8-2&keywords=scales)
@@ -26,7 +26,7 @@ I now take a lot of care in making coffee. I drink it black, I like to taste how
 - [Britta Filter](http://www.amazon.co.uk/BRITA-Marella-White-Water-Filter/dp/B000B4OA5Q/ref=sr_1_2?ie=UTF8&qid=1397769404&sr=8-2&keywords=britta)
 - [TDS Digital Water Tester](http://www.amazon.co.uk/Digital-Water-Quality-Tester-Hydroponics/dp/B009HMVDNA/ref=sr_1_1?ie=UTF8&qid=1401446614&sr=8-1&keywords=water+tester)
 
-## Ingredients
+###### Ingredients
 
 For Aeropress, a good ratio to stick by is 60g of coffee per litre of water. This works out at 15g/250ml, although there's always room to experiment.
 
@@ -35,7 +35,7 @@ For Aeropress, a good ratio to stick by is 60g of coffee per litre of water. Thi
 
 ![](/uploads/workshop-coffee.png)
 
-## Method
+###### Method
 
 I'm by no means an expert, but this is my current brew method.
 
