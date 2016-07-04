@@ -1,15 +1,19 @@
 ---
 layout: default
 ---
-	<h2 class="post-title">{{ page.title }}</h2>
-		<p class="meta">{{ page.date | date_to_string }}</p>
-		<div class="grid">
-			<div class="grid__col grid__col--3-of-5 grid__col--centered">
-			{{ content }}
-			</div>
-		</div>
-<br />
-	<a href="https://twitter.com/share" class="twitter-share-button" data-via="aarondgilmore">Tweet</a>
 
+	<div class="grid__col grid__col--5-of-5">
+		{% include nav.html %}
+	</div>
+	<div class="grid__col grid__col--3-of-5 grid__col--centered">
+		<section class="typeset">
+			{{ page.title }}
+			<p class="meta">{{ page.date | date_to_string }}</p>
+			{{ content }}
+		</section>
+	</div>
+	
+<br />
+<a href="https://twitter.com/share" class="twitter-share-button" data-via="aarondgilmore">Tweet</a>
 <!-- Twitter / Disqus -->
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>

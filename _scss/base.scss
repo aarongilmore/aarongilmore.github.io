@@ -1,0 +1,84 @@
+// Body resets
+//
+// Update the foundational and global aspects of the page.
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  background: white;
+  padding: 3.5em 2em;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  color: #757b80;
+  background-color: #fff;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+}
+
+p.date {
+  font-size: 1rem;
+  margin-bottom: 0px;
+}
+
+/*-----------------------------------*\
+  Images
+\*-----------------------------------*/
+
+img {max-width: 100%;}
+
+figure {
+  width: 100%;
+  margin: 0;
+}
+
+figcaption {font-size: 0.8em; opacity: 0.9;}
+
+img.article-figure {
+  width: 475px;
+  padding: 40px 0px;
+  margin: 0 auto;
+  display: block
+}
+
+.portrait img {
+  width: 642px;
+  margin-top: 50px;
+}
+
+/*-----------------------------------*\
+  Lists
+\*-----------------------------------*/
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.articles ul {
+  list-style:  none;
+  padding-left: 0px;
+}
+
+.articles ul li {
+  margin: 10px 0px 10px 0px;
+}
+
+ul.services {
+  list-style: circle;
+  list-style-position: inside;
+}
+
+/*-----------------------------------*\
+  Footer
+\*-----------------------------------*/
+
+footer {
+  padding: 2em 0em;
+}
