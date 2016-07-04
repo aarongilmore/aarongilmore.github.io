@@ -33,7 +33,7 @@ For Aeropress, a good ratio to stick by is 60g of coffee per litre of water. Thi
 - 250ml of filtered water, heated between 90º and 95º
 - 15g of freshly ground beans, I'm currently brewing [Cult of Done Espresso](http://www.workshopcoffee.com/collections/coffee/products/cult-of-done-espresso) by [Workshop Coffee Co.](http://www.workshopcoffee.com)
 
-![](/uploads/workshop-coffee.png)
+![](/uploads/workshop-coffee.jpg)
 
 ###### Method
 
