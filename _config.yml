@@ -4,8 +4,8 @@ highlighter: true
 encoding: utf-8
 
 # Site settings
-description: "Aaron Gilmore is a freelance designer and developer. He previously worked at Brewbot as a Product Design Intern."
-twitter: "Freelance designer and developer, previously @brewbot. Lover of the great outdoors, tiny homes, and good coffee."
+description: "My name is Aaron and I design and build websites with a focus on functional interaction design, good typography, speed, and simplicity."
+twitter: "Designing and building for the web, drinking coffee, travelling."
 baseurl: "" # the subpath of your site, e.g. /blog/
 # url: "http://wip.theinternetisfor.info"
 # url: "http://localhost:4000"
