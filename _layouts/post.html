@@ -1,14 +1,8 @@
 ---
 layout: default
 ---
-
-	<div class="grid__col grid__col--5-of-5">
-		<section class="typeset">
-			<h4 class="zeta">{{ page.title }}</h4>
-			<p class="meta">{{ page.date | date_to_string }}</p>
-			{{ content }}
-		</section>
-	</div>
-	
-<a href="https://twitter.com/share" class="twitter-share-button" data-via="aarondgilmore">Share on Twitter</a>
-<!-- Twitter -->
+<div class="section typeset post">
+	<h4 class="zeta">{{ page.title }}</h4>
+	<p class="meta">{{ page.date | date:"%d-%m-%y" }}</p>
+	{{ content }}
+</div>

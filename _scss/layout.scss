@@ -1,42 +1,56 @@
 // Layout
-//
-// Styles for managing the structural hierarchy of the site.
 
-#wrap {
+.column--narrow {
   width: auto;
-  max-width: 1050px;
+  max-width: 36em;
+}
+
+.post {
+  max-width: 36em;
   margin: 0 auto;
 }
 
-section {
-  margin-bottom: 30px;
-  margin-top: 30px;
-  max-width:36em; 
+section.about {
+  margin-top: 2em;
 }
 
-/*-----------------------------------*\
-  Navigation
-\*-----------------------------------*/
+.post h4, p.meta {
+  text-align: center;
+}
 
-nav.main-nav {
+// Navigation
+
+nav {
+  max-width: 68.42105rem;
+  margin: 0 auto;
+  display: block;
+  padding: 1em 0em 3em 0em;
+}
+
+nav svg {
+  margin-top: 15px;
+}
+
+.main-nav {
   float: right;
   font-family: "open-sans",sans-serif;
   font-size: 0.8em;
+  margin-top: 0.6em;
 }
 
-nav.main-nav ul {
+nav ul {
   margin: 0em;
 }
 
-nav.main-nav li {
+.main-nav li {
   display: inline-block;
   margin-right: 2em;
 }
 
-nav.main-nav ul li:last-child {
+.main-nav li:last-child {
   margin-right: 0em;
 }
 
-nav.main-nav a {
-  border-bottom: none;
+.main-nav a {
+  border-bottom: none!important;
 }
