@@ -13,7 +13,7 @@ url: "http://aarongilmore.com/" # the base hostname & protocol for your site
 twitter_username: aarondgilmore
 github_username:  aarongilmore
 timezone: "Europe/London"
-permalink: /:title
+permalink: /writing/2009/04/29/slap-chop/
 author:
   name: Aaron Gilmore
   email: aaron@aarongilmore.com
