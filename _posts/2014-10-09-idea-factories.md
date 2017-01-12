@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  Idea Factories
+blogJS: blog-styling
 ---
 
 Ideas are hard. Like, having to actually come up with something is hard. Usually ideas come out of nowhere, at random times; in the shower, while out running, or after one too many beers.

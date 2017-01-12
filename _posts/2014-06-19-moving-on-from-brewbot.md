@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Moving on from Brewbot"
+blogJS: blog-styling
 ---
 
 It's been an amazing year working with [Brewbot](www.brewbot.io) as a Product Design Intern, but it's time for me to move on. Over the past year I've had the chance to work on an amazing product with a very talented group of people. It's been a wonderful experience that I'm eternally grateful for.
@@ -16,10 +17,3 @@ Good luck to all my friends at Brewbot for the future, they're going to kill it 
 ![](/uploads/team-brewbot.jpg)
 
 _Me, Matthew, Chris, Kieran, Jonny, and Ali. Photo by [Filly Campbell](https://www.facebook.com/fillycampbellphotography)._
-
-
-
-
-
- 
-

@@ -1,8 +1,14 @@
 ---
 layout: default
 ---
-<div class="section typeset post">
-	<h4 class="zeta">{{ page.title }}</h4>
-	<p class="meta">{{ page.date | date: '%B %d, %Y' }}</p>
-	{{ content }}
-</div>
+<section class="bg-white">
+
+  <div class="cf pv5 ph3 pl4-m ph6-l lh-copy">
+	  <div class="w-100 pa2 pv0 measure-wide center">
+		<h4 class="f3 lh-title mb1 fw3 tc">{{ page.title }}</h4>
+		<p class="tc mt0 mb5"><span class="f6 gray">{{ page.date | date: '%B %d, %Y' }}</span></p>
+		{{ content }}
+		</div>
+	</div>
+
+</section>

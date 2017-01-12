@@ -1,9 +1,10 @@
 ---
 layout: post
 title: 2015
+blogJS: blog-styling
 ---
 
-I always make resolutions for the new year, realistic ones. 
+I always make resolutions for the new year, realistic ones.
 
 This year is no different, I’ve been thinking a lot about what I want to achieve over the coming year and I’ve narrowed it down to the following:
 

@@ -1,8 +1,5 @@
 ---
-# Front matter comment to ensure Jekyll properly reads file.
+# This is the Front Matter block
 ---
 
-// Imports
-@import "_sassline-base";
-@import "base";
-@import "layout";
+@import "tachyons.scss";
