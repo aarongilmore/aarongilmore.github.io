@@ -4,7 +4,7 @@ title:  On Attention
 blogJS: blog-styling
 ---
 
-In the [January edition](http://aarongilmore.com/writing/2017/01/29/january/) of my monthly publication I talked about Craig Mod’s article “[How I Got My Attention Back](https://backchannel.com/how-i-got-my-attention-back-c7fc9297d347#.lg4ecc5au)“. It’s really had a profound impact on my work and I’d like to share some thoughts about it.
+In the <a href="http://aarongilmore.com/writing/2017/01/29/january/" class="link gold">January edition</a> of my monthly publication I talked about Craig Mod’s article "<a href="https://backchannel.com/how-i-got-my-attention-back-c7fc9297d347#.lg4ecc5au" class="link gold">How I Got My Attention Back</a>". It’s really had a profound impact on my work and I’d like to share some thoughts about it.
 
 My attention span in the morning has always been pretty poor. I previously didn’t really get started with work until the caffeine kicked in around 10am. By lunchtime, I didn’t really feel like I’d achieved anything. This has all changed by following a few simple rules based on Craig’s article:
 
