@@ -22,14 +22,13 @@
 }
 
 blockquote {
-  border-left: 2px solid $blue;
-  font-style: italic;
+  border-left: 2px solid #50a3a3;
   margin: 1.5em;
   margin-left: 0em;
-  color: $mid-gray;
+  color: #8c8c8c;
   font-family: 'EB Garamond', serif;
-  margin: 2em 0em;
-  padding-left: 1.7778rem;
+  margin: 1em 0em 2em 0em;
+  padding-left: 1.7778rem
 }
 
 blockquote a {
