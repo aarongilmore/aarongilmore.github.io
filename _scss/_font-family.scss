@@ -13,21 +13,26 @@
 */
 
 
-.sans-serif {
-  font-family: "Amiko",-apple-system, BlinkMacSystemFont,
-               'avenir next', avenir,
-               helvetica, 'helvetica neue',
-               ubuntu,
-               roboto, noto,
-               'segoe ui', arial,
-               sans-serif;
+@font-face {
+  font-family: 'Untitled Sans Light';
+  src: url('/fonts/UntitledSansWeb-Light.eot?#iefix') format('embedded-opentype'), 
+       url('/fonts/UntitledSansWeb-Light.woff2') format('woff2'), 
+       url('/fonts/UntitledSansWeb-Light.woff') format('woff');
 }
 
-.serif {
-  font-family: "chaparral-pro",
-               georgia,
-               times,
-               serif;
+@font-face {
+  font-family: 'Untitled Sans Regular';
+  src: url('/fonts/UntitledSansWeb-Regular.eot?#iefix') format('embedded-opentype'), 
+       url('/fonts/UntitledSansWeb-Regular.woff2') format('woff2'), 
+       url('/fonts/UntitledSansWeb-Regular.woff') format('woff');
+}
+
+.untitled-reg {
+  font-family: "Untitled Sans Regular"; 
+}
+
+.untitled-light {
+  font-family: "Untitled Sans Light"; 
 }
 
 .system-sans-serif {
@@ -38,11 +43,16 @@
   font-family: serif;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Untitled Sans Regular",
+               helvetica,
+               sans-serif;
+}
+
 p {
-  font-family: "chaparral-pro",
-               georgia,
-               times,
-               serif;
+  font-family: "Untitled Sans Light",
+               helvetica,
+               sans-serif;
 }
 
 

@@ -30,6 +30,11 @@
 }
 
 /* Measure is limited to ~45 characters */
+.measure-xwide {
+  max-width: 44em;
+}
+
+/* Measure is limited to ~45 characters */
 .measure-narrow {
   max-width: 20em;
 }
