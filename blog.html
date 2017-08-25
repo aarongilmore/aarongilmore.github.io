@@ -3,17 +3,16 @@ layout: default
 title: Writing
 ---
 
-<section class="bg-white">
+<section class="bg-black white">
   <div class="cf pv5-l pv2 ph3 ph4-m ph5-l mw9 center">
     <div class="fl w-100 mw7 pv0">
-      <h1 class="f5 f4-l fw6 small-caps blue">archive</h1>
-      <article class="pv3-l fl w-100 mw8 mt4-l">
+      <article class="pv3-l fl w-100 mw8">
         <article class="pv3 fl w-100">
           <ul class="list">
             {% for post in site.posts %}
             <li class="mb4">
-              <a href="{{ post.url }}" class="link gold dim">{{ post.title }}</a>
-              <p class="mt0"><em><span class="f6 gray">{{ post.date | date_to_string }}</span></em></p>
+              <a href="{{ post.url }}" class="link blue dim">{{ post.title }}</a>
+              <p class="mt0"><em><span class="f6 white-80">{{ post.date | date_to_string }}</span></em></p>
             </li>
             {% endfor %}
           </ul>
