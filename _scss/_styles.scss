@@ -151,6 +151,30 @@ hr {
   background-size: cover;
 }
 
+ .one::before { 
+    content: "1.";
+    position: absolute;
+    left: -2em;
+}
+
+.two::before { 
+    content: "2.";
+    position: absolute;
+    left: -2em;
+}
+
+.three::before { 
+    content: "3.";
+    position: absolute;
+    left: -2em;
+}
+
+.four::before { 
+    content: "4.";
+    position: absolute;
+    left: -2em;
+}
+
 
 @media #{$breakpoint-large} {
   .bg-img {
@@ -202,29 +226,6 @@ hr {
     color: white;
   }
 
-  .one::before { 
-    content: "1.";
-    position: absolute;
-    left: -2em;
-}
-
-.two::before { 
-    content: "2.";
-    position: absolute;
-    left: -2em;
-}
-
-.three::before { 
-    content: "3.";
-    position: absolute;
-    left: -2em;
-}
-
-.four::before { 
-    content: "4.";
-    position: absolute;
-    left: -2em;
-}
 
 }
 
