@@ -147,8 +147,9 @@ hr {
 .bg-pattern {
   position: relative;
   background-image: url(/img/footer.png);
-  background-repeat: no-repeat;
   background-color: $black;
+  background-repeat: no-repeat;
+  background-position: 50% 100%;
   background-size: cover;
 }
 
