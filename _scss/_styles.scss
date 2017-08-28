@@ -149,7 +149,7 @@ hr {
   background-color: black;
   background-image: linear-gradient(to bottom, black 60%, transparent 100%), url(/img/footer.png);
   background-repeat: no-repeat;
-  background-position: 5% 100%;
+  background-position: 40% 100%;
   background-size: cover;
 }
 
@@ -227,6 +227,16 @@ hr {
     background-color: $blue;
     color: white;
   }
+
+  .bg-pattern {
+  position: relative;
+  background-color: black;
+  background-image: linear-gradient(to bottom, black 60%, transparent 100%), url(/img/footer.png);
+  background-repeat: no-repeat;
+  background-position: 5% 100%;
+  background-position: 40% 100%;
+  background-size: cover;
+}
 
 
 }
