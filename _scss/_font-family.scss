@@ -27,15 +27,6 @@
        url('/fonts/UntitledSansWeb-Regular.woff') format('woff');
 }
 
-/*🎃*/
-
-@font-face {
-  font-family: 'Swamp Regular';
-  src: url('/fonts/Swamp-Regular.eot?#iefix') format('embedded-opentype'), 
-       url('/fonts/Swamp-Regular.woff2') format('woff2'), 
-       url('/fonts/Swamp-Regular.woff') format('woff');
-}
-
 .untitled-reg {
   font-family: "Untitled Sans Regular"; 
 }
@@ -44,22 +35,12 @@
   font-family: "Untitled Sans Light"; 
 }
 
-.swamp {
-  font-family: "Swamp Regular"; 
-}
-
 .system-sans-serif {
   font-family: sans-serif;
 }
 
 .system-serif {
   font-family: serif;
-}
-
-h1.spooky {
-  font-family: "Swamp Regular",
-               helvetica,
-               sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
