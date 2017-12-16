@@ -110,33 +110,26 @@ hr {
     display: block;
     float: left;
     width: 100%;
-    border: none;
-    background-color: black;
-    color: white;
+    border: 1px solid $light-gray;
+    background-color: $white-80;
+    color: $black;
     font-size: 1.3em;
     padding: 20px;
     border-radius: 5px;
-    border-top-right-radius: 0px;
-    border-bottom-right-radius: 0px;
-    border-bottom: 2px solid #eee;
-    border-radius: 0px;
   }
 
   #mc_embed_signup button {
-    border-top-left-radius: 0px;
-    border-bottom-left-radius: 0px;
     width: auto;
     cursor: pointer;
     font-weight: 700;
     border: none;
     width: 100%;
-    background-color: transparent;
-    border: 2px solid $blue;
-    border-radius: 0px;
+    background-color: $blue;
+    border-radius: 5px;
     font-size: 1.05em;
     padding: 20px;
-    margin-top: 20px; 
-    color: $blue;
+    margin-top: 10px; 
+    color: $white;
   }
 
   #mc_embed_signup button:hover {
@@ -153,32 +146,7 @@ hr {
   background-size: cover;
 }
 
- .one::before { 
-    content: "1.";
-    position: absolute;
-    left: -2em;
-}
-
-.two::before { 
-    content: "2.";
-    position: absolute;
-    left: -2em;
-}
-
-.three::before { 
-    content: "3.";
-    position: absolute;
-    left: -2em;
-}
-
-.four::before { 
-    content: "4.";
-    position: absolute;
-    left: -2em;
-}
-
-
-@media #{$breakpoint-large} {
+/*@media #{$breakpoint-large} {
   .bg-img {
     position: relative;
     background-image: url(/img/portrait.jpg);
@@ -187,24 +155,20 @@ hr {
     background-size: 40%;
     background-position: 0% 20px;
   }
-}
+}*/
 
 @media #{$breakpoint-large} {
   #mc_embed_signup input {
     position: relative;
     display: block;
     float: left;
-    width: 400px;
-    border: none;
-    background-color: black;
-    color: white;
+    width: 60%;
+    border: 1px solid $light-gray;
+    background-color: $white-80;
+    color: $black;
     font-size: 1.3em;
     padding: 20px;
     border-radius: 5px;
-    border-top-right-radius: 0px;
-    border-bottom-right-radius: 0px;
-    border-bottom: 2px solid #eee;
-    border-radius: 0px;
   }
 
   #mc_embed_signup button {
@@ -215,12 +179,13 @@ hr {
     font-weight: 700;
     border: none;
     background-color: transparent;
-    border: 2px solid $blue;
-    border-radius: 0px;
+    border-radius: 5px;
     font-size: 1.05em;
     margin-left: 10px;
-    margin-top: 3px; 
-    color: $blue;
+    margin-top: 1px; 
+    border: 2px solid $blue;
+    background-color: $blue;
+    color: $white;
   }
 
   #mc_embed_signup button:hover {

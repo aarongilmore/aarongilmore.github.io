@@ -3,62 +3,68 @@ layout: default
 title: Home
 ---
 
-  <section class="bg-black">
-
-    <div class="cf pv5-l pv2 ph3 ph4-m ph5-l mw9 center">
-
+  <section>
+    <div class="cf pv2 ph3 ph4-m ph5-l mw9 center">
       <div class="fl w-100 w-100-m pv0">
-        <article class="fl w-100 white-80">
-        <div class="fl w-third-ns db-l dn pa2">
-          <img src="/img/pattern.jpg" class="o-90" alt="">
-        </div>
-        <div class="fl w-two-thirds-ns w-100 pa2 pl4-l">
-          <h1 class="f-6-ns f1-m f2 fw3 mb2 mt0 lh-title blue">Designer, working on function and form for screens</h1>
-
-          <div class="pl6-l">
-
-          <article class="pv4 w-100-ns ml0-ns one relative ml4 w-90">
-          <p class="lh-copy measure mt0">Aaron Gilmore is a Berlin-based digital designer specialising in interface design for the web and native mobile, front-end web development, and prototyping.</p>
-          <p class="lh-copy measure">He is currently working on product design at <a href="http://dawsonandrews.com" target="_blank" class="link blue dim">Dawson Andrews</a>.</p>
-          <p class="lh-copy measure">Outside of work he likes to travel, read, run, and brew coffee. You can find out more about him and his work in his <a href="/uploads/résumé.pdf" target="_blank" class="link blue dim">résumé</a>.</p>
-
-          </article>
-
-          <article class="pv4 w-100-ns ml0-ns two relative ml4 w-90">
-          {% for post in site.posts limit:5 %}
-            <h3 class="f4 lh-title mb1 mt0 fw3"><a href="{{ post.url }}" class="link blue dim">{{ post.title }}</a></h3>
-            <p class="mt0 mb4"><span class="f6 white-80">{{ post.date | date_to_string }}</span></p>
-          {% endfor %}
-        </article>
-
-        <article class="pv4 w-100-ns ml0-ns three relative ml4 w-90">
-        <p class="lh-copy measure mt0">Sign up to receive my monthly publication direct to your inbox. Each month I share interesting articles, podcasts, books, and resources that I enjoyed with such topics as artificial intelligence, computing, design, and science.</p>
-        <div id="mc_embed_signup">
-          <form action="//aarongilmore.us5.list-manage.com/subscribe/post?u=9ddd4dee57ef929930b1a90b4&amp;id=8e47b7eb4a" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-            <div id="mc_embed_signup_scroll" class="mw7">
-              <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Email address" required>
-              <button type="submit" name="subscribe" id="mc-embedded-subscribe" class="f5 blue">Subscribe</button>
+   
+        <div class="fl w-100">
+          <h1 class="f-5-ns f1-m f2 mb2 mt0 lh-title b mw8 mb5-ns">Working on function and form for screens.</h1>
+          
+          <div class="cf pv3 w-100 ml0-ns block ml4-ns">
+            <div class="fl w-10-ns w-100-m w-100 pa2 pl4-l">
+              <span class="normal f5 fw2 light-silver mt0">About</span>
             </div>
-          </form>
+            <div class="fl w-90-ns w-100-m w-100 pa2 pl4-l">
+              <p class="lh-copy measure mt0">Aaron Gilmore is a Berlin-based digital designer specialising in interface design for the web and native mobile, front-end web development, and prototyping.</p>
+              <p class="lh-copy measure">He is currently working on product design at <a href="http://dawsonandrews.com" target="_blank" class="link blue dim">Dawson Andrews</a>.</p>
+              <p class="lh-copy measure">Outside of work he likes to travel, read, run, and brew coffee. You can find out more about him and his work in his <a href="/uploads/résumé.pdf" target="_blank" class="link blue dim">résumé</a>.</p>
+            </div>
+          </div>
+
+          <div class="cf pv3 w-100 ml0-ns block ml4-ns">
+            <div class="fl w-10-ns w-100-m w-100 pa2 pl4-l">
+              <span class="normal f5 fw2 light-silver mt0">Writing</span>
+            </div>
+            <div class="fl w-90-ns w-100-m w-100 pa2 pl4-l">
+              {% for post in site.posts limit:5 %}
+                <h3 class="f4 lh-title mb1 mt0 fw3"><a href="{{ post.url }}" class="link blue dim">{{ post.title }}</a></h3>
+                <p class="mt0 mb4"><span class="f6">{{ post.date | date_to_string }}</span></p>
+              {% endfor %}
+            </div>
+          </div>
+
+          <div class="cf pv3 w-100-ns ml0-ns block ml4-ns">
+            <div class="fl w-10-ns w-100-m w-100 pa2 pl4-l">
+              <span class="normal f5 fw2 light-silver mt0">Newsletter</span>
+            </div>
+            <div class="fl w-90-ns w-100-m w-100 pa2 pl4-l">
+              <p class="lh-copy measure mt0">Sign up to receive my monthly publication direct to your inbox. Each month I share interesting articles, podcasts, books, and resources that I enjoyed with such topics as artificial intelligence, computing, design, and science.</p>
+              <div id="mc_embed_signup">
+                <form action="//aarongilmore.us5.list-manage.com/subscribe/post?u=9ddd4dee57ef929930b1a90b4&amp;id=8e47b7eb4a" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                  <div id="mc_embed_signup_scroll" class="mw7">
+                    <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Email address" required>
+                    <button type="submit" name="subscribe" id="mc-embedded-subscribe" class="f5 blue">Subscribe</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+
+          <div class="cf pv3 w-100-ns ml0-ns block ml4-ns">
+            <div class="fl w-10-ns w-100-m w-100 pa2 pl4-l">
+              <span class="normal f5 fw2 light-silver mt0">Elsewhere</span>
+            </div>
+            <div class="fl w-90-ns w-100-m w-100 pa2 pl4-l">
+              <ul class="list lh-copy mt0">
+                <li class="mb1"><a href="https://twitter.com/aarondgilmore" target="_blank" class="link blue dim">Twitter &rarr;</a></li>
+                <li class="mb1"><a href="https://github.com/aarongilmore" target="_blank" class="link blue dim">GitHub &rarr;</a></li>
+                <li class="mb1"><a href="mailto:hello@aarongilmore.com?subject=Hello" target="_blank" class="link blue dim">Email &rarr;</a></li>
+              </ul>
+            </div>
+          </div>
+        
         </div>
-        </article>
-
-        <article class="pv4 w-100-ns ml0-ns four relative ml4 w-90">
-        <ul class="list lh-copy mt0">
-        <li class="mb3"><a href="https://twitter.com/aarondgilmore" target="_blank" class="link blue dim">Twitter</a></li>
-        <li class="mb3"><a href="https://github.com/aarongilmore" target="_blank" class="link blue dim">GitHub</a></li>
-        <li class="mb3"><a href="mailto:hello@aarongilmore.com?subject=Hello" target="_blank" class="link blue dim">Email</a></li>
-      </ul>
-        </article>
-
-
-
-        </div>
-
-        </div>
-        </article>
+        
       </div>
-
     </div>
-
   </section>
