@@ -121,7 +121,7 @@ hr {
   #mc_embed_signup button {
     width: auto;
     cursor: pointer;
-    font-weight: 700;
+    /*font-weight: 700;*/
     border: none;
     width: 100%;
     background-color: $blue;
@@ -146,17 +146,6 @@ hr {
   background-size: cover;
 }
 
-/*@media #{$breakpoint-large} {
-  .bg-img {
-    position: relative;
-    background-image: url(/img/portrait.jpg);
-    background-repeat: no-repeat;
-    left: 0;
-    background-size: 40%;
-    background-position: 0% 20px;
-  }
-}*/
-
 @media #{$breakpoint-large} {
   #mc_embed_signup input {
     position: relative;
@@ -166,9 +155,40 @@ hr {
     border: 1px solid $light-gray;
     background-color: $white-80;
     color: $black;
-    font-size: 1.3em;
     padding: 20px;
     border-radius: 5px;
+  }
+
+  #mc_embed_signup button {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    width: auto;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    border-radius: 5px;
+    margin-left: 10px;
+    padding: 20px;
+    margin-top: 1px; 
+    background-color: $blue;
+    color: $white;
+  }
+  
+
+  #mc_embed_signup button:hover {
+    background-color: $blue;
+    color: white;
+  }
+
+}
+
+@media #{$breakpoint-medium} {
+    #mc_embed_signup input {
+    position: relative;
+    display: block;
+    float: left;
+    width: 60%;
+    padding: 20px;
   }
 
   #mc_embed_signup button {
@@ -180,30 +200,12 @@ hr {
     border: none;
     background-color: transparent;
     border-radius: 5px;
-    font-size: 1.05em;
     margin-left: 10px;
     padding: 20px;
     margin-top: 1px; 
-    border: 2px solid $blue;
     background-color: $blue;
     color: $white;
   }
-
-  #mc_embed_signup button:hover {
-    background-color: $blue;
-    color: white;
-  }
-
-  .bg-pattern {
-  position: relative;
-  background-color: black;
-  background-image: linear-gradient(to bottom, black 60%, transparent 100%), url(/img/footer.png);
-  background-repeat: no-repeat;
-  background-position: 5% 100%;
-  background-position: 40% 100%;
-  background-size: cover;
-}
-
 
 }
 
