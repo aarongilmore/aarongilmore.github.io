@@ -3,17 +3,17 @@ layout: default
 title: Writing
 ---
 
-<section class="bg-black white tc">
+<section class="tc">
   <div class="cf pv5-l pv2 ph3 ph4-m ph5-l center">
     <div class="fl w-100 pv0">
       <article class="pv3-l fl w-100">
-      <h2 class="f3 lh-title mb1 fw3 white">Blog</h2>
+      <h2 class="f3 lh-title mb1 fw3">Writing</h2>
         <article class="pv3 fl w-100">
           <ul class="list">
             {% for post in site.posts %}
             <li class="mb4">
               <a href="{{ post.url }}" class="link blue dim">{{ post.title }}</a>
-              <p class="mt0"><em><span class="f6 white-80">{{ post.date | date_to_string }}</span></em></p>
+              <p class="gray mt0 mb4"><em><span class="f6">{{ post.date | date_to_string }}</span></em></p>
             </li>
             {% endfor %}
           </ul>
