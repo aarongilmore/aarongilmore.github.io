@@ -16,7 +16,7 @@ What I've found is people will pass on work to those they trust when they're too
 
 > "I'm booked up for the next two months but I know someone who can help!"
 
-My advice here is **get to know your community**. If your thinking about going freelance in the future it's important be proactive about this. Also, make sure you deliver good work. If someone recommends you their reputation is on the line as well as yours.
+My advice here is **get to know your community**. If your thinking about going freelance in the future it's important to be proactive about this. Also, make sure you deliver good work. If someone recommends you their reputation is on the line as well as yours.
 
 ## Money
 
