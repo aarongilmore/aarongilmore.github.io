@@ -22,13 +22,11 @@
 }
 
 blockquote {
-  border-left: 2px solid #50a3a3;
-  margin: 1.5em;
+  border-left: 2px solid #234098;
   margin-left: 0em;
-  color: #8c8c8c;
-  font-family: 'EB Garamond', serif;
-  margin: 1em 0em 2em 0em;
-  padding-left: 1.7778rem
+  color: #7f7f7f;
+  margin: 3em 0em 3em 0em;
+  padding-left: 1.7778rem;
 }
 
 blockquote a {
@@ -38,6 +36,7 @@ blockquote a {
 
 blockquote p {
   display: inline;
+  font-weight: 500;
 }
 
 img.shadow {
