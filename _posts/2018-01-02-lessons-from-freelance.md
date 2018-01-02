@@ -4,7 +4,7 @@ title: Lessons from a Year of Freelance
 blogJS: blog-styling
 ---
 
-Towards the end of last year I found myself overwhelmed with anxiety and, to be quite honest, dejection about the type of work I was doing. I knew I needed a change so I decided to quit my job with no real plan for what was to come next. A little preparation with finances to give myself a bit of a runway and I was ready to great the world of freelance.
+Towards the end of last year I found myself overwhelmed with anxiety and, to be quite honest, dejection about the type of work I was doing. I knew I needed a change so I decided to quit my job with no real plan for what was to come next. A little preparation with finances to give myself a bit of a runway and I was ready to greet the world of freelance.
 
 If you find yourself in a similar position hopefully you can find something useful in this article.
 
