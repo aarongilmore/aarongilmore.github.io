@@ -5,7 +5,7 @@ blogJS: blog-styling
 ---
 
 ![Source: ](/uploads/le-guin/ursula-le-guin.jpg)
-<sub><sup>Photo by Jill Krementz, All Rights Reserved</sup></sub>
+<sup>Photo by Jill Krementz, All Rights Reserved</sup>
 
 It was a great privilege to have my first experience of Ursula Le Guin's writing back in 2015. Late to the party, you could say, but I'm glad I arrived.
 
