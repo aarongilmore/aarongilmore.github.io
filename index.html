@@ -15,7 +15,7 @@ title: Home
               <h3 class="normal f5 fw2 light-silver mt0">About</h3>
             </div>
             <div class="fl w-90-ns w-100-m w-100 pl4-l">
-              <p class="lh-copy measure mt0">Aaron Gilmore is a Berlin-based digital designer specialising in interface design for the web and native mobile, front-end web development, and prototyping.</p>
+              <p class="lh-copy measure mt0">Aaron Gilmore is a digital designer specialising in interface design for the web and native mobile, front-end web development, and prototyping.</p>
               <p class="lh-copy measure">He is currently working with <a href="http://dawsonandrews.com" target="_blank" class="link blue dim">Dawson Andrews</a> as a product designer.</p>
               <p class="lh-copy measure">Outside of work he likes to travel, read, run, and brew coffee. You can find out more about him and his work in his <a href="/uploads/résumé.pdf" target="_blank" class="link blue dim">résumé</a>.</p>
             </div>
@@ -27,7 +27,7 @@ title: Home
             </div>
             <div class="fl w-90-ns w-100-m w-100 pl4-l">
               {% for post in site.posts limit:5 %}
-                <p class="lh-title mb1 mt0"><a href="{{ post.url }}" class="link blue dim">↳ {{ post.title }}</a></p>
+                <p class="lh-title mb1 mt0"><a href="{{ post.url }}" class="link blue dim">{{ post.title }}</a></p>
                 <p class="gray mt0 mb4"><span class="f6">{{ post.date | date_to_string }}</span></p>
               {% endfor %}
             </div>
@@ -38,11 +38,11 @@ title: Home
               <a href="/newsletter" class="link"><h3 class="normal f5 fw2 light-silver mt0">Newsletter</h3></a>
             </div>
             <div class="fl w-90-ns w-100-m w-100 pl4-l">
-              <p class="lh-copy measure mt0">My monthly newsletter will resume in January after a two month hiatus. Sign up to receive a collection of stories and articles on Internet culture, design, technology; as well as podcast and book reccomendations every month.</p>
+              <p class="lh-copy measure mt0">My weekly newsletter&mdash;<em>The Web Is OK</em>&mdash; covers Internet culture, design, technology, and other media such as podcasts and book recommendations.</p>
               <div id="mc_embed_signup">
                 <form action="//aarongilmore.us5.list-manage.com/subscribe/post?u=9ddd4dee57ef929930b1a90b4&amp;id=8e47b7eb4a" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate mb4" target="_blank" novalidate>
                   <div id="mc_embed_signup_scroll" class="mw7">
-                    <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Email address" required>
+                    <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Enter your email address" required>
                     <button type="submit" name="subscribe" id="mc-embedded-subscribe" class="f5 blue">Subscribe</button>
                   </div>
                 </form>
@@ -57,27 +57,27 @@ title: Home
             <div class="fl w-90-ns w-100-m w-100 pl4-l">
               <ul class="list lh-copy mt0">
                 <li class="mb4">
-                  <a href="https://abookapart.com/products/design-for-real-life" target="_blank" class="link blue dim">↳ Design For Real Life</a>
+                  <a href="https://abookapart.com/products/design-for-real-life" target="_blank" class="link blue dim">Design For Real Life</a>
                   <span class="f5 gray db">by Eric Meyer &amp; Sara Wachter-Boettcher</span>
                 </li>
                 <li class="mb4">
-                  <a href="https://www.goodreads.com/book/show/2477223.Managing_Oneself" target="_blank" class="link blue dim">↳ Managing Oneself</a>
+                  <a href="https://www.goodreads.com/book/show/2477223.Managing_Oneself" target="_blank" class="link blue dim">Managing Oneself</a>
                   <span class="f5 gray db">by Peter Drucker</span>
                 </li>
                 <li class="mb4">
-                  <a href="https://www.goodreads.com/book/show/18367111-cybersexism" target="_blank" class="link blue dim">↳ Cybersexism: Sex, Gender and Power on the Internet</a>
+                  <a href="https://www.goodreads.com/book/show/18367111-cybersexism" target="_blank" class="link blue dim">Cybersexism: Sex, Gender and Power on the Internet</a>
                   <span class="f5 gray db">by Laurie Penny</span>
                 </li>
                 <li class="mb4">
-                  <a href="https://www.goodreads.com/book/show/3360901-seeing-is-forgetting-the-name-of-the-thing-one-sees" target="_blank" class="link blue dim">↳ Seeing Is Forgetting the Name of the Thing One Sees</a>
+                  <a href="https://www.goodreads.com/book/show/3360901-seeing-is-forgetting-the-name-of-the-thing-one-sees" target="_blank" class="link blue dim">Seeing Is Forgetting the Name of the Thing One Sees</a>
                   <span class="f5 gray db">by Lawrence Weschler</span>
                 </li>
                 <li class="mb4">
-                  <a href="https://www.goodreads.com/book/show/23258925-the-boy-who-could-change-the-world" target="_blank" class="link blue dim">↳ The Boy Who Could Change the World: The Writings of Aaron Swartz</a>
+                  <a href="https://www.goodreads.com/book/show/23258925-the-boy-who-could-change-the-world" target="_blank" class="link blue dim">The Boy Who Could Change the World: The Writings of Aaron Swartz</a>
                   <span class="f5 gray db">by Aaron Swartz, Lawrence Lessig</span>
                 </li>
                 <li class="mb4">
-                  <a href="https://www.goodreads.com/book/show/119149.The_New_Typography" target="_blank" class="link blue dim">↳ The New Typography</a>
+                  <a href="https://www.goodreads.com/book/show/119149.The_New_Typography" target="_blank" class="link blue dim">The New Typography</a>
                   <span class="f5 gray db">by Jan Tschichold</span>
                 </li>
               </ul>
@@ -90,9 +90,9 @@ title: Home
             </div>
             <div class="fl w-90-ns w-100-m w-100 pl4-l">
               <ul class="list lh-copy mt0">
-                <li class="mb1"><a href="https://twitter.com/aarondgilmore" target="_blank" class="link blue dim">↳ Twitter</a></li>
-                <li class="mb1"><a href="https://github.com/aarongilmore" target="_blank" class="link blue dim">↳ GitHub</a></li>
-                <li class="mb1"><a href="mailto:hello@aarongilmore.com?subject=Hello" target="_blank" class="link blue dim">↳ Email</a></li>
+                <li class="mb1"><a href="https://twitter.com/aarondgilmore" target="_blank" class="link blue dim">Twitter</a></li>
+                <li class="mb1"><a href="https://github.com/aarongilmore" target="_blank" class="link blue dim">GitHub</a></li>
+                <li class="mb1"><a href="mailto:hello@aarongilmore.com?subject=Hello" target="_blank" class="link blue dim">Email</a></li>
               </ul>
             </div>
           </div>
