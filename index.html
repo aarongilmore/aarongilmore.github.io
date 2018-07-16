@@ -10,22 +10,33 @@ title: Home
         <div class="fl w-100">
           <h1 class="f-5-ns f1-m f2 mb2 mt0 lh-title mw8 mb5-ns mb4">Working on function and form for screens.</h1>
           
-          <div class="cf pv3 w-100 ml0-ns block ml4-ns">
-            <div class="fl w-10-ns w-100-m w-100 ph2-l">
+          <div class="cf pv3 w-100 ml0-ns block">
+            <div class="fl w-10-ns w-100-m w-100">
               <h3 class="normal f5 fw2 light-silver mt0">About</h3>
             </div>
-            <div class="fl w-90-ns w-100-m w-100 pl4-l">
-              <p class="lh-copy measure mt0">Aaron Gilmore is a digital designer specialising in interface design for the web and native mobile, front-end web development, and prototyping.</p>
-              <p class="lh-copy measure">He is currently working with <a href="http://dawsonandrews.com" target="_blank" class="link blue dim">Dawson Andrews</a> as a product designer.</p>
-              <p class="lh-copy measure">Outside of work he likes to travel, read, run, and brew coffee. You can find out more about him and his work in his <a href="/uploads/résumé.pdf" target="_blank" class="link blue dim">résumé</a>.</p>
+            <div class="fl w-50-ns w-100-m w-100 pl2-l">
+              <p class="lh-copy measure mt0">Hey 👋🏼, I'm digital designer working in user research and user-interface design.</p>
+              <p class="lh-copy measure mt0">Right now, I'm helping <a href="http://dawsonandrews.com" class="link blue dim">Dawson Andrews</a> build digital products for clients ranging from startups to C-Levels. Some recent clients/projects:</p> 
+              <ul class="list-unstyled">
+                <li><a href="http://dawsonandrews.com/toys-r-us/" class="link blue dim">Toys"R"Us (rip)</a></li>
+                <li><a href="https://afterbook.com/" class="link blue dim">Afterbook</a></li>
+                <li><a href="https://www.usedcarsni.com/" class="link blue dim">Used Cars NI</a></li>
+                <li><a href="https://www.hrdbuyerintelligence.com/" class="link blue dim">HR Buyer Intelligence</a></li>
+                <li><a href="https://danskebank.co.uk/business" class="link blue dim">Danske Bank</a></li>
+                <li><a href="https://www.gsma.com/" class="link blue dim">GSMA</a></li>
+              </ul>
+              <p class="lh-copy measure">Outside of work I like to travel, read, run, and brew coffee. You can find out more about me and my work in my <a href="/uploads/résumé.pdf" target="_blank" class="link blue dim">résumé</a>.</p>
+            </div>
+            <div class="fl w-40-ns w-100-m w-100 pl4-l">
+              <img src="/img/me.png" class="w-100">
             </div>
           </div>
 
-          <div class="cf pv3 w-100 ml0-ns block ml4-ns">
-            <div class="fl w-10-ns w-100-m w-100 ph2-l">
+          <div class="cf pv3 w-100 ml0-ns block">
+            <div class="fl w-10-ns w-100-m w-100">
               <a href="/blog" class="link"><h3 class="normal f5 fw2 light-silver mt0">Writing</h3></a>
             </div>
-            <div class="fl w-90-ns w-100-m w-100 pl4-l">
+            <div class="fl w-90-ns w-100-m w-100 pl2-l">
               {% for post in site.posts limit:5 %}
                 <p class="lh-title mb1 mt0"><a href="{{ post.url }}" class="link blue dim">{{ post.title }}</a></p>
                 <p class="gray mt0 mb4"><span class="f6">{{ post.date | date_to_string }}</span></p>
@@ -33,11 +44,11 @@ title: Home
             </div>
           </div>
 
-          <div class="cf pv3 w-100-ns ml0-ns block ml4-ns">
+          <div class="cf pv3 w-100-ns ml0-ns block">
             <div class="fl w-10-ns w-100-m w-100 ph2-l">
               <a href="/newsletter" class="link"><h3 class="normal f5 fw2 light-silver mt0">Newsletter</h3></a>
             </div>
-            <div class="fl w-90-ns w-100-m w-100 pl4-l">
+            <div class="fl w-90-ns w-100-m w-100 pl2-l">
               <p class="lh-copy measure mt0">My weekly newsletter&mdash;<em>The Web Is OK</em>&mdash; covers Internet culture, design, technology, and other media such as podcasts and book recommendations.</p>
               <div id="mc_embed_signup">
                 <form action="//aarongilmore.us5.list-manage.com/subscribe/post?u=9ddd4dee57ef929930b1a90b4&amp;id=8e47b7eb4a" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate mb4" target="_blank" novalidate>
@@ -50,11 +61,11 @@ title: Home
             </div>
           </div>
 
-          <div class="cf pv3 w-100 ml0-ns block ml4-ns">
+          <div class="cf pv3 w-100 ml0-ns block">
             <div class="fl w-10-ns w-100-m w-100 ph2-l">
               <h3 class="normal f5 fw2 light-silver mt0">Reading</h3>
             </div>
-            <div class="fl w-90-ns w-100-m w-100 pl4-l">
+            <div class="fl w-90-ns w-100-m w-100 pl2-l">
               <ul class="list lh-copy mt0">
                 <li class="mb4">
                   <a href="https://abookapart.com/products/design-for-real-life" target="_blank" class="link blue dim">Design For Real Life</a>
@@ -84,11 +95,11 @@ title: Home
             </div>
           </div>
 
-          <div class="cf pv3 w-100-ns ml0-ns block ml4-ns">
+          <div class="cf pv3 w-100-ns ml0-ns block">
             <div class="fl w-10-ns w-100-m w-100 ph2-l">
               <h3 class="normal f5 fw2 light-silver mt0">Elsewhere</h3>
             </div>
-            <div class="fl w-90-ns w-100-m w-100 pl4-l">
+            <div class="fl w-90-ns w-100-m w-100 pl2-l">
               <ul class="list lh-copy mt0">
                 <li class="mb1"><a href="https://twitter.com/aarondgilmore" target="_blank" class="link blue dim">Twitter</a></li>
                 <li class="mb1"><a href="https://github.com/aarongilmore" target="_blank" class="link blue dim">GitHub</a></li>
