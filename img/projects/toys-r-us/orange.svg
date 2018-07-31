@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="180px" height="145px" viewBox="0 0 180 145" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 16</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Brand-Guidelines" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Brand-guidelines" transform="translate(-940.000000, -814.000000)">
+            <g id="Group-7" transform="translate(261.000000, 743.000000)">
+                <g id="Group-16" transform="translate(679.000000, 71.000000)">
+                    <rect id="Rectangle" fill="#F77900" x="0" y="0" width="180" height="145" rx="6"></rect>
+                    <text id="Orange" font-family="SFUIText-Medium, SF UI Text" font-size="15" font-weight="400" fill="#FFFFFF">
+                        <tspan x="17" y="107">Orange</tspan>
+                    </text>
+                    <text id="#0061B5" opacity="0.600000024" font-family="SFUIText-Regular, SF UI Text" font-size="13" font-weight="normal" fill="#FFFFFF">
+                        <tspan x="17" y="126">#0061B5</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
