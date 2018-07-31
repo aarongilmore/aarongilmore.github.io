@@ -12,8 +12,10 @@
 
 */
 
+@import url('https://rsms.me/inter/inter-ui.css');
 
-@font-face {
+
+/*@font-face {
   font-family: 'Untitled Sans Light';
   src: url('/fonts/UntitledSansWeb-Light.eot?#iefix') format('embedded-opentype'), 
        url('/fonts/UntitledSansWeb-Light.woff2') format('woff2'), 
@@ -25,7 +27,7 @@
   src: url('/fonts/UntitledSansWeb-Regular.eot?#iefix') format('embedded-opentype'), 
        url('/fonts/UntitledSansWeb-Regular.woff2') format('woff2'), 
        url('/fonts/UntitledSansWeb-Regular.woff') format('woff');
-}
+}*/
 
 .untitled-reg {
   font-family: "Untitled Sans Regular"; 
@@ -44,14 +46,14 @@
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Untitled Sans Regular",
+  font-family: "Inter UI",
                helvetica,
                sans-serif;
   font-weight: normal;
 }
 
 p {
-  font-family: "Untitled Sans Regular",
+  font-family: "Inter UI",
                helvetica,
                sans-serif;
 }
