@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="634px" height="399px" viewBox="0 0 634 399" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 18</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Brand-Guidelines" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Brand-guidelines" transform="translate(-1813.000000, -80.000000)">
+            <g id="Group-18" transform="translate(1813.000000, 80.000000)">
+                <rect id="Rectangle-4" fill="#F0F6FB" x="0" y="0" width="634" height="399"></rect>
+                <g id="Group-21" transform="translate(45.000000, 64.000000)" fill="#3A3939">
+                    <g id="Group-19" transform="translate(251.500000, 0.000000)">
+                        <text id="Size" font-family="SFUIText-Bold, SF UI Text" font-size="13" font-weight="bold" letter-spacing="2">
+                            <tspan x="0" y="12">SIZE</tspan>
+                        </text>
+                        <text id="30px/18px" font-family="SFUIText-Regular, SF UI Text" font-size="15" font-weight="normal">
+                            <tspan x="0" y="99">30px/18px</tspan>
+                        </text>
+                        <text id="16px" font-family="SFUIText-Regular, SF UI Text" font-size="15" font-weight="normal">
+                            <tspan x="0" y="213">16px</tspan>
+                        </text>
+                        <text id="13px" font-family="SFUIText-Regular, SF UI Text" font-size="15" font-weight="normal">
+                            <tspan x="0" y="261">13px</tspan>
+                        </text>
+                        <text id="18px/14px" font-family="SFUIText-Regular, SF UI Text" font-size="15" font-weight="normal">
+                            <tspan x="0" y="158">18px/14px</tspan>
+                        </text>
+                    </g>
+                    <g id="Group-17" transform="translate(380.000000, 0.000000)">
+                        <text id="Page-titles" font-family="SFUIText-Regular, SF UI Text" font-size="15" font-weight="normal">
+                            <tspan x="0" y="99">Page titles</tspan>
+                        </text>
+                        <text id="Standard-page-headin" font-family="SFUIText-Regular, SF UI Text" font-size="15" font-weight="normal">
+                            <tspan x="0" y="213">Standard page heading</tspan>
+                        </text>
+                        <text id="Utility-Links" font-family="SFUIText-Regular, SF UI Text" font-size="15" font-weight="normal">
+                            <tspan x="0" y="261">Utility Links</tspan>
+                        </text>
+                        <text id="Standard-page-headin" font-family="SFUIText-Regular, SF UI Text" font-size="15" font-weight="normal">
+                            <tspan x="0" y="158">Standard page heading</tspan>
+                        </text>
+                        <text id="Use-Case" font-family="SFUIText-Bold, SF UI Text" font-size="13" font-weight="bold" letter-spacing="2">
+                            <tspan x="0" y="12">USE CASE</tspan>
+                        </text>
+                    </g>
+                    <g id="Group-20">
+                        <text id="Body-Text-Heading" font-family="GothamRounded-Medium, Gotham Rounded" font-size="16" font-weight="400" line-spacing="20">
+                            <tspan x="0" y="207">Body Text Heading</tspan>
+                        </text>
+                        <text id="Utility-&amp;-Footer-Lin" font-family="GothamRounded-Medium, Gotham Rounded" font-size="13" font-weight="400">
+                            <tspan x="0" y="258">Utility &amp; Footer Links</tspan>
+                        </text>
+                        <text id="Example" font-family="SFUIText-Bold, SF UI Text" font-size="13" font-weight="bold" letter-spacing="2">
+                            <tspan x="0" y="12">EXAMPLE</tspan>
+                        </text>
+                        <text id="Heading-Two" font-family="GothamRounded-Bold, Gotham Rounded" font-size="18" font-weight="bold">
+                            <tspan x="0" y="160">HEADING TWO</tspan>
+                        </text>
+                        <text id="Heading-One" font-family="GothamRounded-Medium, Gotham Rounded" font-size="30" font-weight="400" line-spacing="38.7999992">
+                            <tspan x="0" y="93">Heading One</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
