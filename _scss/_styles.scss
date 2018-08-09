@@ -15,9 +15,8 @@
 
 .bg {
   background: $pink url(/img/redcurrant.png);
-  background-repeat: repeat;
-  background-size: auto auto;
-  background-attachment:fixed;
+  background-size: cover;
+  background-position: left;
   background-repeat: no-repeat;
   background-size: 1000px;
 }
