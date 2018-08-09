@@ -13,6 +13,15 @@
 
 */
 
+.bg {
+  background: $pink url(/img/redcurrant.png);
+  background-repeat: repeat;
+  background-size: auto auto;
+  background-attachment:fixed;
+  background-repeat: no-repeat;
+  background-size: 1000px;
+}
+
 blockquote {
   border-left: 2px solid #234098;
   margin-left: 0em;
@@ -250,8 +259,9 @@ ul.toys li {
   content: '01';
   font-size: 6em;
   font-weight: 400;
-  opacity: 0.08;
-  color: #e16648;
+  opacity: 0.2;
+  z-index: 0;
+  color: #d09191;
   position: absolute;
   top: -35px;
   left: -15px;
@@ -261,8 +271,9 @@ ul.toys li {
   content: '02';
   font-size: 6em;
   font-weight: 400;
-  opacity: 0.08;
-  color: #e16648;
+  opacity: 0.2;
+  z-index: 0;
+  color: #d09191;
   position: absolute;
   top: -35px;
   left: -15px;
@@ -272,8 +283,9 @@ ul.toys li {
   content: '03';
   font-size: 6em;
   font-weight: 400;
-  opacity: 0.08;
-  color: #e16648;
+  opacity: 0.2;
+  z-index: 0;
+  color: #d09191;
   position: absolute;
   top: -35px;
   left: -15px;
@@ -283,8 +295,9 @@ ul.toys li {
   content: '04';
   font-size: 6em;
   font-weight: 400;
-  opacity: 0.08;
-  color: #e16648;
+  opacity: 0.2;
+  z-index: 0;
+  color: #d09191;
   position: absolute;
   top: -35px;
   left: -15px;
@@ -299,7 +312,7 @@ ul.toys li {
   bottom: 0;*/
 }
 
-@media screen and (min-width: 56rem) and (min-height: 50rem) {
+@media screen and (min-width: 56rem) and (min-height: 60rem) {
   .text {
     position: absolute;
     bottom: 5rem;
@@ -315,7 +328,7 @@ ul.toys li {
 
 svg,
 svg circle {
-  fill: #fcf3f1;
+  fill: #dfab5f;
 }
 
 @keyframes from0to360 {

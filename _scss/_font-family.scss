@@ -14,6 +14,12 @@
 
 @import url('https://rsms.me/inter/inter-ui.css');
 
+@font-face {
+  font-family: 'GT America';
+  src: url('/fonts/GTAmericaTrial-ExpandedBold.eot?#iefix') format('embedded-opentype'), 
+       url('/fonts/GTAmericaTrial-ExpandedBold.woff2') format('woff2'), 
+       url('/fonts/GTAmericaTrial-ExpandedBold.woff') format('woff');
+}
 
 /*@font-face {
   font-family: 'Untitled Sans Light';
@@ -35,6 +41,10 @@
 
 .untitled-light {
   font-family: "Untitled Sans Light"; 
+}
+
+.display {
+  font-family: "GT America";
 }
 
 .system-sans-serif {
