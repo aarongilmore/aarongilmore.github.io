@@ -35,12 +35,10 @@
        url('/fonts/UntitledSansWeb-Regular.woff') format('woff');
 }*/
 
-.untitled-reg {
-  font-family: "Untitled Sans Regular"; 
-}
-
-.untitled-light {
-  font-family: "Untitled Sans Light"; 
+body {
+  font-family: "Inter UI",
+               helvetica,
+               sans-serif;
 }
 
 .display {
