@@ -1,15 +1,73 @@
+.blue {
+  color: #0e0096; }
+
 body {
-  background-color: #fbc547;
-  color: #333;
-  font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir", "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans", "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu", "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
-  padding: 18vh 1rem;
-  text-align: center; }
+  background-color: #cfe5ca;
+  color: #0e0096;
+  font-family: 'IBM Plex Mono', monospace;
+  text-align: center;
+  height: 100vh; }
 
 a {
   color: rgba(0, 0, 0, 0.7); }
   a:focus, a:hover {
     color: rgba(0, 0, 0, 0.6); }
 
-.middleman-logo {
-  margin-bottom: 1rem;
-  width: 10rem; }
+ul {
+  -moz-column-count: 2;
+  -moz-column-gap: 20px;
+  -webkit-column-count: 2;
+  -webkit-column-gap: 20px;
+  column-count: 2;
+  column-gap: 20px; }
+
+.grid-container {
+  display: grid;
+  height: 100%;
+  grid-template-columns: 1.3fr 0.7fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 1px;
+  grid-template-areas: "work work . ." "image . about about" "image . newsletter newsletter"; }
+
+.work {
+  display: grid;
+  grid-area: work;
+  grid-template-columns: 0.6fr 1.4fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 1px;
+  grid-template-areas: ". work-inner" ". work-inner"; }
+
+.work-inner {
+  grid-area: work-inner; }
+
+.image {
+  grid-area: image; }
+
+.about {
+  grid-area: about; }
+
+.newsletter {
+  display: grid;
+  grid-area: newsletter;
+  grid-template-columns: 0.5fr 1.5fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 1px;
+  grid-template-areas: ". newsletter-inner" ". newsletter-inner"; }
+
+.newsletter-inner {
+  grid-area: newsletter-inner; }
+
+@media only screen and (max-width: 500px) {
+  .work {
+    grid-template-columns: 0fr; }
+
+  .newsletter {
+    grid-template-columns: 0fr; }
+
+  .grid-container {
+    display: grid;
+    height: 100%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 1px;
+    grid-template-areas: "work work work" "work-inner work-inner work-inner" "about about about" "image image image" "newsletter newsletter newsletter" "newsletter-inner newsletter-inner newsletter-inner"; } }
