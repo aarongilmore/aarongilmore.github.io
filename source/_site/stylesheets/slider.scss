@@ -1,0 +1,94 @@
+.frame {
+    width: 100%;
+    position: relative;
+    font-size: 0;
+    line-height: 0;
+    overflow: hidden; 
+    white-space: nowrap;
+}
+
+.slides {
+  display: inline-block;
+}
+
+.gallery__slide--mini {
+  max-width: 225px
+}
+
+.gallery__slide--large {
+  max-width: 275px;
+}
+
+.gallery__slide {
+  display: inline-block;
+  box-sizing: content-box;
+  font-size: 1rem;
+  vertical-align: top;
+  white-space: normal;
+  width: 100vw;
+  margin-left: calc(50px - 10vw);
+  padding-left: 0vw;
+  padding-right: 10vw;
+  position: relative;
+  opacity: 10%;
+}
+
+.gallery__slide:first-of-type {
+  margin-left: 0;
+  padding-left: calc(50vw - 67.5rem);
+}
+
+.prev, .next {
+  text-indent: -999em;
+  background: transparent;
+  border: 0;
+  width: 50%;
+  height: 312px;
+  position: absolute;
+  top: 94px;
+  bottom: 0;
+  z-index: 2;
+  overflow: hidden;
+}
+
+.next {
+  right: 0;
+}
+
+.next:hover {
+  cursor: url("/images/arrow-right.svg") 40 0,auto;
+}
+
+.prev {
+  left: 0;
+}
+
+.prev:hover {
+ cursor: url(/images/arrow-left.svg) 40 0,auto;
+}
+
+.next svg, .prev svg {
+  width: 25px;
+}
+
+#container {
+  // width:50em;
+  height: 600px;
+  overflow: hidden;
+}
+#modules {
+  height:615px; /* 40px - more place for scrollbar, is hidden under parent box */
+  padding:5px;
+  white-space:nowrap;
+  overflow-x: scroll;
+  overflow-y: hide;
+-webkit-overflow-scrolling:touch;
+}
+.module {
+  display:inline-block;  
+  line-height:50px;
+}
+
+.module + .module {
+  margin-left:5px
+}

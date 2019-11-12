@@ -1,0 +1,14 @@
+<div class="mw9 pv3">
+    <h1 class="f-subheadline-ns f1-m f2 lh-title mw8">Writing</h1>
+</div>
+
+<div class="flex flex-row-ns flex-column-m flex-column flex-wrap">  
+<% blog('writing').articles[0...5].each do |article| %>
+    <div class="w-50-ns w-100-m w-100 mv3-m mv3 pr3">
+    <span class="code gray f7"><%= article.date.strftime('%b %e, %Y') %></span>
+    <h2 class="f4 mv2"><%= article.title %></h2>
+    <p class="lh-copy measure"><%= article.data.excerpt %></p>
+    <%= link_to 'Continue Reading →', article %>
+    </div>
+<% end %>
+</div>

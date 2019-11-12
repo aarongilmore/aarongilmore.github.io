@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width">
+
+    <title>Aaron Gilmore | Digital Design &amp; Front-end Development</title>
+    <meta property="og:title" content="Aaron Gilmore | Digital Design &amp; Front-end Development" />
+    <link rel="shortcut icon" type="image/png" href="/img/favicon.png"/>
+
+
+    <meta property="og:description" content="My name is Aaron and I design and build websites with a focus on functional interaction design, good typography, speed, and simplicity." />
+    <meta name="description" content="My name is Aaron and I design and build websites with a focus on functional interaction design, good typography, speed, and simplicity.">
+    
+    <meta name="keywords" content="Visual, digital designer, web, front-end developer, development, Git, version, control, iOS, HTML, CSS, CMS, Brewbot, product">
+    <meta name="author" content="Aaron Gilmore">
+    <meta property="og:type" content="website" />
+    <meta property="og_url" content="https://aarongilmore.com/" />
+    <link rel="canonical" href="https://aarongilmore.com/" />
+    <meta name="twitter:creator" content="@aarondgilmore" />
+
+    <%= stylesheet_link_tag "styles" %>
+    <%= javascript_include_tag "main" %>
+    <%= javascript_include_tag "lory.min" %>
+    <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css"/>
+    <script>
+        'use strict';
+
+        document.addEventListener('DOMContentLoaded', function() {
+            var slider = document.querySelector('.js_slider');
+
+            lory(slider, {
+                // options going here
+            });
+        });
+    </script>
+  </head>
+  <body class="center ph3 ph6-ns">
+    <%= partial "header" %>
+    <%= yield %>
+    <%= partial "footer" %>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script>
+    $( "article p:first-child" ).addClass( "f4-ns f5 mt4" );
+    $( "article div img" ).addClass( "fwa mv4-ns" );
+    $( "article ul" ).addClass( "pl0" );
+    $( "article blockquote" ).addClass( "ma0" );
+    </script>
+  </body>
+</html>
