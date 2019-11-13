@@ -22,8 +22,6 @@ page '/*.txt', layout: false
 
 activate :livereload
 
-
-
 activate :blog do |blog|
   blog.name = "writing"
   blog.prefix = "writing"

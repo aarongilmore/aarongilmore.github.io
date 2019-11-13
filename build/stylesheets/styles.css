@@ -1,3 +1,30 @@
+/**
+ * MIXIN: Responsive Media Queries.
+ *
+ * Creates responsive media queries for eight different screen sizes.
+ * These are based on min-width which means if x is the size then your
+ * CSS will affect any device with screen width x and above.
+ *
+ * USAGE: 
+ *	@include r(240)  { }
+ *	@include r(320)  { }
+ *	@include r(480)  { }
+ *	@include r(768)  { }
+ *	@include r(1024) { }
+ *	@include r(1140) { }
+ *	@include r(1280) { }
+ *	@include r(1500) { }
+ *
+ * CSS content goes inside {} brackets. These mixins should be used inside
+ * a class definition. For example:
+ *
+ * The following CSS will hide the .header on screen width 320px and above.
+ * .header {
+ * 	  @include r(320)  { display: none; }
+ * }
+ *
+ * @author Ahmad Awais (https://github.com/ahmadawais)
+ */
 @import url("https://rsms.me/inter/inter.css");
 html {
   font-family: 'Inter', sans-serif; }
@@ -6,26 +33,32 @@ html {
   html {
     font-family: 'Inter var', sans-serif; } }
 html {
-  background: #000000 url(/images/background-pattern.png);
+  background: #f5f0ea url(/images/background-pattern.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   font-size: 18px; }
 
 body {
-  color: #ffffff;
-  font-family: 'Inter', sans-serif;
-  max-width: 90em; }
+  font: 400 110%;
+  font-weight: 400;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  line-height: 1.4;
+  background-color: var(--background-color);
+  color: var(--main-text-color);
+  -moz-font-feature-settings: "liga" 1 !important;
+  font-feature-settings: "liga" 1 !important;
+  min-height: 100%; }
 
 h1 {
   font-weight: 900; }
 
 p {
-  line-height: 1.55;
+  line-height: 1.5;
   max-width: 36em; }
 
 a {
-  color: #ffffff; }
+  color: #030508; }
   a:focus, a:hover {
     opacity: 0.5;
     transition: .2s; }
@@ -33,83 +66,47 @@ a {
 .fwa {
   width: 100vw; }
 
-.frame {
-  width: 100%;
-  position: relative;
-  font-size: 0;
-  line-height: 0;
-  overflow: hidden;
-  white-space: nowrap; }
+@media (min-width: 320px) {
+  blockquote {
+    font-size: 0.6em;
+    max-width: 51.5em;
+    margin: 1em 0em 1em 2em;
+    color: #444;
+    padding: 0.1em 1.5em 0.5em 1.5em;
+    border-left: 3px solid #dec9b2; } }
+@media (min-width: 600px) {
+  blockquote {
+    font-size: 0.8em;
+    max-width: 51.5em;
+    margin: 1em 0em 1em 2em;
+    color: #444;
+    padding: 0.2em 3em 0.9em 3em;
+    border-left: 3px solid #dec9b2; } }
 
-.slides {
-  display: inline-block; }
-
-.gallery__slide--mini {
-  max-width: 225px; }
-
-.gallery__slide--large {
-  max-width: 275px; }
-
-.gallery__slide {
-  display: inline-block;
-  box-sizing: content-box;
-  font-size: 1rem;
-  vertical-align: top;
-  white-space: normal;
-  width: 100vw;
-  margin-left: calc(50px - 10vw);
-  padding-left: 0vw;
-  padding-right: 10vw;
-  position: relative;
-  opacity: 10%; }
-
-.gallery__slide:first-of-type {
-  margin-left: 0;
-  padding-left: calc(50vw - 67.5rem); }
-
-.prev, .next {
-  text-indent: -999em;
-  background: transparent;
-  border: 0;
-  width: 50%;
-  height: 312px;
-  position: absolute;
-  top: 94px;
-  bottom: 0;
-  z-index: 2;
-  overflow: hidden; }
-
-.next {
-  right: 0; }
-
-.next:hover {
-  cursor: url("/images/arrow-right.svg") 40 0, auto; }
-
-.prev {
-  left: 0; }
-
-.prev:hover {
-  cursor: url(/images/arrow-left.svg) 40 0, auto; }
-
-.next svg, .prev svg {
-  width: 25px; }
-
-#container {
-  height: 600px;
-  overflow: hidden; }
-
-#modules {
-  height: 615px;
-  /* 40px - more place for scrollbar, is hidden under parent box */
-  padding: 5px;
-  white-space: nowrap;
-  overflow-x: scroll;
-  overflow-y: hide;
-  -webkit-overflow-scrolling: touch; }
-
-.module {
-  display: inline-block;
-  line-height: 50px; }
-
-.module + .module {
-  margin-left: 5px; }
+/**
+ * MIXIN: Responsive Media Queries.
+ *
+ * Creates responsive media queries for eight different screen sizes.
+ * These are based on min-width which means if x is the size then your
+ * CSS will affect any device with screen width x and above.
+ *
+ * USAGE: 
+ *	@include r(240)  { }
+ *	@include r(320)  { }
+ *	@include r(480)  { }
+ *	@include r(768)  { }
+ *	@include r(1024) { }
+ *	@include r(1140) { }
+ *	@include r(1280) { }
+ *	@include r(1500) { }
+ *
+ * CSS content goes inside {} brackets. These mixins should be used inside
+ * a class definition. For example:
+ *
+ * The following CSS will hide the .header on screen width 320px and above.
+ * .header {
+ * 	  @include r(320)  { display: none; }
+ * }
+ *
+ * @author Ahmad Awais (https://github.com/ahmadawais)
+ */

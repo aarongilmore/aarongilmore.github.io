@@ -2,10 +2,183 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Blog Name</title>
   <subtitle>Blog subtitle</subtitle>
-  <id>http://blog.url.com/blog</id>
-  <link href="http://blog.url.com/blog"/>
+  <id>http://blog.url.com/writing</id>
+  <link href="http://blog.url.com/writing"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
+  <updated>2019-11-13T00:00:00+00:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>Downtown Is For People</title>
+    <link rel="alternate" href="http://blog.url.com/writing/downtown-is-for-people/"/>
+    <id>http://blog.url.com/writing/downtown-is-for-people/</id>
+    <published>2019-11-13T00:00:00+00:00</published>
+    <updated>2019-11-13T22:00:07+00:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;When we think about the built environment we think about "place making" as opposed to "land-use". It's more considered, even the term implies more care.&lt;/p&gt;
+
+&lt;p&gt;I've been on a binge recently of reading about urbanism and the built environment, as well as attending lectures about the subject. What I love most about it&lt;/p&gt;
+
+&lt;p&gt;I've been reading a lot recently on the topic of urbanism and this passage from Jane Jacobs in 'The Exploding Metropolis' really stood out to me:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;From city to city the architects' sketches conjure up the same dreary scene; here is no hint of individuality or whim or surprise, no hint that here is a city with a tradition and flavour all its own. These projects will not Revitalise downtown; they will deaden it. For they work at cross-purposes to the city. They banish its variety.&lt;sup&gt;1&lt;/sup&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;div&gt;&lt;img src="/images/downtown-is-for-people/jane-jacobs.jpg" alt="" /&gt;&lt;/div&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;It is the premise of the critique that the best way to plan for downtown is to see how people use it today; to look for its strengths and to exploit and reinforce them. There is no logic that can be superimposed on the city; people make it, and it is to them, not buildings, they we must fit our plans. This does not mean accepting the present; downtown does need and overhaul, it is dirty, it is congested. But there are things that are right about it too, and by simple old-fashioned observation we can see what they are. We can see what people like.&lt;sup&gt;2&lt;/sup&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;As Belfast City Council &lt;a href="https://twitter.com/Tribeca_Belfast/status/1192417361984458753?s=20"&gt;reviews plans&lt;/a&gt; for the proposed "Tribeca Belfast" I can't help think about this passage by Ms. Jacobs.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>For Ursula Le Guin</title>
+    <link rel="alternate" href="http://blog.url.com/writing/for-ursula/"/>
+    <id>http://blog.url.com/writing/for-ursula/</id>
+    <published>2018-01-24T00:00:00+00:00</published>
+    <updated>2019-11-13T22:15:15+00:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;&lt;img src="/images/writing/le-guin/ursula-le-guin.jpg" alt="Source: " /&gt;
+&lt;sup&gt;Photo by Jill Krementz, All Rights Reserved&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;It was a great privilege to have my first experience of Ursula Le Guin's writing back in 2015. Late to the party, you could say, but I'm glad I arrived.&lt;/p&gt;
+
+&lt;p&gt;I picked up a copy of &lt;a href="https://www.goodreads.com/book/show/13642.A_Wizard_of_Earthsea?ac=1&amp;amp;from_search=true"&gt;A Wizard of Earthsea&lt;/a&gt; — the first book in her Earthsea series — in Powell's Books, Portland OR. and devoured it. It wasn't until her passing this week that I learned that Ursula spent most of her life in Portland, a nice coincidence that I happened upon her work in that city.&lt;/p&gt;
+
+&lt;p&gt;I've been dipping in and out of her work ever since, continuing with the Earthsea books and some of her other works. I'm currently reading her translated version of Lao Tzu's "Tao Te Ching". I'm a big fan of her work and I'm glad there's so much left for me to read. It's sad in a way that death can jolt one into a period of obsession over another's work.&lt;/p&gt;
+
+&lt;p&gt;So many wonderful things about Le Guin have come to light over the past few days, things that have always been but a lot of us are only now seeing as her "legacy", of what she left behind.&lt;/p&gt;
+
+&lt;p&gt;I want to share a few things I've stumbled upon the past few days because they've brought me joy. And, of course, if you haven't already you must add Ursula's &lt;a href="https://www.goodreads.com/author/show/874602.Ursula_K_Le_Guin?from_search=true"&gt;cannon of work&lt;/a&gt; to your reading list for the year, as I will be doing.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.theguardian.com/books/2018/jan/24/ursula-k-le-guin-margaret-atwood-tribute"&gt;Ursula K Le Guin, by Margaret Atwood: ‘One of the literary greats of the 20th century’&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.nytimes.com/2018/01/24/books/review/for-ursula-le-guin-poem-naomi-novik.html"&gt;For Ursula (a poem by Naomi Novik)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.theguardian.com/books/booksblog/2018/jan/24/essential-novels-ursula-k-le-guin"&gt;Don't know where to start? The essential novels of Ursula K Le Guin&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://twitter.com/KarenAbbott/status/955946917862703104"&gt;"Gentlemen, I just don't belong here."&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://literary-arts.org/archive/ursula-le-guin-margaret-atwood-rebroadcast/"&gt;Ursula Le Guin &amp;amp; Margaret Atwood discuss writing (audio)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“People who deny the existence of dragons are often eaten by dragons. From within.” — Ursula Le Guin&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Hello Test</title>
+    <link rel="alternate" href="http://blog.url.com/writing/hello-test/"/>
+    <id>http://blog.url.com/writing/hello-test/</id>
+    <published>2018-01-03T00:00:00+00:00</published>
+    <updated>2019-11-13T22:00:12+00:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur libero nisi, rhoncus quis scelerisque nec, finibus ut nulla. Nullam placerat erat non justo hendrerit varius. Morbi egestas massa eget eros gravida, a euismod felis pellentesque. Phasellus egestas purus tortor, et cursus purus pretium eu. Morbi at sapien eget neque finibus sagittis at et urna. Integer justo tortor, laoreet vel lacus ac, malesuada suscipit risus. Sed placerat volutpat dictum.&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur libero nisi, rhoncus quis scelerisque nec, finibus ut nulla. Nullam placerat erat non justo hendrerit varius. Morbi egestas massa eget eros gravida, a euismod felis pellentesque. Phasellus egestas purus tortor, et cursus purus pretium eu. Morbi at sapien eget neque finibus sagittis at et urna. Integer justo tortor, laoreet vel lacus ac, malesuada suscipit risus. Sed placerat volutpat dictum. Proin ac ligula ac augue pharetra efficitur id non est. Vestibulum ut ex quis lectus varius viverra ac vitae libero. Vivamus ut auctor justo. Vestibulum eu turpis condimentum, mollis tortor sed, convallis arcu.&lt;/p&gt;
+
+&lt;div&gt;&lt;img src="/images/whitman.jpg" alt="" /&gt;&lt;/div&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur libero nisi, rhoncus quis scelerisque nec, finibus ut nulla. Nullam placerat erat non justo hendrerit varius. Morbi egestas massa eget eros gravida, a euismod felis pellentesque. Phasellus egestas purus tortor, et cursus purus pretium eu. Morbi at sapien eget neque finibus sagittis at et urna. Integer justo tortor, laoreet vel lacus ac, malesuada suscipit risus. Sed placerat volutpat dictum. Proin ac ligula ac augue pharetra efficitur id non est. Vestibulum ut ex quis lectus varius viverra ac vitae libero. Vivamus ut auctor justo. Vestibulum eu turpis condimentum, mollis tortor sed, convallis arcu.&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur libero nisi, rhoncus quis scelerisque nec, finibus ut nulla. Nullam placerat erat non justo hendrerit varius. Morbi egestas massa eget eros gravida, a euismod felis pellentesque. Phasellus egestas purus tortor, et cursus purus pretium eu. Morbi at sapien eget neque finibus sagittis at et urna. Integer justo tortor, laoreet vel lacus ac, malesuada suscipit risus. Sed placerat volutpat dictum. Proin ac ligula ac augue pharetra efficitur id non est. Vestibulum ut ex quis lectus varius viverra ac vitae libero. Vivamus ut auctor justo. Vestibulum eu turpis condimentum, mollis tortor sed, convallis arcu.&lt;/p&gt;
+
+</content>
+  </entry>
+  <entry>
+    <title>Lessons from a Year of Freelance</title>
+    <link rel="alternate" href="http://blog.url.com/writing/lessons-from-freelance/"/>
+    <id>http://blog.url.com/writing/lessons-from-freelance/</id>
+    <published>2018-01-02T00:00:00+00:00</published>
+    <updated>2019-11-13T22:00:17+00:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;Towards the end of last year I found myself overwhelmed with anxiety and, to be quite honest, dejection about the type of work I was doing. I knew I needed a change so I decided to quit my job with no real plan for what was to come next. A little preparation with finances to give myself a bit of a runway and I was ready to greet the world of freelance.&lt;/p&gt;
+
+&lt;p&gt;If you find yourself in a similar position hopefully you can find something useful in this article.&lt;/p&gt;
+
+&lt;h2 id="community"&gt;Community&lt;/h2&gt;
+
+&lt;p&gt;The people around me were the driving force behind all the work I got this year. Some of these people I've know for a long time, some were new friends that I made through attending events, being active on Twitter, joining new Slack communities, and working on small side-projects. I can't stress how important it is to get out there and make acquaintances/friends.&lt;/p&gt;
+
+&lt;p&gt;What I've found is people will pass on work to those they trust when they're too busy.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;"I'm booked up for the next two months but I know someone who can help!"&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;My advice here is &lt;strong&gt;get to know your community&lt;/strong&gt;. If your thinking about going freelance in the future it's important to be proactive about this. Also, make sure you deliver good work. If someone recommends you their reputation is on the line as well as yours.&lt;/p&gt;
+
+&lt;h2 id="money"&gt;Money&lt;/h2&gt;
+
+&lt;p&gt;One thing I didn't expect this year was to earn more money working independently than I did in full-time employment.&lt;/p&gt;
+
+&lt;p&gt;Money is important to any small business. Keeping your finances in check and planning accordingly is vital to keeping your books  balanced. It's also important to expense as much as you can against your taxes—a good accountant can help with this.&lt;/p&gt;
+
+&lt;p&gt;There's a lot of great software to help with finances and scheduling as a freelancer. &lt;a href="http://fre.ag/46dvp0jl"&gt;FreeAgent&lt;/a&gt; is wonderful for keeping track of invoices, expenses, and taxes (you can even pay your taxes directly in FreeAgent), &lt;a href="https://cushionapp.com/"&gt;Cushion&lt;/a&gt; for planning out your projects and making sure you have work lined up, &lt;a href="https://www.getharvest.com/"&gt;Harvest&lt;/a&gt; for time-tracking. They all integrate nicely with each other too, which is nice.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="/images/writing/freelance/cushionapp.png" alt="Cushion" /&gt;&lt;/p&gt;
+
+&lt;p&gt;As far as contracts go, I prefer signing long-term ones. Everyone is different but I found this the best way to really get involved with a team/project. 4 month contracts suited me pretty well and if you're interested in what my contract looks like you can &lt;a href="/uploads/contract"&gt;find it here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Finally, &lt;strong&gt;don't undervalue yourself&lt;/strong&gt; and make sure you get paid on time. Your clients need to understand this from the get go, adding late fees to your contract is a good way to make sure you get paid punctually.&lt;/p&gt;
+
+&lt;h2 id="things-go-wrong"&gt;Things Go Wrong&lt;/h2&gt;
+
+&lt;p&gt;Sometimes things don't go the way you want them to. I've been fortunate enough to avoid this for the most part but two pieces of invaluable advice I got early on was; it's OK to say no and also to walk away.&lt;/p&gt;
+
+&lt;p&gt;I made sure the latter was in my contract and the former was something I learned over time about the type of work I wanted to do.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;"If either party wish to terminate the contract, a grace period of 14 days must be given."&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;What I would say here is, make sure your business account is healthy before your personal account. Early on, maybe pay yourself a small salary and save any additional money you get so you have some security if things do go wrong.&lt;/p&gt;
+
+&lt;h2 id="some-rules"&gt;Some Rules&lt;/h2&gt;
+
+&lt;p&gt;I may have mentioned these in passing but I wanted to highlight a few extra rules to close:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;It's OK to say no&lt;/li&gt;
+  &lt;li&gt;Keeping your clients happy will lead to more work&lt;/li&gt;
+  &lt;li&gt;Everything you do online is part of your brand&lt;/li&gt;
+  &lt;li&gt;Keep active; write, build, and share your work&lt;/li&gt;
+  &lt;li&gt;You're a one person show now; learn about sales, marketing, content strategy, communication, and scheduling&lt;/li&gt;
+  &lt;li&gt;Don't get discouraged, the work will come&lt;/li&gt;
+  &lt;li&gt;Work on side-projects in your downtime, this can lead to the type of work you want&lt;/li&gt;
+  &lt;li&gt;I'm sorry: but maybe that LinkedIn account &lt;strong&gt;is a good idea&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Expect the feeling of risk to never go away&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Screen Sabbatical</title>
+    <link rel="alternate" href="http://blog.url.com/writing/screen-sabbatical/"/>
+    <id>http://blog.url.com/writing/screen-sabbatical/</id>
+    <published>2016-12-18T00:00:00+00:00</published>
+    <updated>2019-11-13T22:04:53+00:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;I took a short trip to Co. Donegal this past week to recharge after a busy few months. I planned this trip to get away from my computer, to relax and read, to walk around the Donegal countryside without thinking about work.&lt;/p&gt;
+
+&lt;p&gt;On the Thursday when I arrived I largely did what I planned to. I read Carl Sagan’s ‘Cosmos’ all day and through his charasmetic words was transported through the Universe. My phone was on 5% from the day’s journey and I found myself checking it once or twice in the evening to see if anyone had tried to contact me. When I looked at the screen I was greeted by a list of notifications; Kickstarter emails, Quora answers, Reminders.&lt;/p&gt;
+
+&lt;p&gt;I set my phone down that night and let it die. The next day—16th December—I didn’t look at a single screen. Not a phone, or a television, or a Kindle. It was strange, I tried to recall the last time I went through a full day screenless. Our lives are built around screens, it was impossible to place, likely sometime in the mid 90s but I really can’t remember. When did you last go a full day without looking at a screen?&lt;/p&gt;
+
+&lt;p&gt;I walked, I read, I wrote (this in my notebook, in the evening). I found a sense of comfort in the glow of the fire and the singing of the kettle. It was a welcome change from the brightness of a screen and the sometimes anxiety inducing buzz of a phone.&lt;/p&gt;
+
+&lt;p&gt;Don’t get me wrong, I do love technology, but I need more of these “screen sabbaticals”, I implore you to give it a go.&lt;/p&gt;
+</content>
+  </entry>
 </feed>

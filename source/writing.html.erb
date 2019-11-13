@@ -1,0 +1,27 @@
+---
+title: Blog | Aaron Gilmore is a designer &amp; front-end development
+pageable: true
+per_page: 10
+---
+
+<div class="mw9 pv3">
+    <h1 class="f-subheadline-ns f1-m f2 lh-title mw8">Writing</h1>
+</div>
+
+<div class="flex flex-row flex-wrap">  
+<% blog('writing').articles[0...5].each do |article| %>
+    <div class="w-100 mv3-m mv3 pr3 bb b--light-silver pb3">
+        <a class="link dim" href="<%= article.url %>">
+            <div class="flex flex-row">
+                <div class="w-50">
+                    <span class="gray f7"><%= article.data.location %>~ <%= article.date.strftime('%b %e, %Y') %></span>
+                    <h2 class="f4 mv2"><%= article.title %></h2>
+                </div>    
+                <div class="w-50">
+                    <p class="lh-copy measure mt0"><%= article.data.excerpt %></p>
+                </div>
+            </div>
+        </a>
+    </div>
+<% end %>
+</div>
