@@ -12,12 +12,12 @@ per_page: 10
 <% blog('writing').articles[0...5].each do |article| %>
     <div class="w-100 mv3-m mv3 pr3 bb b--light-silver pb3">
         <a class="link dim" href="<%= article.url %>">
-            <div class="flex flex-row">
-                <div class="w-50">
+            <div class="flex flex-row-ns flex-row-m flex-column">
+                <div class="w-50-ns w-100">
                     <span class="gray f7"><%= article.data.location %>~ <%= article.date.strftime('%b %e, %Y') %></span>
                     <h2 class="f4 mv2"><%= article.title %></h2>
                 </div>    
-                <div class="w-50">
+                <div class="w-50-ns w-100">
                     <p class="lh-copy measure mt0"><%= article.data.excerpt %></p>
                 </div>
             </div>
