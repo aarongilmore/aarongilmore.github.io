@@ -11,7 +11,7 @@ per_page: 10
 <div class="flex flex-row flex-wrap">  
 <% blog('writing').articles[0...5].each do |article| %>
     <div class="w-100 mv3-m mv3 pr3 bb b--light-silver pb3">
-        <a class="link dim" href="<%= article.url %>">
+        <a class="link" href="<%= article.url %>">
             <div class="flex flex-row-ns flex-row-m flex-column">
                 <div class="w-50-ns w-100">
                     <span class="gray f7"><%= article.data.location %>~ <%= article.date.strftime('%b %e, %Y') %></span>
