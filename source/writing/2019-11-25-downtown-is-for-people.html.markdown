@@ -23,7 +23,7 @@ This is an excerpt from The Exploding Metropolis<sup>1</sup>—a piece of text t
 
 You're reading this piece of text on a design blog because when I read it I relate it to how stagnant the web has become is many ways. "Each project will look very like the next one" reminds my of [this tweet by Jon Gold](https://twitter.com/jongold/status/694591217523363840?s=20). This note is part of a larger essay I'm working on about the state of design at the end of this decade. 
 
-Design on the web has changed a lot over the past 10 years, we really need to start observing where we've come from and where we are today so that we can start driving web design towards being a more mature discipline in the future.
+Design on the web has changed a lot over the past 10 years, we really need to start observing where we've come from and where we are today so that we can start driving web design towards being a ***more mature discipline*** in the future.
 
 <ol class="gray f6 lh-copy ml0">
     <li>Various Authors, <a href="https://www.goodreads.com/book/show/552478.The_Exploding_Metropolis?from_search=true&qid=qbNpXCcnlM&rank=1" target="_blank">The Exploding Metropolis &#8599;</a>, University of California Press, 1993 (fp. 1958)</li>
