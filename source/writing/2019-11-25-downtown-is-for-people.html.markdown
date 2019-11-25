@@ -21,7 +21,7 @@ This is an excerpt from The Exploding Metropolis<sup>1</sup>—a piece of text t
 >
 > It is the premise of the critique that the best way to plan for downtown is to see how people use it today; to look for its strengths and to exploit and reinforce them. There is no logic that can be superimposed on the city; people make it, and it is to them, not buildings, they we must fit our plans. This does not mean accepting the present; downtown does need and overhaul, it is dirty, it is congested. But there are things that are right about it too, and by simple old-fashioned observation we can see what they are. We can see what people like.
 
-You're reading this passage on a design blog because when I read it I relate it to how stagnant the web has become is many ways. "Each project will look very like the next one" reminds my of [this tweet by Jon Gold](https://twitter.com/jongold/status/694591217523363840?s=20). This note is part of a larger essay I'm working on about the state of design at the end of this decade. 
+You're reading this piece of text on a design blog because when I read it I relate it to how stagnant the web has become is many ways. "Each project will look very like the next one" reminds my of [this tweet by Jon Gold](https://twitter.com/jongold/status/694591217523363840?s=20). This note is part of a larger essay I'm working on about the state of design at the end of this decade. 
 
 Design on the web has changed a lot over the past 10 years, we really need to start observing where we've come from and where we are today so that we can start driving web design towards being a more mature discipline in the future.
 
