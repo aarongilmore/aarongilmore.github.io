@@ -25,7 +25,7 @@ You're reading this piece of text on a design blog because when I read it I rela
 
 Design on the web has changed a lot over the past 10 years, we really need to start observing where we've come from and where we are today so that we can start driving web design towards being a more mature discipline in the future.
 
-<ol class="gray f6 lh-copy">
+<ol class="gray f6 lh-copy ml0">
     <li>Various Authors, <a href="https://www.goodreads.com/book/show/552478.The_Exploding_Metropolis?from_search=true&qid=qbNpXCcnlM&rank=1" target="_blank">The Exploding Metropolis &#8599;</a>, University of California Press, 1993 (fp. 1958)</li>
     <li>Jane Jacobs, <a href="https://www.goodreads.com/book/show/30833.The_Death_and_Life_of_Great_American_Cities?ac=1&from_search=true&qid=EEaIaYAN2D&rank=4" target="_blank">The Death and Life of Great American Cities &#8599;</a>, Random House, 2002 (fp. 1961)</li>
     <li>Jane Jacobs, <a href="https://www.goodreads.com/book/show/85398.The_Economy_of_Cities?from_search=true&qid=oiNlrfKBPV&rank=10" target="_blank">The Economy of Cities &#8599;</a>, Vintage, 1970  (fp. 1969)</li>
