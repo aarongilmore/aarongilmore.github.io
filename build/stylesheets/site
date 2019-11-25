@@ -60,25 +60,23 @@ p {
 a {
   color: #030508; }
   a:focus, a:hover {
-    opacity: 0.5;
-    transition: .2s; }
+    color: #e27044;
+    transition: ease-in-out .2s; }
 
 .fwa {
   width: 100vw; }
 
 @media (min-width: 320px) {
   blockquote {
-    font-size: 0.6em;
     max-width: 51.5em;
-    margin: 1em 0em 1em 2em;
+    margin: 1em 0em 1em 0em;
     color: #444;
     padding: 0.1em 1.5em 0.5em 1.5em;
-    border-left: 3px solid #dec9b2; } }
+    border-left: 3px solid #e27044; } }
 @media (min-width: 600px) {
   blockquote {
-    font-size: 0.8em;
     max-width: 51.5em;
-    margin: 1em 0em 1em 2em;
+    margin: 1em 0em 1em 0em;
     color: #444;
-    padding: 0.2em 3em 0.9em 3em;
-    border-left: 3px solid #dec9b2; } }
+    padding: 0.2em 3em 0.9em 1.5em;
+    border-left: 3px solid #e27044; } }

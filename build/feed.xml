@@ -5,36 +5,59 @@
   <id>http://blog.url.com/writing</id>
   <link href="http://blog.url.com/writing"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2019-11-13T00:00:00+00:00</updated>
+  <updated>2019-11-21T00:00:00+00:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
   <entry>
-    <title>Downtown Is For People</title>
-    <link rel="alternate" href="http://blog.url.com/writing/downtown-is-for-people/"/>
-    <id>http://blog.url.com/writing/downtown-is-for-people/</id>
-    <published>2019-11-13T00:00:00+00:00</published>
-    <updated>2019-11-13T22:00:07+00:00</updated>
+    <title>The Physics of Culture</title>
+    <link rel="alternate" href="http://blog.url.com/writing/the-physics-of-culture/"/>
+    <id>http://blog.url.com/writing/the-physics-of-culture/</id>
+    <published>2019-11-21T00:00:00+00:00</published>
+    <updated>2019-11-21T16:00:42+00:00</updated>
     <author>
       <name>Article Author</name>
     </author>
-    <content type="html">&lt;p&gt;When we think about the built environment we think about "place making" as opposed to "land-use". It's more considered, even the term implies more care.&lt;/p&gt;
+    <content type="html">&lt;p&gt;Architecture has reignited my curiosity for a more mature web.&lt;/p&gt;
 
-&lt;p&gt;I've been on a binge recently of reading about urbanism and the built environment, as well as attending lectures about the subject. What I love most about it&lt;/p&gt;
+&lt;p&gt;I was fortunate enough to attend the annual Peter Rice Lecture for the second year in a row this week and left the lecture hall in awe about the work and principles shared by Yvonne Farrell and Shelley McNamara from Grafton Architects in their lecture titled "The Physics of Culture".&lt;/p&gt;
 
-&lt;p&gt;I've been reading a lot recently on the topic of urbanism and this passage from Jane Jacobs in 'The Exploding Metropolis' really stood out to me:&lt;/p&gt;
+&lt;p&gt;I mention Shelly even though she didn't speak because one of the core values of Grafton Architects is promoting that "architecture is collaborative". The same is true—or at least should be—for a design practise but maybe we don't instil that enough in our beliefs.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;architecture impacts on all of us (so does design)&lt;/li&gt;
+  &lt;li&gt;light affects structure&lt;/li&gt;
+  &lt;li&gt;the union between the material and the spiritual world as a way to describe the beautiful cathedral in Majorca&lt;/li&gt;
+  &lt;li&gt;Thinking about a building as a "machine that holds light"&lt;/li&gt;
+  &lt;li&gt;The skin of cities&lt;/li&gt;
+  &lt;li&gt;"The structure is immense but it embraces you"&lt;/li&gt;
+  &lt;li&gt;Architecture is "a silent language that speaks"&lt;/li&gt;
+  &lt;li&gt;"Art, history, politics, poetry, against hard data" van humbolt?&lt;/li&gt;
+  &lt;li&gt;Buildings—"the built enclosure of people's lives"&lt;/li&gt;
+  &lt;li&gt;Thinking about how the air of a city moves through a building&lt;/li&gt;
+  &lt;li&gt;Peter Rice — committed to collaboration across disciplines&lt;/li&gt;
+  &lt;li&gt;"The earth is our client"&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Underland</title>
+    <link rel="alternate" href="http://blog.url.com/writing/underland/"/>
+    <id>http://blog.url.com/writing/underland/</id>
+    <published>2019-11-19T00:00:00+00:00</published>
+    <updated>2019-11-19T21:53:51+00:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;Robert Macfarlane's &lt;em&gt;Underland&lt;/em&gt;&lt;sup&gt;1&lt;/sup&gt; is already one of my favourite reads of the year and I'm only about a third of the way through it.&lt;/p&gt;
+
+&lt;p&gt;He speaks about his experiences with such romanticism and I've been adoring the references throughout. The same was true for &lt;em&gt;The Old Ways&lt;/em&gt;, which I read earlier this year. Here's one of my favourite passages—and an quote from &lt;a href="https://en.wikipedia.org/wiki/Louis_de_Bernières"&gt;Louis de Bernières&lt;/a&gt;—for your enjoyment and my future reference:&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;From city to city the architects' sketches conjure up the same dreary scene; here is no hint of individuality or whim or surprise, no hint that here is a city with a tradition and flavour all its own. These projects will not Revitalise downtown; they will deaden it. For they work at cross-purposes to the city. They banish its variety.&lt;sup&gt;1&lt;/sup&gt;&lt;/p&gt;
+  &lt;p&gt;Lying there among the trees, despite a learned wariness towards anthropomorphism, I find it hard not to imagine these aboreal relations in terms of tenderness, generosity and even love: the respectful distance of their shy crowns, the kissing branches that have pleached with one another, the unseen connections forged by root and hyphae between seemingly distant trees. I remember something Louis de Bernières has written about a relationship that endured into the old age: 'we had roots that grew towards each other underground, and when all the pretty blossom had fallen from our branches we found that we were one tree and not two.'&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;div&gt;&lt;img src="/images/downtown-is-for-people/jane-jacobs.jpg" alt="" /&gt;&lt;/div&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;It is the premise of the critique that the best way to plan for downtown is to see how people use it today; to look for its strengths and to exploit and reinforce them. There is no logic that can be superimposed on the city; people make it, and it is to them, not buildings, they we must fit our plans. This does not mean accepting the present; downtown does need and overhaul, it is dirty, it is congested. But there are things that are right about it too, and by simple old-fashioned observation we can see what they are. We can see what people like.&lt;sup&gt;2&lt;/sup&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;As Belfast City Council &lt;a href="https://twitter.com/Tribeca_Belfast/status/1192417361984458753?s=20"&gt;reviews plans&lt;/a&gt; for the proposed "Tribeca Belfast" I can't help think about this passage by Ms. Jacobs.&lt;/p&gt;
+&lt;p&gt;&lt;small class="db mt4 gray"&gt;1. Robert Macfarlane, &lt;a href="https://www.goodreads.com/book/show/41817481-underland?from_search=true&amp;amp;qid=fACBglecTz&amp;amp;rank=1" target="_blank"&gt;Underland ↗&lt;/a&gt;, Hamish Hamilton, 2019&lt;/small&gt;&lt;/p&gt;
 </content>
   </entry>
   <entry>
@@ -42,7 +65,7 @@
     <link rel="alternate" href="http://blog.url.com/writing/for-ursula/"/>
     <id>http://blog.url.com/writing/for-ursula/</id>
     <published>2018-01-24T00:00:00+00:00</published>
-    <updated>2019-11-13T22:15:15+00:00</updated>
+    <updated>2019-11-19T21:31:21+00:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -73,32 +96,11 @@
 </content>
   </entry>
   <entry>
-    <title>Hello Test</title>
-    <link rel="alternate" href="http://blog.url.com/writing/hello-test/"/>
-    <id>http://blog.url.com/writing/hello-test/</id>
-    <published>2018-01-03T00:00:00+00:00</published>
-    <updated>2019-11-13T22:00:12+00:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur libero nisi, rhoncus quis scelerisque nec, finibus ut nulla. Nullam placerat erat non justo hendrerit varius. Morbi egestas massa eget eros gravida, a euismod felis pellentesque. Phasellus egestas purus tortor, et cursus purus pretium eu. Morbi at sapien eget neque finibus sagittis at et urna. Integer justo tortor, laoreet vel lacus ac, malesuada suscipit risus. Sed placerat volutpat dictum.&lt;/p&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur libero nisi, rhoncus quis scelerisque nec, finibus ut nulla. Nullam placerat erat non justo hendrerit varius. Morbi egestas massa eget eros gravida, a euismod felis pellentesque. Phasellus egestas purus tortor, et cursus purus pretium eu. Morbi at sapien eget neque finibus sagittis at et urna. Integer justo tortor, laoreet vel lacus ac, malesuada suscipit risus. Sed placerat volutpat dictum. Proin ac ligula ac augue pharetra efficitur id non est. Vestibulum ut ex quis lectus varius viverra ac vitae libero. Vivamus ut auctor justo. Vestibulum eu turpis condimentum, mollis tortor sed, convallis arcu.&lt;/p&gt;
-
-&lt;div&gt;&lt;img src="/images/whitman.jpg" alt="" /&gt;&lt;/div&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur libero nisi, rhoncus quis scelerisque nec, finibus ut nulla. Nullam placerat erat non justo hendrerit varius. Morbi egestas massa eget eros gravida, a euismod felis pellentesque. Phasellus egestas purus tortor, et cursus purus pretium eu. Morbi at sapien eget neque finibus sagittis at et urna. Integer justo tortor, laoreet vel lacus ac, malesuada suscipit risus. Sed placerat volutpat dictum. Proin ac ligula ac augue pharetra efficitur id non est. Vestibulum ut ex quis lectus varius viverra ac vitae libero. Vivamus ut auctor justo. Vestibulum eu turpis condimentum, mollis tortor sed, convallis arcu.&lt;/p&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur libero nisi, rhoncus quis scelerisque nec, finibus ut nulla. Nullam placerat erat non justo hendrerit varius. Morbi egestas massa eget eros gravida, a euismod felis pellentesque. Phasellus egestas purus tortor, et cursus purus pretium eu. Morbi at sapien eget neque finibus sagittis at et urna. Integer justo tortor, laoreet vel lacus ac, malesuada suscipit risus. Sed placerat volutpat dictum. Proin ac ligula ac augue pharetra efficitur id non est. Vestibulum ut ex quis lectus varius viverra ac vitae libero. Vivamus ut auctor justo. Vestibulum eu turpis condimentum, mollis tortor sed, convallis arcu.&lt;/p&gt;
-
-</content>
-  </entry>
-  <entry>
     <title>Lessons from a Year of Freelance</title>
     <link rel="alternate" href="http://blog.url.com/writing/lessons-from-freelance/"/>
     <id>http://blog.url.com/writing/lessons-from-freelance/</id>
     <published>2018-01-02T00:00:00+00:00</published>
-    <updated>2019-11-13T22:00:17+00:00</updated>
+    <updated>2019-11-19T21:31:24+00:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -166,7 +168,7 @@
     <link rel="alternate" href="http://blog.url.com/writing/screen-sabbatical/"/>
     <id>http://blog.url.com/writing/screen-sabbatical/</id>
     <published>2016-12-18T00:00:00+00:00</published>
-    <updated>2019-11-13T22:04:53+00:00</updated>
+    <updated>2019-11-19T21:31:27+00:00</updated>
     <author>
       <name>Article Author</name>
     </author>

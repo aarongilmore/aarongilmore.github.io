@@ -13,7 +13,7 @@
     <meta property="og:description" content="My name is Aaron and I design and build websites with a focus on functional interaction design, good typography, speed, and simplicity." />
     <meta name="description" content="My name is Aaron and I design and build websites with a focus on functional interaction design, good typography, speed, and simplicity.">
     
-    <meta name="keywords" content="Visual, digital designer, web, front-end developer, development, Git, version, control, iOS, HTML, CSS, CMS, Brewbot, product">
+    <meta name="keywords" content="Visual, digital designer, web, front-end developer, development, Git, version, control, iOS, HTML, CSS, CMS, product">
     <meta name="author" content="Aaron Gilmore">
     <meta property="og:type" content="website" />
     <meta property="og_url" content="https://aarongilmore.com/" />
@@ -24,17 +24,7 @@
     <script src="/javascripts/main.js"></script>
     <script src="/javascripts/lory.min.js"></script>
     <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css"/>
-    <script>
-        'use strict';
-
-        document.addEventListener('DOMContentLoaded', function() {
-            var slider = document.querySelector('.js_slider');
-
-            lory(slider, {
-                // options going here
-            });
-        });
-    </script>
+    
   </head>
   <body class="center ph3 ph6-ns">
     <nav class="dt w-100 border-box pv4">
@@ -56,19 +46,18 @@
     </div>
 </nav>
       <article class="lh-copy mt5">
-  <span class="gray f7">~ Jan  3, 2018</span>
-  <h1 class="f-subheadline-ns f1-m lh-title m-title mv3">Hello Test</h1>
+  <span class="gray f7">Belfast, N. Ireland~ Nov 19, 2019</span>
+  <h1 class="f-subheadline-ns f1-m lh-title m-title mv3">Underland</h1>
   <div class="article ml6-ns">
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur libero nisi, rhoncus quis scelerisque nec, finibus ut nulla. Nullam placerat erat non justo hendrerit varius. Morbi egestas massa eget eros gravida, a euismod felis pellentesque. Phasellus egestas purus tortor, et cursus purus pretium eu. Morbi at sapien eget neque finibus sagittis at et urna. Integer justo tortor, laoreet vel lacus ac, malesuada suscipit risus. Sed placerat volutpat dictum.</p>
+    <p>Robert Macfarlane's <em>Underland</em><sup>1</sup> is already one of my favourite reads of the year and I'm only about a third of the way through it.</p>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur libero nisi, rhoncus quis scelerisque nec, finibus ut nulla. Nullam placerat erat non justo hendrerit varius. Morbi egestas massa eget eros gravida, a euismod felis pellentesque. Phasellus egestas purus tortor, et cursus purus pretium eu. Morbi at sapien eget neque finibus sagittis at et urna. Integer justo tortor, laoreet vel lacus ac, malesuada suscipit risus. Sed placerat volutpat dictum. Proin ac ligula ac augue pharetra efficitur id non est. Vestibulum ut ex quis lectus varius viverra ac vitae libero. Vivamus ut auctor justo. Vestibulum eu turpis condimentum, mollis tortor sed, convallis arcu.</p>
+<p>He speaks about his experiences with such romanticism and I've been adoring the references throughout. The same was true for <em>The Old Ways</em>, which I read earlier this year. Here's one of my favourite passages—and an quote from <a href="https://en.wikipedia.org/wiki/Louis_de_Bernières">Louis de Bernières</a>—for your enjoyment and my future reference:</p>
 
-<div><img src="/images/whitman.jpg" alt="" /></div>
+<blockquote>
+  <p>Lying there among the trees, despite a learned wariness towards anthropomorphism, I find it hard not to imagine these aboreal relations in terms of tenderness, generosity and even love: the respectful distance of their shy crowns, the kissing branches that have pleached with one another, the unseen connections forged by root and hyphae between seemingly distant trees. I remember something Louis de Bernières has written about a relationship that endured into the old age: 'we had roots that grew towards each other underground, and when all the pretty blossom had fallen from our branches we found that we were one tree and not two.'</p>
+</blockquote>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur libero nisi, rhoncus quis scelerisque nec, finibus ut nulla. Nullam placerat erat non justo hendrerit varius. Morbi egestas massa eget eros gravida, a euismod felis pellentesque. Phasellus egestas purus tortor, et cursus purus pretium eu. Morbi at sapien eget neque finibus sagittis at et urna. Integer justo tortor, laoreet vel lacus ac, malesuada suscipit risus. Sed placerat volutpat dictum. Proin ac ligula ac augue pharetra efficitur id non est. Vestibulum ut ex quis lectus varius viverra ac vitae libero. Vivamus ut auctor justo. Vestibulum eu turpis condimentum, mollis tortor sed, convallis arcu.</p>
-
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur libero nisi, rhoncus quis scelerisque nec, finibus ut nulla. Nullam placerat erat non justo hendrerit varius. Morbi egestas massa eget eros gravida, a euismod felis pellentesque. Phasellus egestas purus tortor, et cursus purus pretium eu. Morbi at sapien eget neque finibus sagittis at et urna. Integer justo tortor, laoreet vel lacus ac, malesuada suscipit risus. Sed placerat volutpat dictum. Proin ac ligula ac augue pharetra efficitur id non est. Vestibulum ut ex quis lectus varius viverra ac vitae libero. Vivamus ut auctor justo. Vestibulum eu turpis condimentum, mollis tortor sed, convallis arcu.</p>
-
+<p><small class="db mt4 gray">1. Robert Macfarlane, <a href="https://www.goodreads.com/book/show/41817481-underland?from_search=true&amp;qid=fACBglecTz&amp;rank=1" target="_blank">Underland ↗</a>, Hamish Hamilton, 2019</small></p>
 
   </div>
   </article>
@@ -82,6 +71,7 @@
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     <script>
       $( "article p:first-child" ).addClass( "f4-ns f5 mt4" );
+      $( "blockquote p:first-child" ).removeClass( "f4-ns f5 mt4" );
       $( "article div img" ).addClass( "fwa mv4-ns" );
       $( "article ul" ).addClass( "pl0" );
     </script>

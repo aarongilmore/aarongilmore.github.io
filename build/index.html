@@ -13,7 +13,7 @@
     <meta property="og:description" content="My name is Aaron and I design and build websites with a focus on functional interaction design, good typography, speed, and simplicity." />
     <meta name="description" content="My name is Aaron and I design and build websites with a focus on functional interaction design, good typography, speed, and simplicity.">
     
-    <meta name="keywords" content="Visual, digital designer, web, front-end developer, development, Git, version, control, iOS, HTML, CSS, CMS, Brewbot, product">
+    <meta name="keywords" content="Visual, digital designer, web, front-end developer, development, Git, version, control, iOS, HTML, CSS, CMS, product">
     <meta name="author" content="Aaron Gilmore">
     <meta property="og:type" content="website" />
     <meta property="og_url" content="https://aarongilmore.com/" />
@@ -24,17 +24,7 @@
     <script src="/javascripts/main.js"></script>
     <script src="/javascripts/lory.min.js"></script>
     <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css"/>
-    <script>
-        'use strict';
-
-        document.addEventListener('DOMContentLoaded', function() {
-            var slider = document.querySelector('.js_slider');
-
-            lory(slider, {
-                // options going here
-            });
-        });
-    </script>
+    
   </head>
   <body class="center ph3 ph6-ns">
     <nav class="dt w-100 border-box pv4">
@@ -57,7 +47,7 @@
 </nav>
     <div class="mw9 pv3">
     <h1 class="f-subheadline-ns f1-m f2 lh-title mw8">I’m Aaron, a designer and developer living and working in Ireland.</h1>
-    <p class="f3-ns f5-m f5 lh-copy mw7 ml6-ns ml0-m">I make things on the Internet; from odd little side projects to comprehensive design overhauls for large organisations. I'm currently Senior Designer at <a href="https://www.dawsonandrews.com/work" target="_blank">Dawson Andrews</a>&mdash;an agency specialising in digital product design.</p>
+    <p class="f3-ns f5-m f5 lh-copy mw7 ml6-ns ml0-m"><strong>-></strong> I make things on the Internet; from odd little side projects to comprehensive design overhauls for large organisations. I'm currently undertaking the role of Senior Designer at <a href="https://www.dawsonandrews.com/work" target="_blank">Dawson Andrews</a>&mdash;an agency specialising in digital product design.</p>
     <p class="f3-ns f5-m f5 lh-copy mw7 ml6-ns ml0-m">Outside of screens I like to learn about architecture, urbanism, and art; I believe there's a lot we learn&mdash;as designers&mdash;from these disciplines.</p>
 </div>
 
@@ -65,10 +55,16 @@
   <h2>Writing &mdash;</h2>
   <div class="flex flex-row-ns flex-column-m flex-column flex-wrap">  
       <div class="w-50-ns w-100-m w-100 mv3-m mv3 pr3">
-        <span class="gray f7">Dublin, Ireland~ Nov 13, 2019</span>
-        <h3 class="fw6 mv2">Downtown Is For People</h3>
-        <p class="measure">When we think about the built environment we think about "place making" as opposed to "land-use". It's more considered, even the term implies more care.</p>
-        <a href="/writing/downtown-is-for-people/">Continue Reading →</a>
+        <span class="gray f7">Belfast, N. Ireland~ Nov 21, 2019</span>
+        <h3 class="fw6 mv2">The Physics of Culture</h3>
+        <p class="measure">Architecture has reignited my curiosity for a more mature web....</p>
+        <a href="/writing/the-physics-of-culture/">Continue Reading →</a>
+      </div>
+      <div class="w-50-ns w-100-m w-100 mv3-m mv3 pr3">
+        <span class="gray f7">Belfast, N. Ireland~ Nov 19, 2019</span>
+        <h3 class="fw6 mv2">Underland</h3>
+        <p class="measure">Robert Macfarland's 'Underland' is already one of my favourite reads of the year and I'm only about a third of the way through it...</p>
+        <a href="/writing/underland/">Continue Reading →</a>
       </div>
       <div class="w-50-ns w-100-m w-100 mv3-m mv3 pr3">
         <span class="gray f7">Belfast, N. Ireland~ Jan 24, 2018</span>
@@ -77,13 +73,7 @@
         <a href="/writing/for-ursula/">Continue Reading →</a>
       </div>
       <div class="w-50-ns w-100-m w-100 mv3-m mv3 pr3">
-        <span class="gray f7">~ Jan  3, 2018</span>
-        <h3 class="fw6 mv2">Hello Test</h3>
-        <p class="measure">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur libero nisi, rhoncus quis scelerisque nec, finibus ut nulla.</p>
-        <a href="/writing/hello-test/">Continue Reading →</a>
-      </div>
-      <div class="w-50-ns w-100-m w-100 mv3-m mv3 pr3">
-        <span class="gray f7">~ Jan  2, 2018</span>
+        <span class="gray f7">Belfast, N. Ireland~ Jan  2, 2018</span>
         <h3 class="fw6 mv2">Lessons from a Year of Freelance</h3>
         <p class="measure">If you find yourself in a similar position hopefully you can find something useful in this article.</p>
         <a href="/writing/lessons-from-freelance/">Continue Reading →</a>
@@ -128,6 +118,7 @@
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     <script>
       $( "article p:first-child" ).addClass( "f4-ns f5 mt4" );
+      $( "blockquote p:first-child" ).removeClass( "f4-ns f5 mt4" );
       $( "article div img" ).addClass( "fwa mv4-ns" );
       $( "article ul" ).addClass( "pl0" );
     </script>
