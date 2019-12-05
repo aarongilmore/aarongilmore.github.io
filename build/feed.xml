@@ -5,39 +5,44 @@
   <id>http://blog.url.com/writing</id>
   <link href="http://blog.url.com/writing"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2019-11-21T00:00:00+00:00</updated>
+  <updated>2019-11-25T00:00:00+00:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
   <entry>
-    <title>The Physics of Culture</title>
-    <link rel="alternate" href="http://blog.url.com/writing/the-physics-of-culture/"/>
-    <id>http://blog.url.com/writing/the-physics-of-culture/</id>
-    <published>2019-11-21T00:00:00+00:00</published>
-    <updated>2019-11-21T16:00:42+00:00</updated>
+    <title>Downtown Is For People</title>
+    <link rel="alternate" href="http://blog.url.com/writing/downtown-is-for-people/"/>
+    <id>http://blog.url.com/writing/downtown-is-for-people/</id>
+    <published>2019-11-25T00:00:00+00:00</published>
+    <updated>2019-11-25T10:27:33+00:00</updated>
     <author>
       <name>Article Author</name>
     </author>
-    <content type="html">&lt;p&gt;Architecture has reignited my curiosity for a more mature web.&lt;/p&gt;
+    <content type="html">&lt;p&gt;This is an excerpt from The Exploding Metropolis&lt;sup&gt;1&lt;/sup&gt;—a piece of text that examines urban decline and suburban sprawl, transportation, city politics, open space, and the character and fabric of cities. This excerpt was written by Jane Jacobs, the great author and urbanist who wrote The Death and Life of Great American Cities&lt;sup&gt;2&lt;/sup&gt; and The Economy of Cities&lt;sup&gt;3&lt;/sup&gt;, both of which I highly recommend.&lt;/p&gt;
 
-&lt;p&gt;I was fortunate enough to attend the annual Peter Rice Lecture for the second year in a row this week and left the lecture hall in awe about the work and principles shared by Yvonne Farrell and Shelley McNamara from Grafton Architects in their lecture titled "The Physics of Culture".&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;This is a critical time for the future of the city. All over the country civic leaders and planners are preparing a series of redeveloped projects that will set the character of the centre of our cities for generations to come. Great tracts, many blocks wide, are being razed; only a few cities have their new downtown projects already under construction; but almost every big city is getting ready to build, and the plans will soon be set.&lt;/p&gt;
 
-&lt;p&gt;I mention Shelly even though she didn't speak because one of the core values of Grafton Architects is promoting that "architecture is collaborative". The same is true—or at least should be—for a design practise but maybe we don't instil that enough in our beliefs.&lt;/p&gt;
+  &lt;p&gt;What will the projects look like? They will be spacious, parklike, and uncrowded. They will feature long green vistas. They will be stable and symmetrical and orderly. They will be clean, impressive, and monumental They will have all the attributes or a well-kept, dignified cemetery.&lt;/p&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;architecture impacts on all of us (so does design)&lt;/li&gt;
-  &lt;li&gt;light affects structure&lt;/li&gt;
-  &lt;li&gt;the union between the material and the spiritual world as a way to describe the beautiful cathedral in Majorca&lt;/li&gt;
-  &lt;li&gt;Thinking about a building as a "machine that holds light"&lt;/li&gt;
-  &lt;li&gt;The skin of cities&lt;/li&gt;
-  &lt;li&gt;"The structure is immense but it embraces you"&lt;/li&gt;
-  &lt;li&gt;Architecture is "a silent language that speaks"&lt;/li&gt;
-  &lt;li&gt;"Art, history, politics, poetry, against hard data" van humbolt?&lt;/li&gt;
-  &lt;li&gt;Buildings—"the built enclosure of people's lives"&lt;/li&gt;
-  &lt;li&gt;Thinking about how the air of a city moves through a building&lt;/li&gt;
-  &lt;li&gt;Peter Rice — committed to collaboration across disciplines&lt;/li&gt;
-  &lt;li&gt;"The earth is our client"&lt;/li&gt;
-&lt;/ul&gt;
+  &lt;p&gt;And each project will look very much like the next one: the Golden Gateway office and apartment centre planned for San Francisco;  the Civic Center for New Orleans; the Lower Hill auditorium and apartment project for Pittsburgh; the Convention Center for Cleveland; the Quality Hill offices and apartments for Kansas City; the Capitol Hill project for Nashville.&lt;/p&gt;
+
+  &lt;p&gt;From city to city the architects' sketches conjure up the same dreary scene; here is no hint of individuality or whim or surprise, no hint that here is a city with a tradition and flavour all its own.&lt;/p&gt;
+
+  &lt;p&gt;These projects will not revitalise downtown; they will deaden it. For they work at cross-purposes to the city. They banish its variety.&lt;/p&gt;
+
+  &lt;p&gt;It is the premise of the critique that the best way to plan for downtown is to see how people use it today; to look for its strengths and to exploit and reinforce them. There is no logic that can be superimposed on the city; people make it, and it is to them, not buildings, they we must fit our plans. This does not mean accepting the present; downtown does need and overhaul, it is dirty, it is congested. But there are things that are right about it too, and by simple old-fashioned observation we can see what they are. We can see what people like.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;You're reading this piece of text on a design blog because when I read it I relate it to how stagnant the web has become is many ways. "Each project will look very like the next one" reminds my of &lt;a href="https://twitter.com/jongold/status/694591217523363840?s=20"&gt;this tweet by Jon Gold&lt;/a&gt;. This note is part of a larger essay I'm working on about the state of design at the end of this decade.&lt;/p&gt;
+
+&lt;p&gt;Design on the web has changed a lot over the past 10 years, we really need to start observing where we've come from and where we are today so that we can start driving web design towards being a &lt;strong&gt;&lt;em&gt;more mature discipline&lt;/em&gt;&lt;/strong&gt; in the future.&lt;/p&gt;
+
+&lt;ol class="gray f6 lh-copy ml0"&gt;
+    &lt;li&gt;Various Authors, &lt;a href="https://www.goodreads.com/book/show/552478.The_Exploding_Metropolis?from_search=true&amp;amp;qid=qbNpXCcnlM&amp;amp;rank=1" target="_blank"&gt;The Exploding Metropolis &amp;#8599;&lt;/a&gt;, University of California Press, 1993 (fp. 1958)&lt;/li&gt;
+    &lt;li&gt;Jane Jacobs, &lt;a href="https://www.goodreads.com/book/show/30833.The_Death_and_Life_of_Great_American_Cities?ac=1&amp;amp;from_search=true&amp;amp;qid=EEaIaYAN2D&amp;amp;rank=4" target="_blank"&gt;The Death and Life of Great American Cities &amp;#8599;&lt;/a&gt;, Random House, 2002 (fp. 1961)&lt;/li&gt;
+    &lt;li&gt;Jane Jacobs, &lt;a href="https://www.goodreads.com/book/show/85398.The_Economy_of_Cities?from_search=true&amp;amp;qid=oiNlrfKBPV&amp;amp;rank=10" target="_blank"&gt;The Economy of Cities &amp;#8599;&lt;/a&gt;, Vintage, 1970  (fp. 1969)&lt;/li&gt;
+&lt;/ol&gt;
 </content>
   </entry>
   <entry>
