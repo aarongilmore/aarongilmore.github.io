@@ -1,7 +1,8 @@
 <% wrap_layout :layout do %>
+  <%= partial "header" %>
   <article class="lh-copy mt5">
-  <h1 class="f-subheadline-ns f1-m lh-title m-title mv3"><%= current_article.title %></h1>
-  <div class="article ml6-ns">
+  <h1><%= current_article.title %></h1>
+  <div>
     <%= yield %>
   </div>
   </article>
