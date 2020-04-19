@@ -1,29 +1,54 @@
-document.addEventListener("DOMContentLoaded", function() {
-    var lazyloadImages = document.querySelectorAll("img.lazy");    
-    var lazyloadThrottleTimeout;
-    
-    function lazyload () {
-      if(lazyloadThrottleTimeout) {
-        clearTimeout(lazyloadThrottleTimeout);
-      }    
-      
-      lazyloadThrottleTimeout = setTimeout(function() {
-          var scrollTop = window.pageYOffset;
-          lazyloadImages.forEach(function(img) {
-              if(img.offsetTop < (window.innerHeight + scrollTop)) {
-                img.src = img.dataset.src;
-                img.classList.remove('lazy');
-              }
-          });
-          if(lazyloadImages.length == 0) { 
-            document.removeEventListener("scroll", lazyload);
-            window.removeEventListener("resize", lazyload);
-            window.removeEventListener("orientationChange", lazyload);
-          }
-      }, 20);
-    }
-    
-    document.addEventListener("scroll", lazyload);
-    window.addEventListener("resize", lazyload);
-    window.addEventListener("orientationChange", lazyload);
-  });
+var request = new XMLHttpRequest();
+var url = 'https://api.are.na/v2/channels/highlights-iao1d4cqqte?per=100';
+request.open('GET', url, true);
+
+request.onload = function() {
+  if (request.status >= 200 && request.status < 400) {
+    // Success!
+    document.getElementById('dot-dot-dot').style.display = 'none';
+    var data = JSON.parse(request.responseText);
+
+    data.contents.forEach(function(c) {
+      var div = document.createElement('div');
+
+      div.className = 'entry';
+      if (c.class === 'Text') {
+        var text = c.content_html;
+        div.innerHTML = text + "<p>" + formatDate(new Date(c.created_at)) + "</p>";
+      } else if (c.class === 'Image') {
+        div.innerHTML = '<a href="' + c.image.original.url + '" target="_blank"><img src="' + c.image.display.url + '"></a><div class="caption">' + c.title + '</div>';
+        
+      }
+      document.getElementById('entries').insertBefore(div, document.getElementById('entries').childNodes[0]);
+
+      var anchors = document.getElementById('entries').getElementsByTagName('a');
+      for (var i = 0; i < anchors.length; i++){
+        anchors[i].setAttribute('target', '_blank');
+      }
+
+    });
+  } else {
+    // We reached our target server, but it returned an error
+  }
+};
+
+request.onerror = function() {
+  // There was a connection error of some sort
+};
+
+request.send();
+
+function formatDate(date) {
+  var monthNames = [
+    "January", "February", "March",
+    "April", "May", "June", "July",
+    "August", "September", "October",
+    "November", "December"
+  ];
+
+  var day = date.getDate();
+  var monthIndex = date.getMonth();
+  var year = date.getFullYear();
+
+  return day + ' ' + monthNames[monthIndex] + ' ' + year;
+}

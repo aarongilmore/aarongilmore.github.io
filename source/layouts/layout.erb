@@ -22,18 +22,16 @@
 
     <%= stylesheet_link_tag "styles" %>
     <%= javascript_include_tag "main" %>
-    <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css"/>  
+    
+    
   </head>
-  <body class="center ph3 ph6-ns mw9-ns">
+  <body>
     <%= partial "header" %>
     <%= yield %>
     <%= partial "footer" %>
-    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-    <script>
-      $( "article p:first-child" ).addClass( "f4-ns f5 mt4" );
-      $( "blockquote p:first-child" ).removeClass( "f4-ns f5 mt4" );
-      $( "article div img" ).addClass( "fwa mv4-ns" );
-      $( "article ul" ).addClass( "pl0" );
-    </script>
+      <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+      <script>
+        $( "article p:first-child" ).addClass( "f4-ns f5 mt4" );
+      </script>
   </body>
 </html>

@@ -2,51 +2,38 @@
 title: Home | Aaron Gilmore is a designer &amp; front-end development
 ---
 
-<div class="mw9 pv3">
-    <h1 class="f-subheadline-ns f1-m f2 lh-title mw8">I’m Aaron, a designer and developer living and working in Ireland.</h1>
-    <p class="f3-ns f5-m f5 lh-copy mw7 ml6-ns ml0-m"><strong>-></strong> I make things on the Internet; from odd little side projects to comprehensive design overhauls for large organisations. I'm currently undertaking the role of Senior Designer at <a href="https://www.dawsonandrews.com/work" target="_blank">Dawson Andrews</a>&mdash;an agency specialising in digital product design.</p>
-    <p class="f3-ns f5-m f5 lh-copy mw7 ml6-ns ml0-m">Outside of screens I like to learn about architecture, urbanism, and art; I believe there's a lot we can learn&mdash;as designers&mdash;from these disciplines.</p>
+<div>
+    <h1>Designing and building on the web</h1>
+    <p>I make things on the Internet; from odd little side projects to comprehensive design overhauls for large organisations. I'm currently undertaking the role of Senior Designer at <a href="https://www.dawsonandrews.com/work" target="_blank">Dawson Andrews</a>&mdash;an agency specialising in digital product design.</p>
+    <p>Outside of screens I like to learn about architecture, urbanism, and art; I believe there's a lot we can learn&mdash;as designers&mdash;from these disciplines.</p>
+    <figure>
+      <img src="/images/me.JPG" alt="" width="100%">
+      <figcaption>At <a href="https://2019.xoxofest.com" target="_blank">XOXO</a>, Portland, O.R., 2019</figcaption>
+    </figure>
 </div>
 
-<div class="pv3">
-  <h2>Writing &mdash;</h2>
-  <div class="flex flex-row-ns flex-column-m flex-column flex-wrap">  
-    <% blog('writing').articles[0...4].each do |article| %>
-      <div class="w-50-ns w-100-m w-100 mv3-m mv3 pr3">
-        <span class="gray f7"><%= article.data.location %>~ <%= article.date.strftime('%b %e, %Y') %></span>
-        <h3 class="fw6 mv2"><%= article.title %></h3>
-        <p class="measure"><%= article.data.excerpt %></p>
-        <%= link_to 'Continue Reading →', article %>
-      </div>
-    <% end %>
-  </div>
+<div>
+  <h2 id="writing">Writing</h2>
+    <ul>
+      <% blog('writing').articles[0...4].each do |article| %>
+        <li><span class="date"><%= article.date.strftime('%Y.%m.%d') %></span><a href="<%= article.url %>"><%= article.title %></a></li>
+      <% end %>
+    </ul>
 </div>
 
-<div class="pv3">
-<div class="flex flex-row-ns flex-column-m flex-column">
-    <div class="w-50-ns w-100-m mr2-ns pr4-ns">
-      <h2>About Me &mdash;</h2>
-      <p class="measure">I first got the bug for making websites when I was about 16 years old and swiftly moved on to study <a href="https://scm.ulster.ac.uk/imd/modules/modules.html" target="_blank">Interactive Design at the University of Ulster</a>. During my time there—and ever since—I’ve been working with startups and agencies, from Belfast to London, via Berlin, to deliver finely tuned digital experiences.</p>
-      <p class="measure">I’m interested in a lot of things outside of digital design; art, cooking, architecture, urban design, politics, reading, writing. All of which have overlap in some form or another.</p>
-      <h3>Connect With Me</h3>
-      <ul class="list pl0 lh-copy fl f6">
-        <li>Email</li>
-        <li>Arena</li>
-        <li>Twitter</li>
-        <li>Instagram</li>
-      </ul>
-      <ul class="list pl0 lh-copy fl f6">
-        <li><a href="mailto:hello@aarongilmore.com" class="no-underline gray"><span class="pl4-ns pl3">hello@aarongilmore.com</span></a></li>
-        <li><a href="https://www.are.na/aaron-gilmore" class="no-underline gray" target="_blank"><span class="pl4-ns pl3">Visit ↗</span></a></li>
-        <li><a href="https://twitter.com/aarondgilmore/" class="no-underline gray" target="_blank"><span class="pl4-ns pl3">@aarondgilmore ↗</span></a></li>
-        <li><a href="https://www.instagram.com/aarongilmore/" class="no-underline gray" target="_blank"><span class="pl4-ns pl3">@aarongilmore ↗</span></a></li>
-      </ul>
-    </div>
-    <div class="w-50-ns w-100-m tr-ns tl-m">
-      <figure class="ma0 mt5-ns mt4">
-        <img src="/images/me.JPG" alt="" width="100%">
-        <figcaption class="f6 tr-ns tl-m gray mt2">At <a href="https://2019.xoxofest.com" class="gray" target="_blank">XOXO</a>, Portland, O.R., 2019</figcaption>
-      </figure>
-    </div>
+<div>
+  <h2 id="contact">Contact</h2>
+    <ul>
+      <li><span>Email</span><a href="mailto:hello@aarongilmore.com">hello@aarongilmore.com</a></li>
+      <li><span>Arena</span><a href="https://www.are.na/aaron-gilmor" target="_blank">/aaron-gilmore</a></li>
+      <li><span>Twitter</span><a href="https://twitter.com/aarondgilmore/" target="_blank">/@aarondgilmore</a></li>
+    </ul>
+</div>
+
+<div>
+  <h2 id="highlights">Highlights</h2>
+  <p>Highlights from around the web, powered by <a href="http://are.na/" target="_blank">Are.na</a></p>
+  <div id="entries">
+    <div id="dot-dot-dot"></div>
   </div>
-</div> 
+</div>

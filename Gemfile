@@ -22,3 +22,6 @@ gem 'nokogiri', '~> 1.6', '>= 1.6.8'
 
 # Livereload
 gem 'middleman-livereload'
+
+# Arena
+gem 'arena'
