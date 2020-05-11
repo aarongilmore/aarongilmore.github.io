@@ -46,6 +46,59 @@ h2 {
   font-weight: 500;
 }
 
+h3 { 
+  font-weight: 400;
+}
+
+// start articles
+
+sup a {
+  font-size: 0.8em; 
+  color: #777;
+  text-indent: 0;
+  display: inline-block;
+  margin-left: .15em;
+}
+
+article ol {
+  color: #777777;
+  font-size: 0.8em;
+  padding-left: 1.4em;
+  margin: 3em 0em;
+}
+
+p {
+  img {
+    display: block;
+  }
+ 
+}
+
+hr {
+  margin: 4em 0;
+  border:none;
+  max-width: 36em;
+}
+
+hr:after {
+  content: '';
+  display: block;
+  margin: 0 auto;
+  height: 0;
+  width: 10rem;
+  border-top:1px solid #777
+}
+
+.mw {
+  max-width: 28em;
+}
+
+img {
+  width: 100%;
+}
+
+// end articles
+
 ul {
   list-style: none; 
   padding-left: 0;
@@ -93,7 +146,7 @@ blockquote {
   border-left: 3px solid #e27044;
 }
 
-#entries {
+#entries, #entriess {
   overflow: auto;
   overflow-y: hidden;
   display: -webkit-box;
@@ -105,11 +158,12 @@ blockquote {
 }
 
 .entry {
+  font-size: 0.75em;
   scroll-snap-align: start;
   position: relative;
   overflow: hidden;
   padding: 30px 25px;
-  min-width: 30em;
+  min-width: 20em;
   height: 100%;
   background: #fffbda;
   border: 1px solid #eee;
@@ -118,4 +172,11 @@ blockquote {
 
 pre {
   padding-top: 4em;
+}
+
+footer {
+  margin: 5em auto;
+  small {
+    font-size: 0.6em;
+  }
 }

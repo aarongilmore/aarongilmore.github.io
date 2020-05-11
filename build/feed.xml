@@ -5,10 +5,22 @@
   <id>http://blog.url.com/writing</id>
   <link href="http://blog.url.com/writing"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2019-12-05T00:00:00+00:00</updated>
+  <updated>2020-05-08T01:00:00+01:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>Digital Design Is Place Building</title>
+    <link rel="alternate" href="http://blog.url.com/writing/digital-design-is-place-building/"/>
+    <id>http://blog.url.com/writing/digital-design-is-place-building/</id>
+    <published>2020-05-08T01:00:00+01:00</published>
+    <updated>2020-05-08T12:59:29+01:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;Test&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Events In 2020</title>
     <link rel="alternate" href="http://blog.url.com/writing/events-2020/"/>
@@ -220,26 +232,6 @@
   &lt;li&gt;I'm sorry: but maybe that LinkedIn account &lt;strong&gt;is a good idea&lt;/strong&gt;&lt;/li&gt;
   &lt;li&gt;Expect the feeling of risk to never go away&lt;/li&gt;
 &lt;/ol&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Screen Sabbatical</title>
-    <link rel="alternate" href="http://blog.url.com/writing/screen-sabbatical/"/>
-    <id>http://blog.url.com/writing/screen-sabbatical/</id>
-    <published>2016-12-18T00:00:00+00:00</published>
-    <updated>2019-11-19T21:31:27+00:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;I took a short trip to Co. Donegal this past week to recharge after a busy few months. I planned this trip to get away from my computer, to relax and read, to walk around the Donegal countryside without thinking about work.&lt;/p&gt;
-
-&lt;p&gt;On the Thursday when I arrived I largely did what I planned to. I read Carl Sagan’s ‘Cosmos’ all day and through his charasmetic words was transported through the Universe. My phone was on 5% from the day’s journey and I found myself checking it once or twice in the evening to see if anyone had tried to contact me. When I looked at the screen I was greeted by a list of notifications; Kickstarter emails, Quora answers, Reminders.&lt;/p&gt;
-
-&lt;p&gt;I set my phone down that night and let it die. The next day—16th December—I didn’t look at a single screen. Not a phone, or a television, or a Kindle. It was strange, I tried to recall the last time I went through a full day screenless. Our lives are built around screens, it was impossible to place, likely sometime in the mid 90s but I really can’t remember. When did you last go a full day without looking at a screen?&lt;/p&gt;
-
-&lt;p&gt;I walked, I read, I wrote (this in my notebook, in the evening). I found a sense of comfort in the glow of the fire and the singing of the kettle. It was a welcome change from the brightness of a screen and the sometimes anxiety inducing buzz of a phone.&lt;/p&gt;
-
-&lt;p&gt;Don’t get me wrong, I do love technology, but I need more of these “screen sabbaticals”, I implore you to give it a go.&lt;/p&gt;
 </content>
   </entry>
 </feed>

@@ -28,6 +28,9 @@
   <body>
     <%= yield %>
     <%= partial "footer" %>
-      <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script>
+      $( "article h3" ).addClass( "mw" );
+    </script>
   </body>
 </html>

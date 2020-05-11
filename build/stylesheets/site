@@ -1,30 +1,3 @@
-/**
- * MIXIN: Responsive Media Queries.
- *
- * Creates responsive media queries for eight different screen sizes.
- * These are based on min-width which means if x is the size then your
- * CSS will affect any device with screen width x and above.
- *
- * USAGE: 
- *	@include r(240)  { }
- *	@include r(320)  { }
- *	@include r(480)  { }
- *	@include r(768)  { }
- *	@include r(1024) { }
- *	@include r(1140) { }
- *	@include r(1280) { }
- *	@include r(1500) { }
- *
- * CSS content goes inside {} brackets. These mixins should be used inside
- * a class definition. For example:
- *
- * The following CSS will hide the .header on screen width 320px and above.
- * .header {
- * 	  @include r(320)  { display: none; }
- * }
- *
- * @author Ahmad Awais (https://github.com/ahmadawais)
- */
 @import url("https://rsms.me/inter/inter.css");
 @supports (font-variation-settings: normal) {
   html {
@@ -95,17 +68,34 @@ figure {
     font-size: 0.8em;
     color: #777; }
 
-@media (min-width: 320px) {
-  blockquote {
-    max-width: 51.5em;
-    margin: 1em 0em 1em 0em;
-    color: #444;
-    padding: 0.1em 1.5em 0.5em 1.5em;
-    border-left: 3px solid #e27044; } }
-@media (min-width: 600px) {
-  blockquote {
-    max-width: 51.5em;
-    margin: 1em 0em 1em 0em;
-    color: #444;
-    padding: 0.2em 3em 0.9em 1.5em;
-    border-left: 3px solid #e27044; } }
+blockquote {
+  max-width: 51.5em;
+  margin: 1em 0em 1em 0em;
+  color: #444;
+  padding: 0.2em 3em 0.9em 1.5em;
+  border-left: 3px solid #e27044; }
+
+#entries, #entriess {
+  overflow: auto;
+  overflow-y: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-overflow-scrolling: touch;
+  padding-bottom: 20px;
+  scroll-snap-type: x mandatory; }
+
+.entry {
+  font-size: 0.75em;
+  scroll-snap-align: start;
+  position: relative;
+  overflow: hidden;
+  padding: 30px 25px;
+  min-width: 20em;
+  height: 100%;
+  background: #fffbda;
+  border: 1px solid #eee;
+  margin-right: 1em; }
+
+pre {
+  padding-top: 4em; }
