@@ -58,6 +58,10 @@ h1 {
   max-width: 10em;
   font-weight: 500;
   line-height: 1.2;
+  @media only screen and (max-width: 600px) {
+    font-size: 2.9em;
+  }
+
 }
 
 h2 { 
