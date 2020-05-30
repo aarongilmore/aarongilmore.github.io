@@ -1,5 +1,5 @@
 var request = new XMLHttpRequest();
-var url = 'https://api.are.na/v2/channels/highlights-iao1d4cqqte?per=100';
+var url = 'https://api.are.na/v2/channels/highlights-iao1d4cqqte/contents?per=1&sort=position&direction=desc';
 request.open('GET', url, true);
 
 request.onload = function() {
