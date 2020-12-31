@@ -95,7 +95,7 @@ GEM
     mini_portile2 (2.4.0)
     minitest (5.11.3)
     multi_xml (0.6.0)
-    nokogiri (1.9.1)
+    nokogiri (1.10.10)
       mini_portile2 (~> 2.4.0)
     padrino-helpers (0.13.3.4)
       i18n (~> 0.6, >= 0.6.7)
@@ -132,7 +132,7 @@ DEPENDENCIES
   middleman (~> 4.1)
   middleman-blog
   middleman-livereload
-  nokogiri (~> 1.6, >= 1.6.8)
+  nokogiri (~> 1.10)
   redcarpet (~> 3.3, >= 3.3.3)
   tzinfo-data
   wdm (~> 0.1.0)
