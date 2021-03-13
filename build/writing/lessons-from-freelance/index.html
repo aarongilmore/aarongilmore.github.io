@@ -20,12 +20,13 @@
     <link rel="canonical" href="https://aarongilmore.com/" />
     <meta name="twitter:creator" content="@aarondgilmore" />
 
+    <link rel="stylesheet" href="https://unpkg.com/tachyons/css/tachyons.min.css">
     <link href="/stylesheets/styles.css" rel="stylesheet" />
     <script src="/javascripts/main.js"></script>
     
     
   </head>
-  <body>
+  <body class="w-100 sans-serif bg-white black-80">
       <nav>
     <a href="/" title="Back">Back</a>
 </nav>
@@ -93,12 +94,18 @@
   </div>
   </article>
 
-    <footer class="tl gray pv5 f6">
+    <article class="cf pa3 mw9 center">
+<footer class="tl gray pv5 f6">
     <small>
     <a href="#">Back to top</a> 
     <span class="db mt2">© 2009&ndash;<script>new Date().getFullYear()>2010&&document.write(new Date().getFullYear());</script> Aaron Gilmore</span>
     </small>
 </footer>
-      <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</article>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script>
+      $( "content p" ).addClass("f6 lh-copy measure");
+      $( "article h3" ).addClass( "mw" );
+    </script>
   </body>
 </html>

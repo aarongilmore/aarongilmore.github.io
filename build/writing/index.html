@@ -20,30 +20,18 @@
     <link rel="canonical" href="https://aarongilmore.com/" />
     <meta name="twitter:creator" content="@aarondgilmore" />
 
+    <link rel="stylesheet" href="https://unpkg.com/tachyons/css/tachyons.min.css">
     <link href="/stylesheets/styles.css" rel="stylesheet" />
     <script src="/javascripts/main.js"></script>
     
     
   </head>
-  <body>
+  <body class="w-100 sans-serif bg-white black-80">
     <div class="mw9 pv3">
     <h1 class="f-subheadline-ns f1-m f2 lh-title mw8">Writing</h1>
 </div>
 
 <div class="flex flex-row flex-wrap">  
-    <div class="w-100 mv3-m mv3 pr3 bb b--light-silver pb3">
-        <a class="link" href="/writing/digital-design-is-place-building/">
-            <div class="flex flex-row-ns flex-row-m flex-column">
-                <div class="w-50-ns w-100">
-                    <span class="gray f7">Belfast, N. Ireland~ May  8, 2020</span>
-                    <h2 class="f4 mv2">Digital Design Is Place Building</h2>
-                </div>    
-                <div class="w-50-ns w-100">
-                    <p class="lh-copy measure mt0">It's that time of the year where the last event ends and I start thinking about what I want to attend the following year...</p>
-                </div>
-            </div>
-        </a>
-    </div>
     <div class="w-100 mv3-m mv3 pr3 bb b--light-silver pb3">
         <a class="link" href="/writing/events-2020/">
             <div class="flex flex-row-ns flex-row-m flex-column">
@@ -96,14 +84,33 @@
             </div>
         </a>
     </div>
+    <div class="w-100 mv3-m mv3 pr3 bb b--light-silver pb3">
+        <a class="link" href="/writing/lessons-from-freelance/">
+            <div class="flex flex-row-ns flex-row-m flex-column">
+                <div class="w-50-ns w-100">
+                    <span class="gray f7">Belfast, N. Ireland~ Jan  2, 2018</span>
+                    <h2 class="f4 mv2">Lessons from a Year of Freelance</h2>
+                </div>    
+                <div class="w-50-ns w-100">
+                    <p class="lh-copy measure mt0">If you find yourself in a similar position hopefully you can find something useful in this article.</p>
+                </div>
+            </div>
+        </a>
+    </div>
 </div>
 
-    <footer class="tl gray pv5 f6">
+    <article class="cf pa3 mw9 center">
+<footer class="tl gray pv5 f6">
     <small>
     <a href="#">Back to top</a> 
     <span class="db mt2">© 2009&ndash;<script>new Date().getFullYear()>2010&&document.write(new Date().getFullYear());</script> Aaron Gilmore</span>
     </small>
 </footer>
-      <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</article>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script>
+      $( "content p" ).addClass("f6 lh-copy measure");
+      $( "article h3" ).addClass( "mw" );
+    </script>
   </body>
 </html>

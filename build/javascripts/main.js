@@ -1,11 +1,11 @@
 var request = new XMLHttpRequest();
-var url = 'https://api.are.na/v2/channels/highlights-iao1d4cqqte?per=100';
+var url = 'https://api.are.na/v2/channels/highlights-iao1d4cqqte/contents?per=1&sort=position&direction=desc';
 request.open('GET', url, true);
 
 request.onload = function() {
   if (request.status >= 200 && request.status < 400) {
     // Success!
-    document.getElementById('dot-dot-dot').style.display = 'none';
+    document.getElementById('content').style.display = 'none';
     var data = JSON.parse(request.responseText);
 
     data.contents.forEach(function(c) {
@@ -14,14 +14,14 @@ request.onload = function() {
       div.className = 'entry';
       if (c.class === 'Text') {
         var text = c.content_html;
-        div.innerHTML = text + "<p>" + formatDate(new Date(c.created_at)) + "</p>";
+        div.innerHTML = text + "<p>" + "</p>";
       } else if (c.class === 'Image') {
         div.innerHTML = '<a href="' + c.image.original.url + '" target="_blank"><img src="' + c.image.display.url + '"></a><div class="caption">' + c.title + '</div>';
         
       }
-      document.getElementById('entries').insertBefore(div, document.getElementById('entries').childNodes[0]);
+      document.getElementById('arena').insertBefore(div, document.getElementById('arena').childNodes[0]);
 
-      var anchors = document.getElementById('entries').getElementsByTagName('a');
+      var anchors = document.getElementById('arena').getElementsByTagName('a');
       for (var i = 0; i < anchors.length; i++){
         anchors[i].setAttribute('target', '_blank');
       }

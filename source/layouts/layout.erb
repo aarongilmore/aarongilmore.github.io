@@ -20,18 +20,18 @@
     <link rel="canonical" href="https://aarongilmore.com/" />
     <meta name="twitter:creator" content="@aarondgilmore" />
 
+    <link rel="stylesheet" href="https://unpkg.com/tachyons/css/tachyons.min.css">
     <%= stylesheet_link_tag "styles" %>
     <%= javascript_include_tag "main" %>
     
     
   </head>
-  <body>
-  <div class="wrapper-wide">
+  <body class="w-100 sans-serif bg-black white">
     <%= yield %>
     <%= partial "footer" %>
-  </div>
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     <script>
+      $( "#arena" ).addClass( "f6 lh-copy measure" );
       $( "article h3" ).addClass( "mw" );
     </script>
   </body>

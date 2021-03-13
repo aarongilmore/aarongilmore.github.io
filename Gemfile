@@ -8,8 +8,11 @@ gem 'wdm', '~> 0.1.0', platforms: [:mswin, :mingw]
 # Windows does not come with time zone data
 gem 'tzinfo-data', platforms: [:mswin, :mingw, :jruby]
 
+# Bundler Gem
+gem 'bundler', '1.17.1' 
+
 # Middleman Gems
-gem "middleman", "~> 4.1"
+gem "middleman", "~> 4.2"
 gem "middleman-blog"
 
 gem 'redcarpet', '~> 3.3', '>= 3.3.3'

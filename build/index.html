@@ -20,64 +20,71 @@
     <link rel="canonical" href="https://aarongilmore.com/" />
     <meta name="twitter:creator" content="@aarondgilmore" />
 
+    <link rel="stylesheet" href="https://unpkg.com/tachyons/css/tachyons.min.css">
     <link href="/stylesheets/styles.css" rel="stylesheet" />
     <script src="/javascripts/main.js"></script>
     
     
   </head>
-  <body>
-    <pre>This website is under construction</pre>
-
-<nav>
-  <small class="gray">Jump to...</small>
-  <a class="link f6 db underline" href="#writing" title="Writing">Writing</a>
-  <a class="link f6 db underline" href="#contact" title="Contact">Contact</a>
-  <a class="link f6 db underline" href="#library" title="Library">Library</a>
-  <a class="link f6 db underline" href="#highlights" title="Highlights">Highlights</a>
-</nav>
-
-<div>
-    <h1>Designing and building on the web</h1>
-    <p>I make things on the Internet; from odd little side projects to comprehensive design overhauls for large organisations. I'm currently undertaking the role of Senior Designer at <a href="https://www.dawsonandrews.com/work" target="_blank">Dawson Andrews</a>&mdash;an agency specialising in digital product design.</p>
-    <p>Outside of screens I like to learn about architecture, urbanism, and art; I believe there's a lot we can learn&mdash;as designers&mdash;from these disciplines.</p>
-    <figure>
-      <img src="/images/me.JPG" alt="" width="100%">
-      <figcaption>At <a href="https://2019.xoxofest.com" target="_blank">XOXO</a>, Portland, O.R., 2019</figcaption>
-    </figure>
-</div>
-
-<div>
-  <h2 id="writing">Writing</h2>
-    <ul>
-        <li><span class="date">2020.05.08</span><a href="/writing/digital-design-is-place-building/">Digital Design Is Place Building</a></li>
-        <li><span class="date">2019.12.05</span><a href="/writing/events-2020/">Events In 2020</a></li>
-        <li><span class="date">2019.11.25</span><a href="/writing/downtown-is-for-people/">Downtown Is For People</a></li>
-        <li><span class="date">2019.11.19</span><a href="/writing/underland/">Underland</a></li>
-    </ul>
-</div>
-
-<div>
-  <h2 id="contact">Contact</h2>
-    <ul>
-      <li><span>Email</span><a href="mailto:hello@aarongilmore.com">hello@aarongilmore.com</a></li>
-      <li><span>Arena</span><a href="https://www.are.na/aaron-gilmor" target="_blank">/aaron-gilmore</a></li>
-      <li><span>Twitter</span><a href="https://twitter.com/aarondgilmore/" target="_blank">/@aarondgilmore</a></li>
-    </ul>
-</div>
-
-<div>
-  <h2 id="highlights">Highlights</h2>
-  <p>Highlights from things I read on the Internet, powered by <a href="http://are.na/" target="_blank">Are.na</a>.</p>
-  <div id="entries">
-    <div id="dot-dot-dot"></div>
+  <body class="w-100 sans-serif bg-white black-80">
+    <main>
+  <article class="cf pa3 mw9 center">
+  <header class="fl w-100 w-50-l pa3-m pa4-l mb3 mb5-l">
+    <h2 class="lh-title f3 b mt0">
+      Beginners and amateurs alike overestimate the importance of the
+      so-called brain wave, the sudden brilliant idea.
+    </h2>
+  </header>
+  <section class="fl w-100">
+    <div class="fl w-100 w-50-m w-25-l pa3-m pa4-l">
+    <div id="arena">
+    <div id="content"></div>
   </div>
-</div>
-    <footer class="tl gray pv5 f6">
+    </div>
+    <div class="fl w-100 w-50-m w-25-l pa3-m pa4-l">
+      <p class="f6 lh-copy measure">
+        True book design, therefore, is a matter of tact (tempo, rhythm,
+        touch) alone. It flows from something rarely appreciated today:
+        good taste. The book designer strives for perfection; yet every
+        perfect thing lives somewhere in the neighborhood of dullness and
+        is frequently mistaken for it by the insensitive. In a time that
+        hungers for tangible novelties, dull perfection holds no
+        advertising value at all. 
+      </p>
+    </div>
+    <div class="fl w-100 w-50-m w-25-l pa3-m pa4-l">
+      <p class="f6 lh-copy measure">
+        In a masterpiece of typography, the artist's signature has been
+        eliminated. What some may praise as personal styles are in reality
+        small and empty peculiarities, frequently damaging, that masquerade
+        as innovations. 
+      </p>
+    </div>
+    <div class="fl w-100 w-50-m w-25-l pa3-m pa4-l">
+      <p class="f6 lh-copy measure">
+        Only through constant practice and strictest self-criticism may we
+        develop a sense for a perfect piece of work. Unfortunately, most
+        seem content with a middling performance. Careful spacing of words
+        and the correct spacing of capital letters appear to be unknown or
+        unimportant to some typesetters, yet for him who investigates, the
+        correct rules are not difficult to discover.
+      </p>
+    </div>
+  </section>
+</article>
+  </main>
+    <article class="cf pa3 mw9 center">
+<footer class="tl gray pv5 f6">
     <small>
     <a href="#">Back to top</a> 
     <span class="db mt2">© 2009&ndash;<script>new Date().getFullYear()>2010&&document.write(new Date().getFullYear());</script> Aaron Gilmore</span>
     </small>
 </footer>
-      <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</article>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script>
+      $( "content p" ).addClass("f6 lh-copy measure");
+      $( "article h3" ).addClass( "mw" );
+    </script>
   </body>
 </html>
