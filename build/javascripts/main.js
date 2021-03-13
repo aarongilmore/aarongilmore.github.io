@@ -14,7 +14,7 @@ request.onload = function() {
       div.className = 'entry';
       if (c.class === 'Text') {
         var text = c.content_html;
-        div.innerHTML = text + "<p>" + "</p>";
+        div.innerHTML = text + "<p class='f7 gray'>" + formatDate(new Date(c.created_at)) + "</p>";
       } else if (c.class === 'Image') {
         div.innerHTML = '<a href="' + c.image.original.url + '" target="_blank"><img src="' + c.image.display.url + '"></a><div class="caption">' + c.title + '</div>';
         
