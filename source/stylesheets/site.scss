@@ -215,7 +215,7 @@ footer {
 }
 
 /* Show the tooltip text when you mouse over the tooltip container */
-.tooltip:hover .tooltiptext {
+.tooltip:hover .tooltiptext, .tooltip:active .tooltiptext {
   visibility: visible;
   opacity: 1;
 }
