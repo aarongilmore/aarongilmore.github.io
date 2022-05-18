@@ -90,11 +90,11 @@ GEM
     mime-types (3.3.1)
       mime-types-data (~> 3.2015)
     mime-types-data (3.2021.0225)
-    mini_portile2 (2.5.0)
+    mini_portile2 (2.8.0)
     minitest (5.14.4)
     multi_xml (0.6.0)
-    nokogiri (1.11.2)
-      mini_portile2 (~> 2.5.0)
+    nokogiri (1.13.5)
+      mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
     padrino-helpers (0.13.3.4)
       i18n (~> 0.6, >= 0.6.7)
@@ -104,7 +104,7 @@ GEM
       activesupport (>= 3.1)
     parallel (1.20.1)
     public_suffix (4.0.6)
-    racc (1.5.2)
+    racc (1.6.0)
     rack (2.2.3)
     rack-livereload (0.3.17)
       rack
@@ -135,7 +135,7 @@ DEPENDENCIES
   middleman (~> 4.2)
   middleman-blog
   middleman-livereload
-  nokogiri (~> 1.6, >= 1.6.8)
+  nokogiri (~> 1.13)
   redcarpet (~> 3.3, >= 3.3.3)
   tzinfo-data
   wdm (~> 0.1.0)
