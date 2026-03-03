@@ -21,7 +21,7 @@ gem 'redcarpet', '~> 3.3', '>= 3.3.3'
 gem "builder", "~> 3.0"
 
 # For article summary
-gem 'nokogiri', '~> 1.6', '>= 1.6.8'
+gem 'nokogiri', '~> 1.13'
 
 # Livereload
 gem 'middleman-livereload'
