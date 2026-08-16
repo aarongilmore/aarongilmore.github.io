@@ -30,13 +30,13 @@
     "@11ty/eleventy": "^1.0.1",
     "@11ty/eleventy-navigation": "^0.3.3",
     "@11ty/eleventy-plugin-rss": "^1.2.0",
+    "@tailwindcss/cli": "^4.3.3",
     "luxon": "^2.4.0",
     "markdown-it": "^13.0.1",
-    "markdown-it-anchor": "^8.6.4"
+    "markdown-it-anchor": "^8.6.4",
+    "tailwindcss": "^4.3.3"
   },
   "devDependencies": {
-    "@tailwindcss/cli": "^4.3.3",
-    "concurrently": "^10.0.5",
-    "tailwindcss": "^4.3.3"
+    "concurrently": "^10.0.5"
   }
 }
