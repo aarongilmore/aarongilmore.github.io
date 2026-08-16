@@ -1,0 +1,21 @@
+{
+  "title": "Aaron Gilmore",
+  "url": "https://aarongilmore.com/",
+  "language": "en",
+  "description": "Designer based in the North of Ireland",
+  "feed": {
+    "subtitle": "Designer based in the North of Ireland",
+    "filename": "feed.xml",
+    "path": "/feed/feed.xml",
+    "id": "https://aarongilmore.com/"
+  },
+  "jsonfeed": {
+    "path": "/feed/feed.json",
+    "url": "https://aarongilmore.com/feed/feed.json"
+  },
+  "author": {
+    "name": "Aaron Gilmore",
+    "email": "aarondgilmore@gmail.com",
+    "url": "https://aarongilmore.com"
+  }
+}
