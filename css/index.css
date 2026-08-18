@@ -182,10 +182,19 @@ a[href]:hover {
 .layout-col-empty img {
   display: block;
   width: 100%;
-  margin-bottom: 1.5em;
 }
-.layout-col-empty img:last-child {
+.layout-col-empty > img,
+.layout-col-empty > figure {
+  margin: 0 0 1.5em;
+}
+.layout-col-empty > img:last-child,
+.layout-col-empty > figure:last-child {
   margin-bottom: 0;
+}
+.layout-col-empty figcaption {
+  font-size: 0.75em;
+  color: var(--text-color-muted);
+  margin-top: 0.5em;
 }
 
 main {
