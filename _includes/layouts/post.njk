@@ -5,6 +5,9 @@ templateClass: tmpl-post
 <h1>{{ title }}</h1>
 
 <time class="post-date" datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time>
+
+{{ content | safe }}
+
 {%- set postTags = tags | filterTagList %}
 {%- if postTags.length %}
 <div class="post-tags">
@@ -14,8 +17,6 @@ templateClass: tmpl-post
 {%- endfor %}
 </div>
 {%- endif %}
-
-{{ content | safe }}
 
 {%- if collections.posts %}
 {%- set nextPost = collections.posts | getNextCollectionItem(page) %}
