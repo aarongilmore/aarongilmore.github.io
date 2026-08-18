@@ -51,23 +51,6 @@
   --text-color-muted: #767676;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --color-gray-20: #e0e0e0;
-    --color-gray-50: #C0C0C0;
-    --color-gray-90: #dad8d8;
-
-    /* --text-color is assigned to --color-gray-_ above */
-    --text-color-link: #1493fb;
-    --text-color-link-visited: #a6a6f8;
-
-    --background-color: #15202b;
-
-    --nav-color-active: #fff;
-    --text-color-muted: #8a8a8a;
-  }
-}
-
 
 /* Global stylesheet */
 * {
@@ -87,6 +70,12 @@ body {
   transition: font-size 0.3s ease;
   color: var(--text-color);
   background-color: var(--background-color);
+}
+
+@media (max-width: 900px) {
+  body {
+    padding: 2vh 2vw;
+  }
 }
 
 h1, h2, h3, h4, h5, h6,
@@ -185,9 +174,18 @@ a[href]:hover {
   .layout {
     grid-template-columns: 1fr;
   }
-  .layout-col-empty {
+  .layout-col-empty:empty {
     display: none;
   }
+}
+
+.layout-col-empty img {
+  display: block;
+  width: 100%;
+  margin-bottom: 1.5em;
+}
+.layout-col-empty img:last-child {
+  margin-bottom: 0;
 }
 
 main {
@@ -306,7 +304,7 @@ code {
   padding: 0;
   display: flex;
   flex-direction: column;
-  gap: 1.5em;
+  gap: 1em;
   margin: 1em 0;
 }
 .postlist-date, .post-date {

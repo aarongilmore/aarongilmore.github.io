@@ -29,14 +29,24 @@
           </ul>
         </header>
 
+        {%- set mainContent = content %}
+        {%- set postImages = [] %}
+        {%- if templateClass == 'tmpl-post' %}
+          {%- set extracted = content | extractImages %}
+          {%- set mainContent = extracted.html %}
+          {%- set postImages = extracted.images %}
+        {%- endif %}
+
         <main{% if templateClass %} class="{{ templateClass }}"{% endif %}>
-          {{ content | safe }}
+          {{ mainContent | safe }}
         </main>
 
         <footer></footer>
       </div>
 
-      <div class="layout-col layout-col-empty" aria-hidden="true"></div>
+      <div class="layout-col layout-col-empty"{% if not postImages.length %} aria-hidden="true"{% endif %}>
+        {%- for img in postImages %}{{ img | safe }}{%- endfor %}
+      </div>
     </div>
 
     <script src="{{ '/js/hover-image.js' | url }}"></script>

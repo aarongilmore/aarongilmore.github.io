@@ -51,6 +51,19 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addFilter("filterTagList", filterTagList)
 
+  // Pull <img> tags out of rendered post content so they can render in the side column
+  eleventyConfig.addFilter("extractImages", (html) => {
+    if (!html) return { html: "", images: [] };
+    const images = [];
+    const html_ = html
+      .replace(/<img\b[^>]*>/gi, (match) => {
+        images.push(match);
+        return "";
+      })
+      .replace(/<p>\s*<\/p>/gi, "");
+    return { html: html_, images };
+  });
+
   // Create an array of all tags
   eleventyConfig.addCollection("tagList", function(collection) {
     let tagSet = new Set();
