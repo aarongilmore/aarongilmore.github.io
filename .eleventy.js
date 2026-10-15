@@ -6,8 +6,11 @@ const markdownItAnchor = require("markdown-it-anchor");
 
 const pluginRss = require("@11ty/eleventy-plugin-rss").default;
 const pluginNavigation = require("@11ty/eleventy-navigation");
+const buildVersion = Date.now();
 
 module.exports = function(eleventyConfig) {
+  eleventyConfig.addGlobalData("buildVersion", buildVersion);
+
   // Copy static assets to the output
   eleventyConfig.addPassthroughCopy("assets");
   eleventyConfig.addPassthroughCopy("css");

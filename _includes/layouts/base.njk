@@ -45,7 +45,7 @@
       })();
     </script>
 
-    <link rel="stylesheet" href="{{ '/css/index.css' | url }}">
+    <link rel="stylesheet" href="{{ '/css/index.css' | url }}?v={{ buildVersion }}">
     <link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ metadata.title }}">
   </head>
   <body>
@@ -74,9 +74,9 @@
       {% include "footer.njk" %}
     </div>
 
-    <script src="{{ '/js/theme.js' | url }}"></script>
-    <script src="{{ '/js/footer-clock.js' | url }}"></script>
-    <script src="{{ '/js/project-modal.js' | url }}"></script>
+    <script src="{{ '/js/theme.js' | url }}?v={{ buildVersion }}"></script>
+    <script src="{{ '/js/footer-clock.js' | url }}?v={{ buildVersion }}"></script>
+    <script src="{{ '/js/project-modal.js' | url }}?v={{ buildVersion }}"></script>
     <!-- Current page: {{ page.url | url }} -->
   </body>
 </html>
