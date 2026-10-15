@@ -1,40 +1,178 @@
 ---
 layout: layouts/home.njk
-permalink: /work/
+permalink: /
 eleventyNavigation:
-  key: Works
-  order: 2
+  key: Projects
+  order: 1
 ---
 
-<div class="work-grid">
-  <div class="work-item">
-    <div class="work-image"><img src="/img/carhartt-wip.png" alt="Carhartt WIP"></div>
-    <p class="work-meta">2023&ndash;present</p>
-    <h3 class="work-title">Carhartt WIP</h3>
-    <p class="work-blurb">Creating a digital ecosystem for the streatwear brand; a new app, the B2C shop, the B2B platform, all built for internal ownership.</p>
-  </div>
-  <div class="work-item">
-    <div class="work-image"><img src="/img/fotografiska.png" alt="Fotografiska"></div>
-    <p class="work-meta">2023&ndash;present</p>
-    <h3 class="work-title">Fotografiska</h3>
-    <p class="work-blurb">A digital home for curation and collection for the global photography museum.</p>
-  </div>
-  <div class="work-item">
-    <div class="work-image"><img src="/img/superhuman.png" alt="Superhuman"></div>
-    <p class="work-meta">2025</p>
-    <h3 class="work-title">Superhuman</h3>
-    <p class="work-blurb">We partnered with Superhuman to provide a fresh take on their vision for 2026 and beyond.</p>
-  </div>
-  <div class="work-item">
-    <div class="work-image"><img src="/img/highsnobiety.png" alt="Highsnobiety"></div>
-    <p class="work-meta">2024&ndash;2025</p>
-    <h3 class="work-title">Highsnobiety</h3>
-    <p class="work-blurb">Designeing a shopping app routed in editorial thinking.</p>
-  </div>
-  <div class="work-item">
-    <div class="work-image"><img src="/img/soundcloud.png" alt="SoundCloud"></div>
-    <p class="work-meta">2020&ndash;2022</p>
-    <h3 class="work-title">SoundCloud</h3>
-    <p class="work-blurb">After years of incremental changes, we partnered with SoundCloud and redesigned their web and mobile experiences to further enable millions of creators and listeners worldwide.</p>
+{% macro projectDetails(id, title, position, total, projectDetailsCollection) %}
+<div class="work-more" id="{{ id }}">
+  <div class="work-more-inner">
+    {% for project in projectDetailsCollection %}
+      {% if project.data.projectId == id %}
+        {{ project.templateContent | removeHeadingPermalinks | safe }}
+      {% endif %}
+    {% endfor %}
   </div>
 </div>
+<div class="work-controls">
+  <button class="work-toggle" type="button" aria-expanded="false" aria-controls="{{ id }}" aria-label="Show more about {{ title }}">
+    <span class="work-toggle-icon" aria-hidden="true">+</span>
+  </button>
+</div>
+{% endmacro %}
+
+<section class="home-hero" aria-labelledby="home-hero-title">
+  <h1 class="home-hero-title" id="home-hero-title">I use design &amp; technology to help companies embrace digital change and reach their potential</h1>
+</section>
+
+<div class="project-dialog" role="dialog" aria-modal="true" aria-label="Project details" tabindex="-1" hidden>
+  <div class="project-dialog-scroll">
+    <div class="project-dialog-stage"></div>
+  </div>
+
+  <div class="work-progress" role="img" aria-label="Project 1 of 6" aria-hidden="true">
+    {% for projectNumber in [1, 2, 3, 4, 5, 6] %}
+      <span class="work-progress-segment" aria-hidden="true"></span>
+    {% endfor %}
+  </div>
+
+  <div class="project-floating-controls">
+    <button class="project-floating-button project-floating-close" type="button" aria-label="Close project">
+      <span class="project-floating-close-icon" aria-hidden="true"></span>
+    </button>
+    <button class="project-floating-button project-floating-next" type="button" aria-label="View next project">
+      <svg viewBox="0 0 16 16" aria-hidden="true">
+        <path d="M2 8h11M9 4l4 4-4 4" />
+      </svg>
+    </button>
+  </div>
+</div>
+
+<div class="work-grid">
+
+  <article class="work-item">
+    <div class="work-images">
+      <div class="work-image"><img src="/assets/images/work/superhuman/home-screen.webp" alt="Superhuman Go assistant interface on a phone held in one hand" width="2720" height="1814" fetchpriority="high" decoding="async"></div>
+      <div class="work-video">
+        <video class="work-video" muted loop playsinline preload="none" poster="/assets/images/work/superhuman/video-poster.webp" aria-label="Superhuman Go project video">
+          <source src="/assets/videos/work/superhuman.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="work-image"><img src="/assets/images/work/superhuman/app-screens.webp" alt="Superhuman Go mobile interface screens" width="2720" height="1814" decoding="async"></div>
+    </div>
+    <div class="work-details">
+      <div class="work-summary">
+        <div class="work-heading">
+          <h2 class="work-title">Superhuman</h2>
+        </div>
+        <p class="work-blurb">We partnered with Superhuman to provide a fresh take on their vision for 2026 and beyond.</p>
+      </div>
+      {{ projectDetails("superhuman-details", "Superhuman", 1, 6, collections.projectDetails) }}
+    </div>
+  </article>
+
+  <article class="work-item">
+    <div class="work-images">
+      <div class="work-image"><img src="/assets/images/work/carhartt-wip/app-screens.webp" alt="Carhartt WIP app product and editorial screens" width="3250" height="2438" loading="lazy" decoding="async"></div>
+      <div class="work-video">
+        <video class="work-video" muted loop playsinline preload="none" poster="/assets/images/work/carhartt-wip/video-poster.webp" aria-label="Carhartt WIP app project video">
+          <source src="/assets/videos/work/carhartt-wip.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="work-image"><img src="/assets/images/work/carhartt-wip/image-02.webp" alt="Carhartt WIP shop displayed on a tablet" width="1800" height="1201" loading="lazy" decoding="async"></div>
+    </div>
+    <div class="work-details">
+      <div class="work-summary">
+        <div class="work-heading">
+          <h2 class="work-title">Carhartt WIP</h2>
+        </div>
+        <p class="work-blurb">Creating a digital ecosystem for the streetwear brand: a new app, B2C shop and B2B platform, all built for internal ownership.</p>
+      </div>
+      {{ projectDetails("carhartt-details", "Carhartt WIP", 2, 6, collections.projectDetails) }}
+    </div>
+  </article>
+
+  <article class="work-item">
+    <div class="work-images">
+      <div class="work-image"><img src="/assets/images/work/fotografiska/image-01.webp" alt="Fotografiska exhibition page on a phone" width="1800" height="1012" loading="lazy" decoding="async"></div>
+      <div class="work-image"><img src="/assets/images/work/fotografiska/mobile-web-screens.webp" alt="Fotografiska mobile website screens" width="3250" height="2438" loading="lazy" decoding="async"></div>
+      <div class="work-image"><img src="/assets/images/work/fotografiska/membership-screens.webp" alt="Fotografiska membership screens on two phones" width="3250" height="2438" loading="lazy" decoding="async"></div>
+    </div>
+    <div class="work-details">
+      <div class="work-summary">
+        <div class="work-heading">
+          <h2 class="work-title">Fotografiska</h2>
+        </div>
+        <p class="work-blurb">A digital home for curation and collection for the global photography museum.</p>
+      </div>
+      {{ projectDetails("fotografiska-details", "Fotografiska", 3, 6, collections.projectDetails) }}
+    </div>
+  </article>
+
+  <article class="work-item">
+    <div class="work-images">
+      <div class="work-image"><img src="/assets/images/work/highsnobiety/image-01.webp" alt="Highsnobiety Daily Digest on a phone" width="1800" height="1012" loading="lazy" decoding="async"></div>
+      <div class="work-image"><img src="/assets/images/work/highsnobiety/app-screens.webp" alt="Highsnobiety editorial and shopping screens" width="3250" height="2250" loading="lazy" decoding="async"></div>
+      <div class="work-video">
+        <video class="work-video" muted loop playsinline preload="none" poster="/assets/images/work/highsnobiety/video-poster.webp" aria-label="Highsnobiety shopping app project video">
+          <source src="/assets/videos/work/highsnobiety.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
+    <div class="work-details">
+      <div class="work-summary">
+        <div class="work-heading">
+          <h2 class="work-title">Highsnobiety</h2>
+        </div>
+        <p class="work-blurb">Designing a shopping app rooted in editorial thinking.</p>
+      </div>
+      {{ projectDetails("highsnobiety-details", "Highsnobiety", 4, 6, collections.projectDetails) }}
+    </div>
+  </article>
+
+  <article class="work-item">
+    <div class="work-images">
+      <div class="work-video">
+        <video class="work-video" muted loop playsinline preload="none" poster="/assets/images/work/soundcloud/video-poster.webp" aria-label="SoundCloud project video">
+          <source src="/assets/videos/work/soundcloud.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="work-image"><img src="/assets/images/work/soundcloud/home-screen.webp" alt="SoundCloud mobile app on an orange background" width="2048" height="1152" loading="lazy" decoding="async"></div>
+      <div class="work-image"><img src="/assets/images/work/soundcloud/key-screens.webp" alt="SoundCloud home, stream and library screens" width="3840" height="2560" loading="lazy" decoding="async"></div>
+    </div>
+    <div class="work-details">
+      <div class="work-summary">
+        <div class="work-heading">
+          <h2 class="work-title">SoundCloud</h2>
+        </div>
+        <p class="work-blurb">After years of incremental changes, we partnered with SoundCloud and redesigned their web and mobile experiences to further enable millions of creators and listeners worldwide.</p>
+      </div>
+      {{ projectDetails("soundcloud-details", "SoundCloud", 5, 6, collections.projectDetails) }}
+    </div>
+  </article>
+
+  <article class="work-item">
+    <div class="work-images">
+      <div class="work-image"><img src="/assets/images/work/os/contact-table.webp" alt="OS contact overview showing companies, people, business relationships and tags" width="5760" height="3600" loading="lazy" decoding="async"></div>
+      <div class="work-image"><img src="/assets/images/work/os/budget-studio-display.webp" alt="OS project budget interface displayed on a desktop monitor" width="5760" height="3600" loading="lazy" decoding="async"></div>
+      <div class="work-video">
+        <video class="work-video" muted loop playsinline preload="none" poster="/assets/images/work/os/video-poster.webp" aria-label="OS agency management software project video">
+          <source src="/assets/videos/work/os.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
+    <div class="work-details">
+      <div class="work-summary">
+        <div class="work-heading">
+          <h2 class="work-title">OS/</h2>
+        </div>
+        <p class="work-blurb">OS/ is a comprehensive software suite designed to help agencies track project profitability and business success.</p>
+      </div>
+      {{ projectDetails("os-details", "OS/", 6, 6, collections.projectDetails) }}
+    </div>
+  </article>
+</div>
+
+<script src="{{ '/js/work-videos.js' | url }}"></script>

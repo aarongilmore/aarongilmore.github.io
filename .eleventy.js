@@ -4,12 +4,12 @@ const { DateTime } = require("luxon");
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
 
-const pluginRss = require("@11ty/eleventy-plugin-rss");
+const pluginRss = require("@11ty/eleventy-plugin-rss").default;
 const pluginNavigation = require("@11ty/eleventy-navigation");
 
 module.exports = function(eleventyConfig) {
-  // Copy the `img` and `css` folders to the output
-  eleventyConfig.addPassthroughCopy("img");
+  // Copy static assets to the output
+  eleventyConfig.addPassthroughCopy("assets");
   eleventyConfig.addPassthroughCopy("css");
   eleventyConfig.addPassthroughCopy("fonts");
   eleventyConfig.addPassthroughCopy("js");
@@ -28,21 +28,10 @@ module.exports = function(eleventyConfig) {
     return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat('yyyy-LL-dd');
   });
 
-  // Get the first `n` elements of a collection.
-  eleventyConfig.addFilter("head", (array, n) => {
-    if(!Array.isArray(array) || array.length === 0) {
-      return [];
-    }
-    if( n < 0 ) {
-      return array.slice(n);
-    }
-
-    return array.slice(0, n);
-  });
-
-  // Return the smallest number argument
-  eleventyConfig.addFilter("min", (...numbers) => {
-    return Math.min.apply(null, numbers);
+  eleventyConfig.addFilter("removeHeadingPermalinks", content => {
+    return content
+      .replace(/\s*<a class="direct-link"[^>]*>.*?<\/a>/g, "")
+      .replace(/(<h[1-6])\s+id="[^"]*"\s+tabindex="-1"/g, "$1");
   });
 
   function filterTagList(tags) {
@@ -50,24 +39,6 @@ module.exports = function(eleventyConfig) {
   }
 
   eleventyConfig.addFilter("filterTagList", filterTagList)
-
-  // Pull <img> tags (and any <figure> wrapping them, captions included) out of
-  // rendered post content so they can render in the side column
-  eleventyConfig.addFilter("extractImages", (html) => {
-    if (!html) return { html: "", images: [] };
-    const images = [];
-    const html_ = html
-      .replace(/<figure\b[\s\S]*?<\/figure>/gi, (match) => {
-        images.push(match);
-        return "";
-      })
-      .replace(/<img\b[^>]*>/gi, (match) => {
-        images.push(match);
-        return "";
-      })
-      .replace(/<p>\s*<\/p>/gi, "");
-    return { html: html_, images };
-  });
 
   // Create an array of all tags
   eleventyConfig.addCollection("tagList", function(collection) {
@@ -77,6 +48,10 @@ module.exports = function(eleventyConfig) {
     });
 
     return filterTagList([...tagSet]);
+  });
+
+  eleventyConfig.addCollection("projectDetails", function(collection) {
+    return collection.getAll().filter(item => item.data.projectDetail === true);
   });
 
   // Customize Markdown library and settings:

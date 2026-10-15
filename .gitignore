@@ -1,5 +1,4 @@
 _site/
 node_modules/
-package-lock.json
-css/tailwind.css
 .DS_Store
+source-assets/

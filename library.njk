@@ -1,0 +1,30 @@
+---
+layout: layouts/home.njk
+title: Library
+templateClass: tmpl-library
+permalink: /library/
+eleventyNavigation:
+  key: Library
+  order: 3
+---
+
+<h1 class="visually-hidden">Library</h1>
+<p>What I’m listening to and reading this year.</p>
+
+<ul class="library-list">
+  {% for item in library %}
+    <li class="library-item">
+      <div class="library-cover library-cover--{{ item.type }} library-cover-{{ loop.index0 % 4 + 1 }}">
+        {% if item.image %}
+          <img class="library-cover-image" src="{{ item.image }}" alt="{{ item.alt }}" loading="lazy">
+        {% else %}
+          <span>{{ item.initials }}</span>
+        {% endif %}
+      </div>
+      <div class="library-details">
+        <h2 class="library-title">{{ item.name }}</h2>
+        {% if item.recommendations %}<p class="library-recommendations"><em>{{ item.recommendations }}</em></p>{% endif %}
+      </div>
+    </li>
+  {% endfor %}
+</ul>
