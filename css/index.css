@@ -44,6 +44,7 @@
   --nav-color-active: #000;
   --text-color-muted: #767676;
   --color-accent: #5c6b3f;
+  --border-color-subtle: rgba(51, 51, 51, 0.16);
 
   --layout-gap: 4rem;
 }
@@ -62,6 +63,7 @@
   --text-color-muted: #E7DBF0;
   --color-accent: #E7DBF0;
   --color-infobox: #16171E;
+  --border-color-subtle: rgba(231, 219, 240, 0.16);
 }
 
 
@@ -825,7 +827,7 @@ main.tmpl-library .library-list {
   grid-template-columns: 5rem minmax(0, 1fr);
   gap: 1rem;
   padding: 0 0 2rem;
-  border-top: 1px solid currentColor;
+  border-top: 1px solid var(--border-color-subtle);
 }
 .library-details {
   padding-top: 0.75rem;
