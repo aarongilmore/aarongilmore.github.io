@@ -6,6 +6,9 @@
     <title>{{ title or metadata.title }}</title>
     <meta name="description" content="{{ description or metadata.description }}">
     <meta name="generator" content="{{ eleventy.generator }}">
+    <link rel="icon" href="{{ '/assets/icons/favicon.svg' | url }}" type="image/svg+xml">
+    <link rel="icon" href="{{ '/assets/icons/favicon-32.png' | url }}" type="image/png" sizes="32x32">
+    <link rel="apple-touch-icon" href="{{ '/assets/icons/apple-touch-icon.png' | url }}" sizes="180x180">
 
     <script>
       (() => {
