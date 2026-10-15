@@ -1,11 +1,38 @@
 <!doctype html>
 <html lang="{{ metadata.language }}">
   <head>
+    {% if title %}
+      {% set metaTitle = title + " — " + metadata.title %}
+    {% else %}
+      {% set metaTitle = metadata.title + " — " + metadata.description %}
+    {% endif %}
+    {% set metaDescription = description or metadata.social.description or metadata.description %}
+    {% set canonicalUrl = page.url | url | absoluteUrl(metadata.url) %}
+    {% set socialImageUrl = metadata.social.image | url | absoluteUrl(metadata.url) %}
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <title>{{ title or metadata.title }}</title>
-    <meta name="description" content="{{ description or metadata.description }}">
+    <title>{{ metaTitle }}</title>
+    <meta name="description" content="{{ metaDescription }}">
+    <meta name="author" content="{{ metadata.author.name }}">
     <meta name="generator" content="{{ eleventy.generator }}">
+    <link rel="canonical" href="{{ canonicalUrl }}">
+
+    <meta property="og:type" content="{{ ogType or 'website' }}">
+    <meta property="og:site_name" content="{{ metadata.title }}">
+    <meta property="og:title" content="{{ metaTitle }}">
+    <meta property="og:description" content="{{ metaDescription }}">
+    <meta property="og:url" content="{{ canonicalUrl }}">
+    <meta property="og:image" content="{{ socialImageUrl }}">
+    <meta property="og:image:width" content="{{ metadata.social.imageWidth }}">
+    <meta property="og:image:height" content="{{ metadata.social.imageHeight }}">
+    <meta property="og:image:alt" content="{{ metadata.social.imageAlt }}">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ metaTitle }}">
+    <meta name="twitter:description" content="{{ metaDescription }}">
+    <meta name="twitter:image" content="{{ socialImageUrl }}">
+    <meta name="twitter:image:alt" content="{{ metadata.social.imageAlt }}">
+
     <link rel="icon" href="{{ '/assets/icons/favicon.svg' | url }}" type="image/svg+xml">
     <link rel="icon" href="{{ '/assets/icons/favicon-32.png' | url }}" type="image/png" sizes="32x32">
     <link rel="apple-touch-icon" href="{{ '/assets/icons/apple-touch-icon.png' | url }}" sizes="180x180">

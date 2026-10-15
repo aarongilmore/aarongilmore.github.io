@@ -3,6 +3,13 @@
   "url": "https://aarongilmore.com/",
   "language": "en",
   "description": "Product Designer",
+  "social": {
+    "description": "Aaron Gilmore is a product designer working across digital products, design systems and technology.",
+    "image": "/assets/images/social/aaron-gilmore-og.png",
+    "imageAlt": "Aaron Gilmore standing on a beach with mountains in the background",
+    "imageWidth": 1200,
+    "imageHeight": 630
+  },
   "feed": {
     "subtitle": "Product Designer",
     "filename": "feed.xml",
