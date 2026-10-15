@@ -981,6 +981,7 @@ main.tmpl-library .library-list {
   }
   .work-controls {
     justify-self: start;
+    margin-top: 1rem;
   }
   body.has-expanded-project .work-controls {
     visibility: hidden;
@@ -991,8 +992,13 @@ main.tmpl-library .library-list {
     display: flex;
   }
   .work-toggle {
-    width: 87px;
-    height: 66px;
+    width: 58px;
+    height: 44px;
+  }
+  .info-layout .info-figure {
+    width: 100%;
+    margin-top: 2rem;
+    justify-self: start;
   }
   .project-dialog-item .work-details {
     row-gap: 2rem;
