@@ -45,8 +45,9 @@ Design Intern 2011 – 2012
 
 A Belfast startup that created a connected brewing system controlled through a mobile app.
 
-# Contact
+# Details
 
+<a href="/assets/documents/aaron-gilmore-cv.pdf" download>Download CV (PDF)</a><br>
 [Work Email](mailto:aaron.gilmore@acolorbright.com)<br>
 [Personal Email](mailto:aarondgilmore@gmail.com)<br>
 [Are.na](https://www.are.na/aaron-gilmore/)<br>
