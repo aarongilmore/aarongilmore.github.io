@@ -21,7 +21,7 @@ We exist in a world in which our lives and our work are being reshaped by techno
 
 ## A Color Bright
 
-Senior individual contributor, 2020 – Present
+Senior Product Designer, 2020 – Present
 
 A Berlin-based design studio working across digital products, brands and technology.
 
