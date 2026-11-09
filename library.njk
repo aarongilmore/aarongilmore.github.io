@@ -24,7 +24,9 @@ eleventyNavigation:
         <a class="library-text-link" href="{{ item.url }}" target="_blank" rel="noopener noreferrer">
           {{ arenaIcon() }}
           <blockquote class="library-quote">
-            <p>{{ item.text }}</p>
+            {% for paragraph in item.text | textParagraphs %}
+              <p>{{ paragraph }}</p>
+            {% endfor %}
             <footer><cite>{{ item.source }} <span class="external-link-icon" aria-hidden="true">↗</span></cite></footer>
           </blockquote>
         </a>

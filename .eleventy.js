@@ -37,6 +37,13 @@ module.exports = function(eleventyConfig) {
       .replace(/(<h[1-6])\s+id="[^"]*"\s+tabindex="-1"/g, "$1");
   });
 
+  eleventyConfig.addFilter("textParagraphs", content => {
+    return String(content || "")
+      .split(/\r?\n+/)
+      .map(paragraph => paragraph.trim())
+      .filter(Boolean);
+  });
+
   function filterTagList(tags) {
     return (tags || []).filter(tag => ["all", "nav", "post", "posts"].indexOf(tag) === -1);
   }
