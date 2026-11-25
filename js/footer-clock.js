@@ -4,13 +4,13 @@
   if (!clock) return;
 
   const dateFormatter = new Intl.DateTimeFormat("en-GB", {
-    timeZone: "Etc/GMT-1",
+    timeZone: "Etc/GMT",
     day: "2-digit",
     month: "short",
     year: "numeric"
   });
   const timeFormatter = new Intl.DateTimeFormat("en-GB", {
-    timeZone: "Etc/GMT-1",
+    timeZone: "Etc/GMT",
     hour: "2-digit",
     minute: "2-digit",
     second: "2-digit",
@@ -23,7 +23,7 @@
   date.className = "footer-clock-date";
   time.className = "footer-clock-time";
   timeZone.className = "footer-clock-zone";
-  timeZone.textContent = "[GMT+1]";
+  timeZone.textContent = "[GMT]";
   clock.append(date, time, timeZone);
 
   const updateClock = () => {
@@ -33,7 +33,7 @@
     time.textContent = timeFormatter.format(now);
     clock.setAttribute(
       "aria-label",
-      `${date.textContent}, ${time.textContent}, GMT plus one`
+      `${date.textContent}, ${time.textContent}, GMT`
     );
   };
 

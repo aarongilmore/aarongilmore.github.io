@@ -3,6 +3,22 @@ layout: layouts/info.njk
 eleventyNavigation:
   key: Info
   order: 2
+details:
+  - links:
+      - label: Download CV (PDF)
+        url: /assets/documents/aaron-gilmore-cv.pdf
+        download: true
+      - label: Work Email
+        url: mailto:aaron.gilmore@acolorbright.com
+      - label: Personal Email
+        url: mailto:aarondgilmore@gmail.com
+  - links:
+      - label: Are.na
+        url: https://www.are.na/aaron-gilmore/
+        external: true
+      - label: LinkedIn
+        url: https://uk.linkedin.com/in/aaron-gilmore
+        external: true
 ---
 
 # Introduction
@@ -44,11 +60,3 @@ Junior Designer 2012 – 2014<br>
 Design Intern 2011 – 2012
 
 A Belfast startup that created a connected brewing system controlled through a mobile app.
-
-# Details
-
-<a href="/assets/documents/aaron-gilmore-cv.pdf" download>Download CV (PDF)</a><br>
-[Work Email](mailto:aaron.gilmore@acolorbright.com)<br>
-[Personal Email](mailto:aarondgilmore@gmail.com)<br>
-[Are.na](https://www.are.na/aaron-gilmore/)<br>
-[LinkedIn](https://uk.linkedin.com/in/aaron-gilmore)

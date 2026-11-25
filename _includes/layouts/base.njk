@@ -17,6 +17,20 @@
     <meta name="generator" content="{{ eleventy.generator }}">
     <link rel="canonical" href="{{ canonicalUrl }}">
 
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "{{ metadata.author.name }}",
+        "url": "{{ metadata.author.url }}",
+        "description": "{{ metadata.description }}",
+        "sameAs": [
+          {% for profile in metadata.author.sameAs %}"{{ profile }}"{% if not loop.last %},{% endif %}
+          {% endfor %}
+        ]
+      }
+    </script>
+
     <meta property="og:type" content="{{ ogType or 'website' }}">
     <meta property="og:site_name" content="{{ metadata.title }}">
     <meta property="og:title" content="{{ metaTitle }}">

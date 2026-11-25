@@ -803,6 +803,18 @@ body.has-expanded-project .project-floating-controls:not(.is-hidden) {
 .info-copy > :first-child {
   margin-top: 0;
 }
+.info-details {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+.info-details-column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
 .info-layout .info-figure {
   width: 75%;
   margin: 0;

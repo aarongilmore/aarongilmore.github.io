@@ -19,6 +19,10 @@
   "author": {
     "name": "Aaron Gilmore",
     "email": "aarondgilmore@gmail.com",
-    "url": "https://aarongilmore.com"
+    "url": "https://aarongilmore.com/",
+    "sameAs": [
+      "https://www.are.na/aaron-gilmore/",
+      "https://uk.linkedin.com/in/aaron-gilmore"
+    ]
   }
 }

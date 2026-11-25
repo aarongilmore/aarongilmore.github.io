@@ -5,6 +5,16 @@ templateClass: tmpl-home
 <div class="info-layout">
   <div class="info-copy">
     {{ content | removeHeadingPermalinks | safe }}
+    <h1 id="info-details-heading">Details</h1>
+    <div class="info-details" aria-labelledby="info-details-heading">
+      {% for group in details %}
+        <div class="info-details-column">
+          {% for link in group.links %}
+            <a href="{{ link.url }}"{% if link.download %} download{% endif %}{% if link.external %} target="_blank" rel="noopener noreferrer"{% endif %}>{{ link.label }}</a>
+          {% endfor %}
+        </div>
+      {% endfor %}
+    </div>
   </div>
   <figure class="info-figure">
     <img class="info-portrait" src="/assets/images/profile/aaron-gilmore-beach.webp" alt="Aaron Gilmore standing on a beach with a mountain in the background" width="2780" height="2085" decoding="async">
